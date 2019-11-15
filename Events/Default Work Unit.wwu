@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A4190B2E-A333-4D38-B419-1777C4D33194}" SchemaVersion="94">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{A4190B2E-A333-4D38-B419-1777C4D33194}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A4190B2E-A333-4D38-B419-1777C4D33194}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_musique_test" ID="{734EC896-256C-4D2C-B841-A79C047DA1BF}">
+					<ChildrenList>
+						<Action Name="" ID="{5A29231F-BBB4-4D02-817C-2486A835D93B}" ShortID="1009134202">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TEST" ID="{22C8CFB4-89CE-43A0-BA3B-AACA8F79F926}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_midi" ID="{1ADE9F52-11C5-4C0C-B9DF-67C788FFD91F}">
+					<ChildrenList>
+						<Action Name="" ID="{D4304B31-FDBE-438F-9446-331E7FBF813D}" ShortID="119244969">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="midi" ID="{C8F560A4-2640-4B8F-91DC-E86BCC0886C0}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

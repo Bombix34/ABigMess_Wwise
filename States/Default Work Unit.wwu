@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{621F52C4-3BA2-4392-BE27-545589D49544}" SchemaVersion="94">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{621F52C4-3BA2-4392-BE27-545589D49544}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{621F52C4-3BA2-4392-BE27-545589D49544}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="MUTE" ID="{32D7EB55-D482-4A6B-A0F1-D0E5BA523B82}">
+					<ChildrenList>
+						<State Name="None" ID="{7F41CBE4-619A-4C1D-BB18-F38DFC3CB6AE}"/>
+						<State Name="down" ID="{D28F8D17-E762-4D41-8B74-BC00DA2722E1}"/>
+						<State Name="up" ID="{5089AAE7-0B74-4A6B-8BA9-0D029DE92EDA}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="down" ID="{D28F8D17-E762-4D41-8B74-BC00DA2722E1}"/>
+							<EndState Name="up" ID="{5089AAE7-0B74-4A6B-8BA9-0D029DE92EDA}"/>
+							<Time>0.5</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>
