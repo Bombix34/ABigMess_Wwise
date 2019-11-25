@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{39D19524-7271-44A6-9A60-DC120BD78572}" SchemaVersion="94">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{39D19524-7271-44A6-9A60-DC120BD78572}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{39D19524-7271-44A6-9A60-DC120BD78572}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="radio_test" ID="{25B7B72C-7AE0-46D8-94AF-06F4D0BA7747}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

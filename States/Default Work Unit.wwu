@@ -3,18 +3,63 @@
 	<States>
 		<WorkUnit Name="Default Work Unit" ID="{621F52C4-3BA2-4392-BE27-545589D49544}" PersistMode="Standalone">
 			<ChildrenList>
-				<StateGroup Name="MUTE" ID="{32D7EB55-D482-4A6B-A0F1-D0E5BA523B82}">
+				<StateGroup Name="radio_station" ID="{FF6C2553-42C9-488F-87C8-6B2273CD6023}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
-						<State Name="None" ID="{7F41CBE4-619A-4C1D-BB18-F38DFC3CB6AE}"/>
-						<State Name="down" ID="{D28F8D17-E762-4D41-8B74-BC00DA2722E1}"/>
-						<State Name="up" ID="{5089AAE7-0B74-4A6B-8BA9-0D029DE92EDA}"/>
+						<State Name="None" ID="{94BF3B93-D49C-4288-B217-33AE2BD66C74}"/>
+						<State Name="station01" ID="{224CAD59-8E51-4253-9E07-D5751313F204}"/>
+						<State Name="station02" ID="{77AC06EF-34E0-4B8A-A545-679F2C31CEB2}"/>
+						<State Name="station03" ID="{B8B2A1FF-A9BC-468C-B9FF-A313C12F4C6C}"/>
+						<State Name="off" ID="{9F66F3FA-E79A-403D-B498-6B76A5FC3826}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>
-							<StartState Name="down" ID="{D28F8D17-E762-4D41-8B74-BC00DA2722E1}"/>
-							<EndState Name="up" ID="{5089AAE7-0B74-4A6B-8BA9-0D029DE92EDA}"/>
+							<StartState Name="station01" ID="{224CAD59-8E51-4253-9E07-D5751313F204}"/>
+							<EndState Name="station02" ID="{77AC06EF-34E0-4B8A-A545-679F2C31CEB2}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="station02" ID="{77AC06EF-34E0-4B8A-A545-679F2C31CEB2}"/>
+							<EndState Name="station03" ID="{B8B2A1FF-A9BC-468C-B9FF-A313C12F4C6C}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="station03" ID="{B8B2A1FF-A9BC-468C-B9FF-A313C12F4C6C}"/>
+							<EndState Name="station01" ID="{224CAD59-8E51-4253-9E07-D5751313F204}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="off" ID="{9F66F3FA-E79A-403D-B498-6B76A5FC3826}"/>
+							<EndState Name="station01" ID="{224CAD59-8E51-4253-9E07-D5751313F204}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="Pause_effect" ID="{0A8DF4DA-430B-47FE-B79B-AD54B32267E2}">
+					<ChildrenList>
+						<State Name="None" ID="{867E3CBC-61DB-4396-A412-AF29259F9686}"/>
+						<State Name="Game" ID="{A62F08FC-DE7B-4529-BB98-E2311170D23A}"/>
+						<State Name="Pause" ID="{C00D3474-6136-4218-821A-D00444EAE25A}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Game" ID="{A62F08FC-DE7B-4529-BB98-E2311170D23A}"/>
+							<EndState Name="Pause" ID="{C00D3474-6136-4218-821A-D00444EAE25A}"/>
 							<Time>0.5</Time>
-							<IsShared>true</IsShared>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Pause" ID="{C00D3474-6136-4218-821A-D00444EAE25A}"/>
+							<EndState Name="Game" ID="{A62F08FC-DE7B-4529-BB98-E2311170D23A}"/>
+							<Time>0.5</Time>
+							<IsShared>false</IsShared>
 						</Transition>
 					</TransitionList>
 				</StateGroup>

@@ -5,8 +5,19 @@
 			<ChildrenList>
 				<SoundBank Name="ABM_test" ID="{63B7E13D-55AF-4B17-A5CC-31EB22D1527D}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_midi" ID="{1ADE9F52-11C5-4C0C-B9DF-67C788FFD91F}" WorkUnitID="{A4190B2E-A333-4D38-B419-1777C4D33194}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_musique_test" ID="{734EC896-256C-4D2C-B841-A79C047DA1BF}" WorkUnitID="{A4190B2E-A333-4D38-B419-1777C4D33194}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_musique_test" ID="{734EC896-256C-4D2C-B841-A79C047DA1BF}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_alien_voice" ID="{4FCD13C7-7A03-4ED7-A9B6-96953C383FF9}" WorkUnitID="{A4190B2E-A333-4D38-B419-1777C4D33194}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="ABM_radio" ID="{A4C1BD81-9D52-46ED-ACBA-6C71C01E41AC}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_radio_stations" ID="{FC4B2B9F-4F5B-44BE-B131-2ED44AAB8135}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_radio_state" ID="{C69021BC-5329-450E-9445-54DD7922E855}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_radio_station03" ID="{F9473941-F401-458A-BFD3-11FB4DA57DA9}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_radio_station02" ID="{82037048-984C-4D4B-AF0B-F79AE7716640}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_radio_station01" ID="{AAF6059A-BBFC-4D8C-95B9-74706C26F164}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

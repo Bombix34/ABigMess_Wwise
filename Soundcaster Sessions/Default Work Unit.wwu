@@ -6,12 +6,32 @@
 				<SoundcasterSession Name="TEST" ID="{107AA4EF-C5BC-4FF1-874F-2074DF3A4F05}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_midi" ID="{1ADE9F52-11C5-4C0C-B9DF-67C788FFD91F}" WorkUnitID="{A4190B2E-A333-4D38-B419-1777C4D33194}"/>
+							<ObjectRef Name="Play_musique_test" ID="{734EC896-256C-4D2C-B841-A79C047DA1BF}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_alien_voice" ID="{4FCD13C7-7A03-4ED7-A9B6-96953C383FF9}" WorkUnitID="{A4190B2E-A333-4D38-B419-1777C4D33194}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_musique_test" ID="{734EC896-256C-4D2C-B841-A79C047DA1BF}" WorkUnitID="{A4190B2E-A333-4D38-B419-1777C4D33194}"/>
-							<Position X="1" Y="1"/>
+							<ObjectRef Name="Play_radio_state" ID="{C69021BC-5329-450E-9445-54DD7922E855}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_radio_station01" ID="{AAF6059A-BBFC-4D8C-95B9-74706C26F164}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_radio_station02" ID="{82037048-984C-4D4B-AF0B-F79AE7716640}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_radio_station03" ID="{F9473941-F401-458A-BFD3-11FB4DA57DA9}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_radio_stations" ID="{FC4B2B9F-4F5B-44BE-B131-2ED44AAB8135}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<Position X="3" Y="0"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -55,9 +75,14 @@
 							<GameParameterRef Name="SS_Air_Fear" ID="{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"/>
 							<Value>50</Value>
 						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="station_number" ID="{18B56F93-B354-4F21-B4B0-9E20A7521F92}"/>
+							<Value>16.073</Value>
+						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="down" ID="{D28F8D17-E762-4D41-8B74-BC00DA2722E1}"/>
+						<CurrentStateRef Name="Game" ID="{A62F08FC-DE7B-4529-BB98-E2311170D23A}"/>
+						<CurrentStateRef Name="station03" ID="{B8B2A1FF-A9BC-468C-B9FF-A313C12F4C6C}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{CA8B1150-3176-4D1F-8C36-B826BEB145D9}" SchemaVersion="94">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{CA8B1150-3176-4D1F-8C36-B826BEB145D9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{CA8B1150-3176-4D1F-8C36-B826BEB145D9}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="station_number" ID="{18B56F93-B354-4F21-B4B0-9E20A7521F92}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>
