@@ -82,7 +82,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Game" ID="{A62F08FC-DE7B-4529-BB98-E2311170D23A}"/>
-						<CurrentStateRef Name="station03" ID="{B8B2A1FF-A9BC-468C-B9FF-A313C12F4C6C}"/>
+						<CurrentStateRef Name="station02" ID="{77AC06EF-34E0-4B8A-A545-679F2C31CEB2}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

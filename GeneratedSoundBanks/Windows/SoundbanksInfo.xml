@@ -27,31 +27,31 @@
 			<IncludedMemoryFiles>
 				<File Id="284145969" Language="SFX">
 					<ShortName>alien_voice-006.wav</ShortName>
-					<Path>SFX\alien_voice-006_6DCBEFA4.wem</Path>
+					<Path>SFX\alien_voice-006_6296B0F9.wem</Path>
 				</File>
 				<File Id="468066134" Language="SFX">
 					<ShortName>alien_voice-005.wav</ShortName>
-					<Path>SFX\alien_voice-005_6DCBEFA4.wem</Path>
+					<Path>SFX\alien_voice-005_6296B0F9.wem</Path>
 				</File>
 				<File Id="489684753" Language="SFX">
 					<ShortName>alien_voice-001.wav</ShortName>
-					<Path>SFX\alien_voice-001_6DCBEFA4.wem</Path>
+					<Path>SFX\alien_voice-001_6296B0F9.wem</Path>
 				</File>
 				<File Id="582749892" Language="SFX">
 					<ShortName>ABM_musique_loop_test.wav</ShortName>
-					<Path>SFX\ABM_musique_loop_test_391658FE.wem</Path>
+					<Path>SFX\ABM_musique_loop_test_9B96ECC7.wem</Path>
 				</File>
 				<File Id="591429942" Language="SFX">
 					<ShortName>alien_voice-003.wav</ShortName>
-					<Path>SFX\alien_voice-003_6DCBEFA4.wem</Path>
+					<Path>SFX\alien_voice-003_6296B0F9.wem</Path>
 				</File>
 				<File Id="1008417507" Language="SFX">
 					<ShortName>alien_voice-002.wav</ShortName>
-					<Path>SFX\alien_voice-002_6DCBEFA4.wem</Path>
+					<Path>SFX\alien_voice-002_6296B0F9.wem</Path>
 				</File>
 				<File Id="1057308780" Language="SFX">
 					<ShortName>alien_voice-004.wav</ShortName>
-					<Path>SFX\alien_voice-004_6DCBEFA4.wem</Path>
+					<Path>SFX\alien_voice-004_6296B0F9.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -69,103 +69,99 @@
 			<IncludedMemoryFiles>
 				<File Id="58216700" Language="SFX">
 					<ShortName>static_FX-001.wav</ShortName>
-					<Path>SFX\static_FX-001_6DCBEFA4.wem</Path>
+					<Path>SFX\static_FX-001_6296B0F9.wem</Path>
 				</File>
 				<File Id="83533862" Language="SFX">
 					<ShortName>fanfare.wav</ShortName>
-					<Path>SFX\fanfare_391658FE.wem</Path>
+					<Path>SFX\fanfare_9B96ECC7.wem</Path>
 				</File>
 				<File Id="86833560" Language="SFX">
 					<ShortName>rayman-origins-ost-desert-of-dijiridoos-shooting-me-softly.wav</ShortName>
-					<Path>SFX\rayman-origins-ost-desert-of-dijiridoos-shooting-me-softly_391658FE.wem</Path>
+					<Path>SFX\rayman-origins-ost-desert-of-dijiridoos-shooting-me-softly_9B96ECC7.wem</Path>
 				</File>
 				<File Id="147106354" Language="SFX">
 					<ShortName>caster10.wav</ShortName>
-					<Path>SFX\caster10_391658FE.wem</Path>
+					<Path>SFX\caster10_9B96ECC7.wem</Path>
 				</File>
 				<File Id="186735368" Language="SFX">
 					<ShortName>static_FX-002.wav</ShortName>
-					<Path>SFX\static_FX-002_6DCBEFA4.wem</Path>
+					<Path>SFX\static_FX-002_6296B0F9.wem</Path>
 				</File>
 				<File Id="270568837" Language="SFX">
 					<ShortName>caster02.wav</ShortName>
-					<Path>SFX\caster02_391658FE.wem</Path>
+					<Path>SFX\caster02_9B96ECC7.wem</Path>
 				</File>
 				<File Id="441436472" Language="SFX">
 					<ShortName>caster05.wav</ShortName>
-					<Path>SFX\caster05_391658FE.wem</Path>
+					<Path>SFX\caster05_9B96ECC7.wem</Path>
 				</File>
 				<File Id="455104934" Language="SFX">
 					<ShortName>caster01.wav</ShortName>
-					<Path>SFX\caster01_391658FE.wem</Path>
+					<Path>SFX\caster01_9B96ECC7.wem</Path>
 				</File>
 				<File Id="464763951" Language="SFX">
 					<ShortName>static_FX-003.wav</ShortName>
-					<Path>SFX\static_FX-003_6DCBEFA4.wem</Path>
+					<Path>SFX\static_FX-003_6296B0F9.wem</Path>
 				</File>
 				<File Id="491892643" Language="SFX">
 					<ShortName>stage-clear-part-time-ufo-soundtrack.wav</ShortName>
-					<Path>SFX\stage-clear-part-time-ufo-soundtrack_391658FE.wem</Path>
-				</File>
-				<File Id="582749892" Language="SFX">
-					<ShortName>ABM_musique_loop_test.wav</ShortName>
-					<Path>SFX\ABM_musique_loop_test_391658FE.wem</Path>
+					<Path>SFX\stage-clear-part-time-ufo-soundtrack_9B96ECC7.wem</Path>
 				</File>
 				<File Id="597972490" Language="SFX">
 					<ShortName>caster04.wav</ShortName>
-					<Path>SFX\caster04_391658FE.wem</Path>
+					<Path>SFX\caster04_9B96ECC7.wem</Path>
 				</File>
 				<File Id="662439261" Language="SFX">
 					<ShortName>caster07.wav</ShortName>
-					<Path>SFX\caster07_391658FE.wem</Path>
+					<Path>SFX\caster07_9B96ECC7.wem</Path>
 				</File>
 				<File Id="689098952" Language="SFX">
 					<ShortName>rayman-origins-ost-world-map-sea-of-serendipity.wav</ShortName>
-					<Path>SFX\rayman-origins-ost-world-map-sea-of-serendipity_391658FE.wem</Path>
+					<Path>SFX\rayman-origins-ost-world-map-sea-of-serendipity_9B96ECC7.wem</Path>
 				</File>
 				<File Id="701277267" Language="SFX">
 					<ShortName>static_FX-004.wav</ShortName>
-					<Path>SFX\static_FX-004_6DCBEFA4.wem</Path>
+					<Path>SFX\static_FX-004_6296B0F9.wem</Path>
 				</File>
 				<File Id="718618698" Language="SFX">
 					<ShortName>caster08.wav</ShortName>
-					<Path>SFX\caster08_391658FE.wem</Path>
+					<Path>SFX\caster08_9B96ECC7.wem</Path>
 				</File>
 				<File Id="790031349" Language="SFX">
 					<ShortName>caster09.wav</ShortName>
-					<Path>SFX\caster09_391658FE.wem</Path>
+					<Path>SFX\caster09_9B96ECC7.wem</Path>
 				</File>
 				<File Id="878141750" Language="SFX">
 					<ShortName>static_FX-007.wav</ShortName>
-					<Path>SFX\static_FX-007_6DCBEFA4.wem</Path>
+					<Path>SFX\static_FX-007_6296B0F9.wem</Path>
 				</File>
 				<File Id="878270383" Language="SFX">
 					<ShortName>head-games.wav</ShortName>
-					<Path>SFX\head-games_391658FE.wem</Path>
+					<Path>SFX\head-games_9B96ECC7.wem</Path>
 				</File>
 				<File Id="906475637" Language="SFX">
 					<ShortName>caster03.wav</ShortName>
-					<Path>SFX\caster03_391658FE.wem</Path>
+					<Path>SFX\caster03_9B96ECC7.wem</Path>
 				</File>
 				<File Id="929187640" Language="SFX">
 					<ShortName>caster06.wav</ShortName>
-					<Path>SFX\caster06_391658FE.wem</Path>
+					<Path>SFX\caster06_9B96ECC7.wem</Path>
 				</File>
 				<File Id="975757049" Language="SFX">
 					<ShortName>crash-twinsanity-ost-nsanity-island.wav</ShortName>
-					<Path>SFX\crash-twinsanity-ost-nsanity-island_391658FE.wem</Path>
+					<Path>SFX\crash-twinsanity-ost-nsanity-island_9B96ECC7.wem</Path>
 				</File>
 				<File Id="1002832952" Language="SFX">
 					<ShortName>static_FX-005.wav</ShortName>
-					<Path>SFX\static_FX-005_6DCBEFA4.wem</Path>
+					<Path>SFX\static_FX-005_6296B0F9.wem</Path>
 				</File>
 				<File Id="1029104766" Language="SFX">
 					<ShortName>static_FX-006.wav</ShortName>
-					<Path>SFX\static_FX-006_6DCBEFA4.wem</Path>
+					<Path>SFX\static_FX-006_6296B0F9.wem</Path>
 				</File>
 				<File Id="1057994481" Language="SFX">
 					<ShortName>locoroco-yellows-theme.wav</ShortName>
-					<Path>SFX\locoroco-yellows-theme_391658FE.wem</Path>
+					<Path>SFX\locoroco-yellows-theme_9B96ECC7.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
