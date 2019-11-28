@@ -18,6 +18,10 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_radio_RTPC" ID="{62006873-7081-4BCA-8712-87961C3EC7D3}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_radio_station01" ID="{AAF6059A-BBFC-4D8C-95B9-74706C26F164}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
 							<Position X="2" Y="0"/>
 						</Module>
@@ -77,12 +81,12 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="station_number" ID="{18B56F93-B354-4F21-B4B0-9E20A7521F92}"/>
-							<Value>16.073</Value>
+							<Value>51</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Game" ID="{A62F08FC-DE7B-4529-BB98-E2311170D23A}"/>
-						<CurrentStateRef Name="station02" ID="{77AC06EF-34E0-4B8A-A545-679F2C31CEB2}"/>
+						<CurrentStateRef Name="station01" ID="{224CAD59-8E51-4253-9E07-D5751313F204}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
