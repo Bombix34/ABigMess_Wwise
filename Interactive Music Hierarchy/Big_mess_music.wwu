@@ -35,13 +35,6 @@
 							</ReferenceList>
 							<ChildrenList>
 								<MusicTrack Name="ABM_musique_loop_test" ID="{BB1EDF29-A4AC-4979-BC94-4C8A2EA74BD6}" ShortID="105915125">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-15</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>

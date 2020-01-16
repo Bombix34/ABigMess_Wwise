@@ -18,13 +18,6 @@
 					</ReferenceList>
 					<ChildrenList>
 						<MusicPlaylistContainer Name="station01" ID="{CEEDBE9D-46F3-47A6-8B22-03862A97FDA5}" ShortID="28275649">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-12</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
@@ -220,9 +213,9 @@
 										</MusicCue>
 									</CueList>
 								</MusicSegment>
-								<MusicSegment Name="caster01" ID="{6756A65E-596E-4196-A2E1-A33D2E89C5AA}" ShortID="526303341">
+								<MusicSegment Name="caster_louis-001" ID="{F50CCAE7-1EF3-4D6C-9B21-84166ADB2667}" ShortID="709803727">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="10000"/>
+										<Property Name="EndPosition" Type="Real64" Value="6500"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -233,23 +226,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="caster01" ID="{CEE16679-AA22-45C2-8C12-F4DF0CB883B3}" ShortID="670234378">
+										<MusicTrack Name="caster_louis-001" ID="{D2F0397F-918D-49F3-A3A9-6C0A66A01B6C}" ShortID="987854146">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="caster01" ID="{03D163CD-5E4C-4DAB-A2BF-8770B0EAEE6D}" ShortID="1048519964">
+												<AudioFileSource Name="caster_louis-001" ID="{8A9205BD-DE94-4830-A2CB-7B7B42B8C13F}" ShortID="566885147">
 													<Language>SFX</Language>
-													<AudioFile>caster01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="455104934"/>
-													</ConvertedFileIDList>
+													<AudioFile>caster_louis-001.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{9A50BA5A-CA43-4CA1-A9CF-06651D472871}">
+												<MusicTransition Name="Root" ID="{ACEE9DBA-5F94-47AB-B0D8-129F23F7072B}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -257,15 +247,15 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{CF0A60D6-A49B-45D3-B143-BFD3B65E700D}">
+												<MusicTrackSequence Name="" ID="{6CC701F9-F0B0-4F47-A174-49C0B607D744}">
 													<ClipList>
-														<MusicClip Name="caster01" ID="{76F0C3D0-5C5B-4392-9AFF-0934E8E2C436}">
+														<MusicClip Name="caster_louis-001" ID="{4EA872A6-FC65-44A6-870F-80AB93F7C41E}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="10000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="6500"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="caster01" ID="{03D163CD-5E4C-4DAB-A2BF-8770B0EAEE6D}"/>
+															<AudioSourceRef Name="caster_louis-001" ID="{8A9205BD-DE94-4830-A2CB-7B7B42B8C13F}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -273,18 +263,18 @@
 										</MusicTrack>
 									</ChildrenList>
 									<CueList>
-										<MusicCue Name="Entry Cue" ID="{0A8CC436-298E-4198-95A0-C3DE7400B7B3}"/>
-										<MusicCue Name="Exit Cue" ID="{9A32EB88-327F-4933-8E6F-ADF23213054C}">
+										<MusicCue Name="Entry Cue" ID="{85C1820B-3D26-42D7-B23B-EF296CBB2CAD}"/>
+										<MusicCue Name="Exit Cue" ID="{5C1BFEE3-B74A-4542-9C05-55D34FDA2E77}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="10000"/>
+												<Property Name="TimeMs" Type="Real64" Value="6500"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
 								</MusicSegment>
-								<MusicSegment Name="caster02" ID="{E78ADC0A-25CB-40E0-84A8-7421F4C17726}" ShortID="266150861">
+								<MusicSegment Name="caster_louis-002" ID="{5CDBA4D8-8910-4851-9FA6-67B1EB055794}" ShortID="1045020461">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="14000"/>
+										<Property Name="EndPosition" Type="Real64" Value="6500"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -295,23 +285,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="caster02" ID="{A1BC2501-EBB3-4FE2-B961-D91A81BFF470}" ShortID="206339733">
+										<MusicTrack Name="caster_louis-002" ID="{A88BE74E-0373-410E-836C-C77E98C95744}" ShortID="106433291">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="caster02" ID="{CC00537E-B453-4B0E-8813-71DE2AFD309C}" ShortID="414397564">
+												<AudioFileSource Name="caster_louis-002" ID="{0598EF0C-10DF-41AA-A23E-3717F2898AAD}" ShortID="9366097">
 													<Language>SFX</Language>
-													<AudioFile>caster02.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="270568837"/>
-													</ConvertedFileIDList>
+													<AudioFile>caster_louis-002.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{A4CF4138-DE07-4F08-B53C-1E962D64393B}">
+												<MusicTransition Name="Root" ID="{7E7708B4-C672-467C-AE7B-17D18A2F4B76}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -319,15 +306,15 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{9CD7C926-C4A1-47BD-8D88-29412F7630A0}">
+												<MusicTrackSequence Name="" ID="{390815FF-E686-4A70-AAAC-9EDD2E2CA533}">
 													<ClipList>
-														<MusicClip Name="caster02" ID="{203A769B-E21E-42FB-BF26-5E9C767F2F6C}">
+														<MusicClip Name="caster_louis-002" ID="{BC1C3BAE-CF6B-4B38-BDC6-6917C751662C}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="14000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="6500"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="caster02" ID="{CC00537E-B453-4B0E-8813-71DE2AFD309C}"/>
+															<AudioSourceRef Name="caster_louis-002" ID="{0598EF0C-10DF-41AA-A23E-3717F2898AAD}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -335,18 +322,18 @@
 										</MusicTrack>
 									</ChildrenList>
 									<CueList>
-										<MusicCue Name="Entry Cue" ID="{B347E6DD-68F6-4CF0-A9E7-4322DB4BBCCB}"/>
-										<MusicCue Name="Exit Cue" ID="{D45DCA5F-3E3C-4558-83A6-67017104FCB2}">
+										<MusicCue Name="Entry Cue" ID="{DD9F19B9-F858-49CF-957B-38D5ADD9C6D6}"/>
+										<MusicCue Name="Exit Cue" ID="{54F45E83-A08A-45FA-A46E-5F23B27B48EA}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="14000"/>
+												<Property Name="TimeMs" Type="Real64" Value="6500"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
 								</MusicSegment>
-								<MusicSegment Name="caster03" ID="{9CCCF88C-88A3-47C4-B4DF-E284BF1A2AEE}" ShortID="471372031">
+								<MusicSegment Name="caster_louis-003" ID="{2F589C24-1499-42F7-A7D7-38812B62BD8B}" ShortID="389131043">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="15000"/>
+										<Property Name="EndPosition" Type="Real64" Value="9500"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -357,23 +344,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="caster03" ID="{C934114E-0B57-4CFB-BF4A-82B270BD68F2}" ShortID="433530665">
+										<MusicTrack Name="caster_louis-003" ID="{0B44DD58-E065-4CDA-8131-9C72B2387CE0}" ShortID="228764153">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="caster03" ID="{4CE2F1ED-9DCA-4C62-BFF9-B4F3C03CE3A9}" ShortID="872921007">
+												<AudioFileSource Name="caster_louis-003" ID="{82269EA5-DC2B-42ED-8F25-96D83A07CF57}" ShortID="915273234">
 													<Language>SFX</Language>
-													<AudioFile>caster03.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="906475637"/>
-													</ConvertedFileIDList>
+													<AudioFile>caster_louis-003.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{50EE3B91-6859-4239-8937-55C1F92958D7}">
+												<MusicTransition Name="Root" ID="{4A9C15C6-EE2B-40CB-AE75-7DCDBD0CF31C}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -381,15 +365,15 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{4C069374-EFD7-4EB5-86D5-6A019747353E}">
+												<MusicTrackSequence Name="" ID="{16D30792-838B-4C17-9A9A-DE8CBB698613}">
 													<ClipList>
-														<MusicClip Name="caster03" ID="{6E730239-0A8A-4B47-B0B1-AEC73D6BF844}">
+														<MusicClip Name="caster_louis-003" ID="{224C552D-B0AF-4F25-B3A4-E5670B5FF4B4}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="15000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="9500"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="caster03" ID="{4CE2F1ED-9DCA-4C62-BFF9-B4F3C03CE3A9}"/>
+															<AudioSourceRef Name="caster_louis-003" ID="{82269EA5-DC2B-42ED-8F25-96D83A07CF57}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -397,18 +381,18 @@
 										</MusicTrack>
 									</ChildrenList>
 									<CueList>
-										<MusicCue Name="Entry Cue" ID="{0D2B6D1D-589A-4D8A-9506-DEC8BBBD08AA}"/>
-										<MusicCue Name="Exit Cue" ID="{635B1B36-D578-4BE0-AC25-975312D1C0A6}">
+										<MusicCue Name="Entry Cue" ID="{679A25D7-1337-4622-852C-A83FC83D7320}"/>
+										<MusicCue Name="Exit Cue" ID="{954FDA15-AD7B-423F-99FC-C32845600381}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="15000"/>
+												<Property Name="TimeMs" Type="Real64" Value="9500"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
 								</MusicSegment>
-								<MusicSegment Name="caster04" ID="{068E497A-98CB-4169-9E98-BCFD2CD3EF4B}" ShortID="42280130">
+								<MusicSegment Name="caster_louis-004" ID="{D5469800-6F36-4DE2-B939-B3AD6FD6573F}" ShortID="667164776">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="13000"/>
+										<Property Name="EndPosition" Type="Real64" Value="8000"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -419,23 +403,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="caster04" ID="{B6DA74A5-060F-4D42-9A25-2B7DFBB00F23}" ShortID="897782361">
+										<MusicTrack Name="caster_louis-004" ID="{B0AEB920-90C0-45A7-8F51-3DA63D951168}" ShortID="1000078169">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="caster04" ID="{E1303E35-1FF0-4C48-BE1C-9B21360296D4}" ShortID="208361841">
+												<AudioFileSource Name="caster_louis-004" ID="{68BA9B88-5C1A-4B69-8F60-439AFB3A4267}" ShortID="73873310">
 													<Language>SFX</Language>
-													<AudioFile>caster04.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="597972490"/>
-													</ConvertedFileIDList>
+													<AudioFile>caster_louis-004.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{7F9571F4-2ED1-4CD6-9BD6-F35224DBAFED}">
+												<MusicTransition Name="Root" ID="{79952C22-D1FD-4F9C-A0A0-81E6394CBD51}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -443,15 +424,15 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{D5EF2FD0-897E-41FB-BD86-3683BA9394FC}">
+												<MusicTrackSequence Name="" ID="{9B021DB3-7A38-4567-8DA0-CE00F7AD646D}">
 													<ClipList>
-														<MusicClip Name="caster04" ID="{A4889CF0-4836-45B8-ADDD-6341914F2BA7}">
+														<MusicClip Name="caster_louis-004" ID="{EFA4D14C-CEEE-4E83-8D24-E8C30EBD8932}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="13000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="caster04" ID="{E1303E35-1FF0-4C48-BE1C-9B21360296D4}"/>
+															<AudioSourceRef Name="caster_louis-004" ID="{68BA9B88-5C1A-4B69-8F60-439AFB3A4267}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -459,11 +440,188 @@
 										</MusicTrack>
 									</ChildrenList>
 									<CueList>
-										<MusicCue Name="Entry Cue" ID="{600140D0-569E-455F-AADF-49EE55618B71}"/>
-										<MusicCue Name="Exit Cue" ID="{B9D170C0-6345-4E08-9584-449B53E63111}">
+										<MusicCue Name="Entry Cue" ID="{D686BD08-DB21-4BD7-B270-E99BAC665889}"/>
+										<MusicCue Name="Exit Cue" ID="{2D7EC20E-09AE-4C84-9DB5-B9F18C555703}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="13000"/>
+												<Property Name="TimeMs" Type="Real64" Value="8000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="caster_louis-005" ID="{D6449D06-81F7-48B1-9FD7-28525D969F97}" ShortID="56916608">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="16000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="caster_louis-005" ID="{6DDFC8F9-4BB9-4A5A-B46D-8D7BAEC269BB}" ShortID="682075053">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="caster_louis-005" ID="{FDF23BDE-285F-49B6-9C3B-D7D0864CFE15}" ShortID="922912415">
+													<Language>SFX</Language>
+													<AudioFile>caster_louis-005.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{47A5D926-F8B6-4ABD-9938-D62FD2A640BB}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{8922F915-2F60-410A-B9D0-CD41B3896ECF}">
+													<ClipList>
+														<MusicClip Name="caster_louis-005" ID="{01B781DA-89E3-44EF-A076-08DCEB5E660D}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="caster_louis-005" ID="{FDF23BDE-285F-49B6-9C3B-D7D0864CFE15}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{D0B45859-F084-428A-BA4F-3EA8697583E3}"/>
+										<MusicCue Name="Exit Cue" ID="{75E01F67-8C34-46CA-ADE4-0D5AB6C453CD}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="16000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="caster_louis-006" ID="{855A1D44-A422-4EC4-8727-2223B3D63C3D}" ShortID="732017410">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="7500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="caster_louis-006" ID="{E1D51500-924B-4B48-B48D-E0C6763A912F}" ShortID="668256218">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="caster_louis-006" ID="{67A371B7-6957-4931-9A93-9D17E70E44C9}" ShortID="23682200">
+													<Language>SFX</Language>
+													<AudioFile>caster_louis-006.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{73AC5BD8-D0DF-4DEA-9718-EF269AF4D346}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{0501069F-541C-434F-B130-EB4B7C853D01}">
+													<ClipList>
+														<MusicClip Name="caster_louis-006" ID="{78127D96-2435-4C86-B09E-46F955E26587}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="7500"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="caster_louis-006" ID="{67A371B7-6957-4931-9A93-9D17E70E44C9}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{D6FF81E1-EB58-49F5-870A-6BD869EE286A}"/>
+										<MusicCue Name="Exit Cue" ID="{38787BD1-162B-4262-98CA-E779DE2E9270}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="7500"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="caster_louis-007" ID="{C623B583-6EB1-4B65-89AD-7AA957CF0246}" ShortID="346222370">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="6777.0625"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="caster_louis-007" ID="{186EEF6E-521F-4C5D-ADE9-73FCC23BDBDA}" ShortID="445158359">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="caster_louis-007" ID="{595C2F59-2086-49FC-91BD-DBDA11CE3FDC}" ShortID="198085294">
+													<Language>SFX</Language>
+													<AudioFile>caster_louis-007.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C65972EF-C2EC-4A7B-9166-B08E00B025AD}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{2E4A5A9F-31AA-40D3-B9B8-40AEBA469594}">
+													<ClipList>
+														<MusicClip Name="caster_louis-007" ID="{5CAAFD6C-5B7D-4753-A435-78D5FF0D12E9}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="6777.0625"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="caster_louis-007" ID="{595C2F59-2086-49FC-91BD-DBDA11CE3FDC}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{CE93A00F-8456-441A-B62D-CAD5450D87A2}"/>
+										<MusicCue Name="Exit Cue" ID="{CB663D38-D868-4F16-8A9E-F52683D8D199}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="6777.0625"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
@@ -526,29 +684,47 @@
 												<Property Name="PlayMode" Type="int16" Value="3"/>
 											</PropertyList>
 											<ChildrenList>
-												<MusicPlaylistItem Name="" ID="{F5E0FDDC-05BD-4CD5-A3A7-64EB737D42AC}" ShortID="784381508">
+												<MusicPlaylistItem Name="" ID="{2EF60908-693B-48FA-AC13-88087E295B5E}" ShortID="177211372">
 													<PropertyList>
 														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 													</PropertyList>
-													<SegmentRef Name="caster01" ID="{6756A65E-596E-4196-A2E1-A33D2E89C5AA}"/>
+													<SegmentRef Name="caster_louis-001" ID="{F50CCAE7-1EF3-4D6C-9B21-84166ADB2667}"/>
 												</MusicPlaylistItem>
-												<MusicPlaylistItem Name="" ID="{526C6454-60A3-4BFF-B066-8BAF143F997E}" ShortID="80624174">
+												<MusicPlaylistItem Name="" ID="{B9838226-AE88-474D-89FA-11F5A6D7E6F9}" ShortID="22832557">
 													<PropertyList>
 														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 													</PropertyList>
-													<SegmentRef Name="caster02" ID="{E78ADC0A-25CB-40E0-84A8-7421F4C17726}"/>
+													<SegmentRef Name="caster_louis-002" ID="{5CDBA4D8-8910-4851-9FA6-67B1EB055794}"/>
 												</MusicPlaylistItem>
-												<MusicPlaylistItem Name="" ID="{7B26031C-F630-401E-9A03-88A1305E9400}" ShortID="678020185">
+												<MusicPlaylistItem Name="" ID="{38F9001E-C0E2-42DB-8FFD-DDB8405370BB}" ShortID="899736361">
 													<PropertyList>
 														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 													</PropertyList>
-													<SegmentRef Name="caster03" ID="{9CCCF88C-88A3-47C4-B4DF-E284BF1A2AEE}"/>
+													<SegmentRef Name="caster_louis-003" ID="{2F589C24-1499-42F7-A7D7-38812B62BD8B}"/>
 												</MusicPlaylistItem>
-												<MusicPlaylistItem Name="" ID="{A8E932ED-870E-4BC3-A851-3F9FFD2E06BE}" ShortID="292337797">
+												<MusicPlaylistItem Name="" ID="{576BF0A6-F0C9-495B-BA09-1DEE5BB7721E}" ShortID="396820172">
 													<PropertyList>
 														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 													</PropertyList>
-													<SegmentRef Name="caster04" ID="{068E497A-98CB-4169-9E98-BCFD2CD3EF4B}"/>
+													<SegmentRef Name="caster_louis-004" ID="{D5469800-6F36-4DE2-B939-B3AD6FD6573F}"/>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{D86D054F-AC0D-4170-BF94-9B9E5EF80F41}" ShortID="957948889">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="caster_louis-005" ID="{D6449D06-81F7-48B1-9FD7-28525D969F97}"/>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{2A32DCA3-59F5-4ECB-BC11-709B723CF858}" ShortID="671114986">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="caster_louis-006" ID="{855A1D44-A422-4EC4-8727-2223B3D63C3D}"/>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{ADD3FAF8-6499-4DEF-AC37-D8C57FC44A5C}" ShortID="805754612">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="caster_louis-007" ID="{C623B583-6EB1-4B65-89AD-7AA957CF0246}"/>
 												</MusicPlaylistItem>
 											</ChildrenList>
 										</MusicPlaylistItem>
@@ -582,13 +758,6 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="station02" ID="{77E178B2-4C3E-429A-83DB-84D7546F08AE}" ShortID="138194119">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-12</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
@@ -784,7 +953,420 @@
 										</MusicCue>
 									</CueList>
 								</MusicSegment>
-								<MusicSegment Name="caster05" ID="{9777EC95-DBE3-408A-830C-2E97EF476145}" ShortID="641042591">
+								<MusicSegment Name="caster_simon-001" ID="{DA552D8C-A639-4C92-8123-D7511117755E}" ShortID="39003082">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="27000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="caster_simon-001" ID="{711BAAB8-5375-44B0-A645-5D36D93AB7D2}" ShortID="228353792">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="caster_simon-001" ID="{7FDF5A3F-F6F7-4B09-8A46-91553D2104A0}" ShortID="283535939">
+													<Language>SFX</Language>
+													<AudioFile>caster_simon-001.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{91AF998F-5094-4B67-99E9-584CE1965BE0}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{DA7A93B9-8405-405B-87DB-A9DD910AA60D}">
+													<ClipList>
+														<MusicClip Name="caster_simon-001" ID="{5CAEDF7C-7199-439B-A2A2-47800EE6C00F}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="27000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="caster_simon-001" ID="{7FDF5A3F-F6F7-4B09-8A46-91553D2104A0}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{27900032-334F-4760-AC57-4C69D0C09421}"/>
+										<MusicCue Name="Exit Cue" ID="{55FD7358-FF51-4B43-8B65-759869DEE59D}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="27000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="caster_simon-002" ID="{7B3F0CEC-DD5A-46B7-B523-5DF8978E283C}" ShortID="789535099">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="18000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="caster_simon-002" ID="{4E724EE9-C333-4901-96C8-14E74924447A}" ShortID="590978876">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="caster_simon-002" ID="{E463518E-B136-4544-8ADC-1334389E41DF}" ShortID="951693898">
+													<Language>SFX</Language>
+													<AudioFile>caster_simon-002.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E17CC4D5-4D22-41E1-8B72-871E10271A42}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{40628459-8B18-4F8E-AAC2-D6035C0C3AB9}">
+													<ClipList>
+														<MusicClip Name="caster_simon-002" ID="{172DD3BA-9001-40FD-89F0-242F27849ECA}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="caster_simon-002" ID="{E463518E-B136-4544-8ADC-1334389E41DF}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{4287D071-6600-45C0-ABDE-FA321D321F84}"/>
+										<MusicCue Name="Exit Cue" ID="{A3D8D021-F79B-4D11-B170-3F87A23430A3}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="18000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="caster_simon-003" ID="{75EFBC4B-D5F0-499B-822B-3C9E9A09DA42}" ShortID="954970003">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="9500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="caster_simon-003" ID="{53040FCC-F8E5-460B-9B09-8043C3073FF0}" ShortID="510229348">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="caster_simon-003" ID="{8BBEB016-E53B-48A3-B10F-393AF6FA1702}" ShortID="138380469">
+													<Language>SFX</Language>
+													<AudioFile>caster_simon-003.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{9E6C453C-8571-43C0-AD88-9A82B0FC6AC5}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{C5BBE4B4-F45D-4582-88FD-1282B475D3B8}">
+													<ClipList>
+														<MusicClip Name="caster_simon-003" ID="{7F216BDB-B955-44A9-9290-D193EF552C89}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="9500"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="caster_simon-003" ID="{8BBEB016-E53B-48A3-B10F-393AF6FA1702}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{68A6F6F0-B2A2-4476-8B05-A09105C09D16}"/>
+										<MusicCue Name="Exit Cue" ID="{3A4DF4E0-6F12-434C-82C8-443DD3C2C671}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="9500"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="caster_simon-004" ID="{B3341F08-6F8E-4F7B-9139-185B8FAAE08A}" ShortID="672838623">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="11500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="caster_simon-004" ID="{32907D93-FE9B-4673-8DBF-70F2CF51CD29}" ShortID="613287003">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="caster_simon-004" ID="{FB590E01-0C20-4D6F-95C9-64961A625C48}" ShortID="206064198">
+													<Language>SFX</Language>
+													<AudioFile>caster_simon-004.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D4FCA152-D66E-4A8C-9214-F1A67CF8632C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{63AFACB2-356A-46EF-A3A1-EEB2372A8A61}">
+													<ClipList>
+														<MusicClip Name="caster_simon-004" ID="{85D4573C-A825-4C16-A5B6-0358BB0EAEEB}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="11500"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="caster_simon-004" ID="{FB590E01-0C20-4D6F-95C9-64961A625C48}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{6FC10D7D-68EE-47C4-A44D-955FB15022CC}"/>
+										<MusicCue Name="Exit Cue" ID="{181A924A-F125-4BA5-A9AA-9CF297F3A122}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="11500"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="caster_simon-005" ID="{2C31D859-DB0B-4D6F-85C8-E287FC2ED89F}" ShortID="873400157">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="12000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="caster_simon-005" ID="{674B8943-750F-43CE-93DF-4DBD78519021}" ShortID="121379608">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="caster_simon-005" ID="{C185C68A-AA76-4163-A7E4-494506446C41}" ShortID="749870324">
+													<Language>SFX</Language>
+													<AudioFile>caster_simon-005.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{AAE150B8-5B38-41EE-876B-9A84EA0AE146}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{5D622ACC-6D3E-42B6-A1B6-E34193365F14}">
+													<ClipList>
+														<MusicClip Name="caster_simon-005" ID="{275BC6C8-E321-44CC-A91E-139ECB42BB04}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="12000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="caster_simon-005" ID="{C185C68A-AA76-4163-A7E4-494506446C41}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{7AE4BCE5-0AB4-4BB8-B3C6-8018FCBBDFBB}"/>
+										<MusicCue Name="Exit Cue" ID="{1D36FA7E-9829-4309-BA7E-F0D83FC6021B}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="12000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="caster_simon-006" ID="{13684DE2-A508-4EA2-BD5B-EF6845B0B094}" ShortID="822356771">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="11000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="caster_simon-006" ID="{CB54A806-1882-4214-BEFF-4DF5C8F2B80F}" ShortID="918526946">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="caster_simon-006" ID="{69B34C1D-EA7B-4453-A264-E6E8056C3D10}" ShortID="962603947">
+													<Language>SFX</Language>
+													<AudioFile>caster_simon-006.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{3A431005-61C2-4584-9236-3B97EC696874}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{AD08887B-70AF-4E85-87AE-8460286E086C}">
+													<ClipList>
+														<MusicClip Name="caster_simon-006" ID="{760C5F96-4D63-48F0-BC4C-552A983887EF}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="11000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="caster_simon-006" ID="{69B34C1D-EA7B-4453-A264-E6E8056C3D10}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{D78377F6-DE17-42D9-B42C-66076FCA255A}"/>
+										<MusicCue Name="Exit Cue" ID="{2CAACEA8-38F8-462D-BE95-E13E8EDD0E09}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="11000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="caster_simon-007" ID="{B871CD5E-4A73-4EA2-8E1D-51212C88C47B}" ShortID="429868163">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="14000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="caster_simon-007" ID="{C466537E-3FD4-47A6-90C3-CF4C0EA5770F}" ShortID="56310670">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="caster_simon-007" ID="{CFD7831A-1D6D-4880-BAEA-58DA20099518}" ShortID="248521691">
+													<Language>SFX</Language>
+													<AudioFile>caster_simon-007.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{1628F891-83E7-4668-A4AA-F328AAB20AB8}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{75816A6A-C935-43CD-8189-596591361DEB}">
+													<ClipList>
+														<MusicClip Name="caster_simon-007" ID="{D1E05D2C-6D30-4D57-841C-5B6258D69708}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="14000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="caster_simon-007" ID="{CFD7831A-1D6D-4880-BAEA-58DA20099518}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{F20B3D62-2848-49ED-95A4-D03EE386D1AC}"/>
+										<MusicCue Name="Exit Cue" ID="{0B907DB4-634A-4ECF-97C3-D01AA1879D28}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="14000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="caster_simon-008" ID="{C0C0450B-AA3A-4928-8842-C964DAFC724E}" ShortID="918003714">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="13500"/>
 									</PropertyList>
@@ -797,23 +1379,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="caster05" ID="{CD07D0D7-7A61-4ACC-9ED4-D512D11110B8}" ShortID="454132797">
+										<MusicTrack Name="caster_simon-008" ID="{5CB1B4EB-212B-4EC3-BE35-9FD8B5002E95}" ShortID="307341188">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="caster05" ID="{DE5BD8C2-DFC4-48E3-8161-107C70E5C9DF}" ShortID="76312390">
+												<AudioFileSource Name="caster_simon-008" ID="{01A194EF-FA82-475A-A378-049C622E8F91}" ShortID="619620895">
 													<Language>SFX</Language>
-													<AudioFile>caster05.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="441436472"/>
-													</ConvertedFileIDList>
+													<AudioFile>caster_simon-008.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{862494CA-3CF7-4575-8258-D27876F7EFE6}">
+												<MusicTransition Name="Root" ID="{5C088239-1712-4412-852B-65EEBEBAC34E}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -821,15 +1400,15 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{A8E40FE0-F446-4A82-9EDA-F07EF59FD07F}">
+												<MusicTrackSequence Name="" ID="{CD894F8E-DDBB-49AF-9F9D-C779987282E3}">
 													<ClipList>
-														<MusicClip Name="caster05" ID="{A356F548-5233-4F67-A303-E00607649B48}">
+														<MusicClip Name="caster_simon-008" ID="{A8CD5274-D299-42A5-B2FF-EDF761BAC7F7}">
 															<PropertyList>
 																<Property Name="EndTrimOffset" Type="Real64" Value="13500"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="caster05" ID="{DE5BD8C2-DFC4-48E3-8161-107C70E5C9DF}"/>
+															<AudioSourceRef Name="caster_simon-008" ID="{01A194EF-FA82-475A-A378-049C622E8F91}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -837,8 +1416,8 @@
 										</MusicTrack>
 									</ChildrenList>
 									<CueList>
-										<MusicCue Name="Entry Cue" ID="{C4BC3956-ABA6-444C-88A2-D4B161925B42}"/>
-										<MusicCue Name="Exit Cue" ID="{5960AF98-DB78-4B40-8592-95E67C7F4A46}">
+										<MusicCue Name="Entry Cue" ID="{EF36F6A9-A587-4818-A710-A0C1C162D62A}"/>
+										<MusicCue Name="Exit Cue" ID="{B7E37E27-252B-407B-B295-F4DFB083A797}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
 												<Property Name="TimeMs" Type="Real64" Value="13500"/>
@@ -846,9 +1425,9 @@
 										</MusicCue>
 									</CueList>
 								</MusicSegment>
-								<MusicSegment Name="caster06" ID="{96571229-6741-4AA9-ACE3-BB21E5751D98}" ShortID="629508032">
+								<MusicSegment Name="caster_simon-009" ID="{A0DC18FD-A79B-478B-9CC3-4154C6D90390}" ShortID="960844945">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="10174.1666666667"/>
+										<Property Name="EndPosition" Type="Real64" Value="10500"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -859,23 +1438,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="caster06" ID="{E419E7D1-D882-4755-95BC-64C83DF76D10}" ShortID="399094387">
+										<MusicTrack Name="caster_simon-009" ID="{00D1C628-CEE9-4E8F-8B65-E0F943A665C9}" ShortID="88139457">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="caster06" ID="{20EE6C66-0A32-4D60-BCF4-BBD7768C6800}" ShortID="88955486">
+												<AudioFileSource Name="caster_simon-009" ID="{700EDC42-B628-4E28-AAD7-E6B2CB980E7B}" ShortID="896417277">
 													<Language>SFX</Language>
-													<AudioFile>caster06.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="929187640"/>
-													</ConvertedFileIDList>
+													<AudioFile>caster_simon-009.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{CF7C179A-5A3A-4359-91B2-4AC5DB587330}">
+												<MusicTransition Name="Root" ID="{D574FF9C-8F7D-4FE3-8C59-5D3048849A87}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -883,15 +1459,15 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{9B98CD07-5E20-4432-8385-678465E94301}">
+												<MusicTrackSequence Name="" ID="{F9793773-FBFE-4A79-A4B5-74F34988F6A0}">
 													<ClipList>
-														<MusicClip Name="caster06" ID="{46607897-40C9-4567-896B-84274E53122D}">
+														<MusicClip Name="caster_simon-009" ID="{94AC28BF-676B-4FF0-B6FE-F3BE737547A4}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="10174.1666666667"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="10500"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="caster06" ID="{20EE6C66-0A32-4D60-BCF4-BBD7768C6800}"/>
+															<AudioSourceRef Name="caster_simon-009" ID="{700EDC42-B628-4E28-AAD7-E6B2CB980E7B}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -899,73 +1475,11 @@
 										</MusicTrack>
 									</ChildrenList>
 									<CueList>
-										<MusicCue Name="Entry Cue" ID="{B9EB9B02-4AEF-48CD-A8A7-921159C6CB88}"/>
-										<MusicCue Name="Exit Cue" ID="{345111B8-C38C-4577-A44A-10ECABA2F965}">
+										<MusicCue Name="Entry Cue" ID="{8E18AFFF-76F7-4EC3-B31E-FA68AB04F609}"/>
+										<MusicCue Name="Exit Cue" ID="{41BA16B6-7E40-401D-9A55-D827E3534C0D}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="10174.1666666667"/>
-											</PropertyList>
-										</MusicCue>
-									</CueList>
-								</MusicSegment>
-								<MusicSegment Name="caster07" ID="{9E644F75-1346-40DA-AD07-D970073BE3FC}" ShortID="240551628">
-									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="16365.4791666667"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<MusicTrack Name="caster07" ID="{4A97092C-8EA1-44E4-AB0F-3F2B881E825E}" ShortID="62402536">
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="caster07" ID="{8F3E7A05-8E4D-4825-B2FA-501DAFD99953}" ShortID="936381819">
-													<Language>SFX</Language>
-													<AudioFile>caster07.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="662439261"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{4DB7635D-3AD8-43C0-BBAF-EEEF223613B1}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<SequenceList>
-												<MusicTrackSequence Name="" ID="{C6534A80-7E7D-4ED6-9641-13383CA885E7}">
-													<ClipList>
-														<MusicClip Name="caster07" ID="{0AB06EA5-B8A8-474E-964E-B614F3342A93}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="16365.4791666667"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="caster07" ID="{8F3E7A05-8E4D-4825-B2FA-501DAFD99953}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-											</SequenceList>
-										</MusicTrack>
-									</ChildrenList>
-									<CueList>
-										<MusicCue Name="Entry Cue" ID="{3697BFFE-510D-479B-9D70-B1ADF0A67199}"/>
-										<MusicCue Name="Exit Cue" ID="{6FAD6600-0427-48E7-A6EC-8349D058DC76}">
-											<PropertyList>
-												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="16365.4791666667"/>
+												<Property Name="TimeMs" Type="Real64" Value="10500"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
@@ -1021,8 +1535,63 @@
 								<MusicPlaylistItem Name="" ID="{0718201F-399D-4C68-83F6-2E6C3746241A}" ShortID="760847705">
 									<PropertyList>
 										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="3"/>
 									</PropertyList>
 									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{6AB7B876-3708-43B7-B71A-58D876108775}" ShortID="567984969">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="caster_simon-001" ID="{DA552D8C-A639-4C92-8123-D7511117755E}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{B77C3FB0-FB44-4FCC-A185-55E4EC68030D}" ShortID="345168199">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="caster_simon-002" ID="{7B3F0CEC-DD5A-46B7-B523-5DF8978E283C}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{0C9F455B-157D-4CF3-AFA5-3687A864E426}" ShortID="233382659">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="caster_simon-003" ID="{75EFBC4B-D5F0-499B-822B-3C9E9A09DA42}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{D3C3F90D-EF28-4C50-AE7A-CA3025890A92}" ShortID="934556974">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="caster_simon-004" ID="{B3341F08-6F8E-4F7B-9139-185B8FAAE08A}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{4ED490DD-3585-4ABE-894A-E0C25BBFB080}" ShortID="205987252">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="caster_simon-005" ID="{2C31D859-DB0B-4D6F-85C8-E287FC2ED89F}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{5FB5978B-1EF3-4940-BFF5-C0CC2FA5AD4B}" ShortID="120725220">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="caster_simon-006" ID="{13684DE2-A508-4EA2-BD5B-EF6845B0B094}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{CACD2B96-ACC0-4853-A13B-0196366A20C5}" ShortID="147739527">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="caster_simon-007" ID="{B871CD5E-4A73-4EA2-8E1D-51212C88C47B}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{60F00769-67E0-4C0F-AF7C-B568CF167FCB}" ShortID="467277329">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="caster_simon-008" ID="{C0C0450B-AA3A-4928-8842-C964DAFC724E}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{03D83BF2-BB9B-4520-9E9E-79370F1C0BCF}" ShortID="776418938">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="caster_simon-009" ID="{A0DC18FD-A79B-478B-9CC3-4154C6D90390}"/>
+										</MusicPlaylistItem>
 										<MusicPlaylistItem Name="" ID="{2C3AD2D2-5E3B-4733-80A3-C5EECAEDAB8E}" ShortID="141922952">
 											<PropertyList>
 												<Property Name="PlayMode" Type="int16" Value="3"/>
@@ -1048,43 +1617,11 @@
 												</MusicPlaylistItem>
 											</ChildrenList>
 										</MusicPlaylistItem>
-										<MusicPlaylistItem Name="" ID="{E0CEDE39-BF46-48A8-ABD1-D9DF76C24626}" ShortID="794116750">
-											<PropertyList>
-												<Property Name="PlayMode" Type="int16" Value="3"/>
-											</PropertyList>
-											<ChildrenList>
-												<MusicPlaylistItem Name="" ID="{E60BADE6-E671-4E09-A796-CCE2AC210C88}" ShortID="757618775">
-													<PropertyList>
-														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-													</PropertyList>
-													<SegmentRef Name="caster05" ID="{9777EC95-DBE3-408A-830C-2E97EF476145}"/>
-												</MusicPlaylistItem>
-												<MusicPlaylistItem Name="" ID="{95986F7C-4D33-48C9-BF9D-A32E253FA573}" ShortID="710530938">
-													<PropertyList>
-														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-													</PropertyList>
-													<SegmentRef Name="caster06" ID="{96571229-6741-4AA9-ACE3-BB21E5751D98}"/>
-												</MusicPlaylistItem>
-												<MusicPlaylistItem Name="" ID="{A064BE6D-A5C2-4CA9-9DE7-3A292B9BD786}" ShortID="512867579">
-													<PropertyList>
-														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-													</PropertyList>
-													<SegmentRef Name="caster07" ID="{9E644F75-1346-40DA-AD07-D970073BE3FC}"/>
-												</MusicPlaylistItem>
-											</ChildrenList>
-										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="station03" ID="{FDE5DABA-559D-4608-9502-0686201C5761}" ShortID="588575904">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-12</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
@@ -1280,9 +1817,9 @@
 										</MusicCue>
 									</CueList>
 								</MusicSegment>
-								<MusicSegment Name="caster08" ID="{D91E775F-ECFC-418B-9E82-9AD756DA0BB0}" ShortID="151491581">
+								<MusicSegment Name="caster_thomas-001" ID="{22E89245-7F46-4F13-BD6F-2C3B076B3D77}" ShortID="737542633">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="39373.7708333333"/>
+										<Property Name="EndPosition" Type="Real64" Value="10000"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1293,23 +1830,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="caster08" ID="{55AA32B1-E3FE-463A-9CB5-DBFE130C5A77}" ShortID="302250063">
+										<MusicTrack Name="caster_thomas-001" ID="{4F6A6E27-0BB8-406C-8403-DC661A177BBE}" ShortID="927986668">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="caster08" ID="{F455D654-0ADC-4C59-BEA7-B94B0B261306}" ShortID="559307404">
+												<AudioFileSource Name="caster_thomas-001" ID="{EEC31481-A82B-458C-9EE4-C798D7A240AA}" ShortID="917338709">
 													<Language>SFX</Language>
-													<AudioFile>caster08.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="718618698"/>
-													</ConvertedFileIDList>
+													<AudioFile>caster_thomas-001.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{F8A27B8B-2987-461C-8894-4A005CD2D802}">
+												<MusicTransition Name="Root" ID="{EC752D1C-3A31-4F3A-8960-78C9ED12740E}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -1317,15 +1851,15 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{5742340B-7576-43D1-AC37-199F8A600B72}">
+												<MusicTrackSequence Name="" ID="{E2B8ED43-B506-4E5F-9277-691A98EC1154}">
 													<ClipList>
-														<MusicClip Name="caster08" ID="{A370B955-774C-40DE-874D-28FF8B2710B7}">
+														<MusicClip Name="caster_thomas-001" ID="{A24131B5-51BC-4729-BCF4-C4205EF136CE}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="39373.7708333333"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="10000"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="caster08" ID="{F455D654-0ADC-4C59-BEA7-B94B0B261306}"/>
+															<AudioSourceRef Name="caster_thomas-001" ID="{EEC31481-A82B-458C-9EE4-C798D7A240AA}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -1333,18 +1867,18 @@
 										</MusicTrack>
 									</ChildrenList>
 									<CueList>
-										<MusicCue Name="Entry Cue" ID="{E81A1D7E-6D8A-4478-8950-B4F4BF1F28A5}"/>
-										<MusicCue Name="Exit Cue" ID="{176B2113-8343-4A13-AD31-BF5E8E2671D1}">
+										<MusicCue Name="Entry Cue" ID="{78133FEE-FB24-4316-9755-6406B724C0F1}"/>
+										<MusicCue Name="Exit Cue" ID="{720F832A-9B75-4FBD-8B6D-1658B3DA9C5D}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="39373.7708333333"/>
+												<Property Name="TimeMs" Type="Real64" Value="10000"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
 								</MusicSegment>
-								<MusicSegment Name="caster09" ID="{B8BD05A9-59A5-4054-9848-96388777BBEF}" ShortID="615998576">
+								<MusicSegment Name="caster_thomas-002" ID="{BD9467DC-ACA3-46EC-8308-A989A7E3E0B3}" ShortID="163020729">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="7499.20833333333"/>
+										<Property Name="EndPosition" Type="Real64" Value="25500"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1355,23 +1889,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="caster09" ID="{06D8234C-E4C0-41D6-A33B-D0BA1512AE05}" ShortID="328900831">
+										<MusicTrack Name="caster_thomas-002" ID="{D14850BB-E903-4BB8-BE8B-C5259854D5D8}" ShortID="365723043">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="caster09" ID="{A0E32DC6-DA06-4314-9170-09745BD0BBA5}" ShortID="318809627">
+												<AudioFileSource Name="caster_thomas-002" ID="{8F791F53-EF6E-4A5E-8F25-69070EA8CBE6}" ShortID="826166415">
 													<Language>SFX</Language>
-													<AudioFile>caster09.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="790031349"/>
-													</ConvertedFileIDList>
+													<AudioFile>caster_thomas-002.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{5D393FE6-2262-405A-8117-CA4D88DCDF04}">
+												<MusicTransition Name="Root" ID="{7997A392-20EF-48AE-8579-F1CD80A9465B}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -1379,15 +1910,15 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{CF3791FD-1950-423A-B889-5455F00E75C8}">
+												<MusicTrackSequence Name="" ID="{DFE196F7-B9A0-46E2-B67E-F74D1F793086}">
 													<ClipList>
-														<MusicClip Name="caster09" ID="{3821AB3D-4505-413C-98C9-9942BBBBA4BE}">
+														<MusicClip Name="caster_thomas-002" ID="{4CA167AB-5170-476B-8D87-ECD269A0BBE6}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="7499.20833333333"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="25500"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="caster09" ID="{A0E32DC6-DA06-4314-9170-09745BD0BBA5}"/>
+															<AudioSourceRef Name="caster_thomas-002" ID="{8F791F53-EF6E-4A5E-8F25-69070EA8CBE6}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -1395,18 +1926,18 @@
 										</MusicTrack>
 									</ChildrenList>
 									<CueList>
-										<MusicCue Name="Entry Cue" ID="{0B2E9974-0807-490D-A0FF-DB6450B38060}"/>
-										<MusicCue Name="Exit Cue" ID="{595758B1-4D2D-4C88-9473-BFAE7E6EECD4}">
+										<MusicCue Name="Entry Cue" ID="{ABD1A8CB-C420-406F-A7EB-26860241E501}"/>
+										<MusicCue Name="Exit Cue" ID="{68ABBE6F-7D56-4E04-B89C-C4D46DB3352C}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="7499.20833333333"/>
+												<Property Name="TimeMs" Type="Real64" Value="25500"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
 								</MusicSegment>
-								<MusicSegment Name="caster10" ID="{62E02410-4CBF-4B59-B640-FBD3C63CD5A2}" ShortID="215702913">
+								<MusicSegment Name="caster_thomas-003" ID="{1DA3682C-5BB8-456B-B9AA-C80986F59B5F}" ShortID="632973017">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="9391.91666666667"/>
+										<Property Name="EndPosition" Type="Real64" Value="26500"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1417,23 +1948,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="caster10" ID="{25171CBB-759D-4172-8281-92D838DC686D}" ShortID="1068541218">
+										<MusicTrack Name="caster_thomas-003" ID="{0025D6CE-9CA7-43E8-852C-50AEFA667DF2}" ShortID="374061722">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="caster10" ID="{9A728E5A-E4F4-415F-80B9-863ADFF19DCC}" ShortID="279944874">
+												<AudioFileSource Name="caster_thomas-003" ID="{C3B2A7F3-6448-492F-8555-85668F498149}" ShortID="948807393">
 													<Language>SFX</Language>
-													<AudioFile>caster10.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="147106354"/>
-													</ConvertedFileIDList>
+													<AudioFile>caster_thomas-003.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{CB2582D8-5DFC-48F4-8F6A-ECB60CBCBF94}">
+												<MusicTransition Name="Root" ID="{A7EF278D-DFEC-499A-8797-63C246D28A6D}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -1441,15 +1969,15 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{5B7FDE39-80AC-4322-8E06-5F4ACBD566CB}">
+												<MusicTrackSequence Name="" ID="{FD839B98-3478-4698-89BC-51BF8A9D0280}">
 													<ClipList>
-														<MusicClip Name="caster10" ID="{A63608CB-3877-4B24-9E69-EF665789C6CC}">
+														<MusicClip Name="caster_thomas-003" ID="{C6B6CF10-F051-451C-B0EC-F9C135128616}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="9391.91666666667"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="26500"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="caster10" ID="{9A728E5A-E4F4-415F-80B9-863ADFF19DCC}"/>
+															<AudioSourceRef Name="caster_thomas-003" ID="{C3B2A7F3-6448-492F-8555-85668F498149}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -1457,11 +1985,424 @@
 										</MusicTrack>
 									</ChildrenList>
 									<CueList>
-										<MusicCue Name="Entry Cue" ID="{E7DABF8F-D036-4A27-B6B3-F54BFEDE5007}"/>
-										<MusicCue Name="Exit Cue" ID="{FADCA40C-5EBC-40B5-A022-C5F557FC6EB7}">
+										<MusicCue Name="Entry Cue" ID="{00F5CF2E-29BB-4502-93C5-73EC5444773A}"/>
+										<MusicCue Name="Exit Cue" ID="{A6F72884-9887-4953-B05F-A843867E0AB2}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="9391.91666666667"/>
+												<Property Name="TimeMs" Type="Real64" Value="26500"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="caster_thomas-004" ID="{2A41E186-23CA-4AD1-A6A9-ECA43741395C}" ShortID="797835663">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="9500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="caster_thomas-004" ID="{3414C6A7-4D0F-4DB9-979A-86218A7D07F1}" ShortID="512962746">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="caster_thomas-004" ID="{3A3CD441-4D00-460C-8935-48AA81FB6C57}" ShortID="739080969">
+													<Language>SFX</Language>
+													<AudioFile>caster_thomas-004.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{DC2B5F43-57DE-492A-AEA2-2A0F3CCA3230}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{B84CE8EF-D3A6-4095-80EC-C13FC0E1437F}">
+													<ClipList>
+														<MusicClip Name="caster_thomas-004" ID="{18E286D4-B1B6-4E2E-9813-102E7CDE8A61}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="9500"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="caster_thomas-004" ID="{3A3CD441-4D00-460C-8935-48AA81FB6C57}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{33A91DD2-4390-41C4-BF8B-A33896A9B4CE}"/>
+										<MusicCue Name="Exit Cue" ID="{9A93F5EE-0A9E-4D48-8085-F7CC16FE6EE9}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="9500"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="caster_thomas-005" ID="{DAA2120E-0528-4158-B454-0436A9448408}" ShortID="380091127">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="13500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="caster_thomas-005" ID="{533BE9B9-A3EC-48EB-A339-2EEE8F0CC7A5}" ShortID="1036689195">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="caster_thomas-005" ID="{DB244F5C-9CF5-4658-A94F-0856E9A4BD39}" ShortID="583913353">
+													<Language>SFX</Language>
+													<AudioFile>caster_thomas-005.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{A5F8D76A-3E95-49D9-92F4-33B9C7DDC036}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{2EED9D76-69FE-4ADE-A7B4-A2534A07A1B2}">
+													<ClipList>
+														<MusicClip Name="caster_thomas-005" ID="{76B6CBED-FD26-4C17-9713-191CC0B59276}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="13500"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="caster_thomas-005" ID="{DB244F5C-9CF5-4658-A94F-0856E9A4BD39}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{47347881-9747-4C7B-AD8E-D18D63C219F2}"/>
+										<MusicCue Name="Exit Cue" ID="{4D9A0004-7AE5-4349-B77C-96BC02E9A246}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="13500"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="caster_thomas-006" ID="{9F619A9A-F205-4479-9495-48EB62053A50}" ShortID="519174139">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="18500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="caster_thomas-006" ID="{8B763908-BB9A-47AE-878F-25408B08B6FC}" ShortID="262286420">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="caster_thomas-006" ID="{61D424B1-63E4-4ED1-BCE4-E96C9D8F84A8}" ShortID="735079034">
+													<Language>SFX</Language>
+													<AudioFile>caster_thomas-006.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{AC5AA6F8-1166-4AB3-8EC2-6BBE5218326F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{6EB6AB16-C81F-43C3-B0EB-219F3274A133}">
+													<ClipList>
+														<MusicClip Name="caster_thomas-006" ID="{EC51E0AD-5386-497F-8E75-E040BB1CDA1A}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="18500"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="caster_thomas-006" ID="{61D424B1-63E4-4ED1-BCE4-E96C9D8F84A8}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{998277C9-5056-4640-A9B8-D9B99BE175E6}"/>
+										<MusicCue Name="Exit Cue" ID="{D949EB0D-8C8E-4752-A4D7-59067A96FF97}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="18500"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="caster_thomas-007" ID="{46FB8317-C964-4742-B1FE-668CFAF12C7E}" ShortID="2479654">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="16340.8125"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="caster_thomas-007" ID="{388CB0F1-033D-4D2A-A1D5-2D3526FD403B}" ShortID="168442636">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="caster_thomas-007" ID="{01ADBD92-BD4E-48CC-845F-BD5724240923}" ShortID="442914385">
+													<Language>SFX</Language>
+													<AudioFile>caster_thomas-007.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{3724E545-EB03-4CD0-873D-F3BE071DB567}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{769B747A-AE89-4D22-B0DB-3DD95AA44858}">
+													<ClipList>
+														<MusicClip Name="caster_thomas-007" ID="{4919B77A-A627-4D19-B708-3FB24B38F337}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="16340.8125"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="caster_thomas-007" ID="{01ADBD92-BD4E-48CC-845F-BD5724240923}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{FA2D8BBC-021A-4E89-9533-6538D7018A1F}"/>
+										<MusicCue Name="Exit Cue" ID="{794C1764-B69A-4AB3-9E14-427832391DE2}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="16340.8125"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="caster_thomas-008" ID="{740384B6-770C-454C-8CDC-605AF212CD60}" ShortID="297601768">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="18000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="caster_thomas-008" ID="{161BBFE9-236E-43CC-B344-8771667D5D61}" ShortID="772675388">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="caster_thomas-008" ID="{A2132141-6DE6-4790-9F40-EDEB5C74A0FF}" ShortID="327303454">
+													<Language>SFX</Language>
+													<AudioFile>caster_thomas-008.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{A789F641-FB2C-4F66-99F9-83CB317BCCF3}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{D59A2305-3E68-4D06-8486-91661AAC2163}">
+													<ClipList>
+														<MusicClip Name="caster_thomas-008" ID="{45A4B9AF-C4FD-473A-AED7-964EE448E5B3}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="caster_thomas-008" ID="{A2132141-6DE6-4790-9F40-EDEB5C74A0FF}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{FC54B032-4BB3-4DB5-B470-687755141C09}"/>
+										<MusicCue Name="Exit Cue" ID="{249F2B78-C0FF-4EBF-A832-C9FE3D104F0E}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="18000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="caster_thomas-009" ID="{A09736BF-B161-43C0-8A21-F8096E60B784}" ShortID="214177751">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="19500"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="caster_thomas-009" ID="{54493F55-CDEB-4025-BA77-1B252A1D72BC}" ShortID="503183661">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="caster_thomas-009" ID="{0A069A8D-57D4-4F37-924E-C2519CA42B63}" ShortID="496624674">
+													<Language>SFX</Language>
+													<AudioFile>caster_thomas-009.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{5107680E-3FCC-4550-A319-6265BFF513A2}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{BA31D87E-9FAE-45C7-9BCD-0411F930472C}">
+													<ClipList>
+														<MusicClip Name="caster_thomas-009" ID="{FC4D26CC-73C6-4226-B8B4-0C417E74B81E}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="19500"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="caster_thomas-009" ID="{0A069A8D-57D4-4F37-924E-C2519CA42B63}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{F6B527A2-E559-4458-A806-11EA93F6D8F5}"/>
+										<MusicCue Name="Exit Cue" ID="{CF833538-DDFD-435E-8521-D9923287A6CE}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="19500"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="caster_thomas-010" ID="{FEE76EF0-5C39-4F36-9CE8-72ED78E065CC}" ShortID="374618202">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="16000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="caster_thomas-010" ID="{EC820518-18C4-4B2B-8518-9EF8EDC4637B}" ShortID="582074233">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="caster_thomas-010" ID="{9E094321-FBD4-4362-87FC-35E89B433CE3}" ShortID="1053344360">
+													<Language>SFX</Language>
+													<AudioFile>caster_thomas-010.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{7C28B100-1EA0-4B82-8450-E627727969F9}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{4F5C0A74-4D4E-4B3E-93CA-29E305F82A8D}">
+													<ClipList>
+														<MusicClip Name="caster_thomas-010" ID="{FA48B50A-1DC8-4220-B0F5-C0F923FCFD5C}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="caster_thomas-010" ID="{9E094321-FBD4-4362-87FC-35E89B433CE3}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{5584012B-8F00-453C-8ED5-FD297738FFDF}"/>
+										<MusicCue Name="Exit Cue" ID="{86FB0D9C-B412-4B42-BC91-63D252953878}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="16000"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
@@ -1524,23 +2465,65 @@
 												<Property Name="PlayMode" Type="int16" Value="3"/>
 											</PropertyList>
 											<ChildrenList>
-												<MusicPlaylistItem Name="" ID="{3FEA809F-6BC8-40CF-9CA4-9FC29AD53634}" ShortID="763701864">
+												<MusicPlaylistItem Name="" ID="{0EE93597-C64F-45EF-9BFE-1F65D2D0DEA0}" ShortID="332881316">
 													<PropertyList>
 														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 													</PropertyList>
-													<SegmentRef Name="caster08" ID="{D91E775F-ECFC-418B-9E82-9AD756DA0BB0}"/>
+													<SegmentRef Name="caster_thomas-001" ID="{22E89245-7F46-4F13-BD6F-2C3B076B3D77}"/>
 												</MusicPlaylistItem>
-												<MusicPlaylistItem Name="" ID="{F927DCC5-6176-4445-83F2-92B026F31968}" ShortID="453472809">
+												<MusicPlaylistItem Name="" ID="{C6EDBCFC-3165-4D1D-9E4A-EEE1FFC9DEF4}" ShortID="925861832">
 													<PropertyList>
 														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 													</PropertyList>
-													<SegmentRef Name="caster09" ID="{B8BD05A9-59A5-4054-9848-96388777BBEF}"/>
+													<SegmentRef Name="caster_thomas-002" ID="{BD9467DC-ACA3-46EC-8308-A989A7E3E0B3}"/>
 												</MusicPlaylistItem>
-												<MusicPlaylistItem Name="" ID="{99A28A86-DC5F-475C-92EB-40148616F993}" ShortID="685978944">
+												<MusicPlaylistItem Name="" ID="{1220D3BC-16E4-484A-8522-F47B7554774B}" ShortID="34716495">
 													<PropertyList>
 														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 													</PropertyList>
-													<SegmentRef Name="caster10" ID="{62E02410-4CBF-4B59-B640-FBD3C63CD5A2}"/>
+													<SegmentRef Name="caster_thomas-003" ID="{1DA3682C-5BB8-456B-B9AA-C80986F59B5F}"/>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{8964EE45-1195-4EDF-8BEE-5EA60593A654}" ShortID="266539401">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="caster_thomas-004" ID="{2A41E186-23CA-4AD1-A6A9-ECA43741395C}"/>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{82B75DDB-971C-4054-8D8A-FC8FB55EE42C}" ShortID="833774443">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="caster_thomas-005" ID="{DAA2120E-0528-4158-B454-0436A9448408}"/>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{EF782908-390E-440E-B1C0-4E0E41DD8F84}" ShortID="43048547">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="caster_thomas-006" ID="{9F619A9A-F205-4479-9495-48EB62053A50}"/>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{B46A4D58-BD03-4EE7-8D5B-36A21C7B4F48}" ShortID="396975062">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="caster_thomas-007" ID="{46FB8317-C964-4742-B1FE-668CFAF12C7E}"/>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{85BA4F78-4359-4D81-8CD7-6718FE55F6CF}" ShortID="469812047">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="caster_thomas-008" ID="{740384B6-770C-454C-8CDC-605AF212CD60}"/>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{8EB18E7A-147F-4CE0-A3E6-8A2FD0568427}" ShortID="741608023">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="caster_thomas-009" ID="{A09736BF-B161-43C0-8A21-F8096E60B784}"/>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{93097F75-4079-4849-B867-4A2F1FFA0539}" ShortID="592880925">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="caster_thomas-010" ID="{FEE76EF0-5C39-4F36-9CE8-72ED78E065CC}"/>
 												</MusicPlaylistItem>
 											</ChildrenList>
 										</MusicPlaylistItem>

@@ -1,6 +1,181 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2CC0E4B6-CFF8-43C2-B082-568787C444E1}" SchemaVersion="94">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{2CC0E4B6-CFF8-43C2-B082-568787C444E1}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2CC0E4B6-CFF8-43C2-B082-568787C444E1}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="test_reaper_wwapi" ID="{46A90839-571C-46AF-ACAA-685E1181A574}" ShortID="362668836">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="BOOM- Atom-Smasher" ID="{B518D076-5EF8-4DD4-837E-F4A4522E1019}" ShortID="486305606">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BOOM- Atom-Smasher" ID="{13E778E5-11C8-41C3-BE2F-365836B40CB9}" ShortID="157287948">
+									<Comment>REAPROJ:"C:\Users\ELE5b87f97761928\Documents\REAPER Media\ABM_Music_Test\ABM_Music_Test.RPP"</Comment>
+									<Language>SFX</Language>
+									<AudioFile>BOOM- Atom-Smasher.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BOOM- Atom-Smasher" ID="{13E778E5-11C8-41C3-BE2F-365836B40CB9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BOOM- Crack-Smasher" ID="{BDAC5B47-FF2D-44AA-AB18-B4AF12CACFFD}" ShortID="260942588">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BOOM- Crack-Smasher" ID="{328D55BC-F4D4-410B-83D3-AC3738F2BDB3}" ShortID="179545523">
+									<Comment>REAPROJ:"C:\Users\ELE5b87f97761928\Documents\REAPER Media\ABM_Music_Test\ABM_Music_Test.RPP"</Comment>
+									<Language>SFX</Language>
+									<AudioFile>BOOM- Crack-Smasher.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BOOM- Crack-Smasher" ID="{328D55BC-F4D4-410B-83D3-AC3738F2BDB3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BOOM-Bumpy-Bang" ID="{0E17036A-8AB1-4798-94F5-DE76B5770E06}" ShortID="482081161">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BOOM-Bumpy-Bang" ID="{D1934043-5AC0-4A37-BC5C-025B6E0EE88D}" ShortID="600420052">
+									<Comment>REAPROJ:"C:\Users\ELE5b87f97761928\Documents\REAPER Media\ABM_Music_Test\ABM_Music_Test.RPP"</Comment>
+									<Language>SFX</Language>
+									<AudioFile>BOOM-Bumpy-Bang.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BOOM-Bumpy-Bang" ID="{D1934043-5AC0-4A37-BC5C-025B6E0EE88D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BOOM-Endless-Doom" ID="{0CAC3701-0F2D-4237-BD53-C4CA02F9E452}" ShortID="266706640">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BOOM-Endless-Doom" ID="{A7ACF075-B157-4AB3-8FF0-F64FB430DB5B}" ShortID="108910042">
+									<Comment>REAPROJ:"C:\Users\ELE5b87f97761928\Documents\REAPER Media\ABM_Music_Test\ABM_Music_Test.RPP"</Comment>
+									<Language>SFX</Language>
+									<AudioFile>BOOM-Endless-Doom.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BOOM-Endless-Doom" ID="{A7ACF075-B157-4AB3-8FF0-F64FB430DB5B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BOOM-Evil-Showdown" ID="{DEDDCABF-490B-44F3-9DEF-A22FDC193D87}" ShortID="910537484">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BOOM-Evil-Showdown" ID="{9E2059EA-C53D-44DD-B962-CBC14A029779}" ShortID="608209114">
+									<Comment>REAPROJ:"C:\Users\ELE5b87f97761928\Documents\REAPER Media\ABM_Music_Test\ABM_Music_Test.RPP"</Comment>
+									<Language>SFX</Language>
+									<AudioFile>BOOM-Evil-Showdown.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BOOM-Evil-Showdown" ID="{9E2059EA-C53D-44DD-B962-CBC14A029779}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BOOM-Go-Credits-Go" ID="{000FF578-5FCD-45A4-BC5E-5569B09C086C}" ShortID="946111472">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BOOM-Go-Credits-Go" ID="{BBCBDABD-FE90-4F23-9232-26BE77CBD8DB}" ShortID="918066804">
+									<Comment>REAPROJ:"C:\Users\ELE5b87f97761928\Documents\REAPER Media\ABM_Music_Test\ABM_Music_Test.RPP"</Comment>
+									<Language>SFX</Language>
+									<AudioFile>BOOM-Go-Credits-Go.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BOOM-Go-Credits-Go" ID="{BBCBDABD-FE90-4F23-9232-26BE77CBD8DB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BOOM-Go-Credits-Go-2" ID="{25F5A59B-F846-46BE-BCAC-ECA313889148}" ShortID="113875851">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BOOM-Go-Credits-Go-2" ID="{67221EB4-61B4-4364-946D-A233D38A4844}" ShortID="994686333">
+									<Comment>REAPROJ:"C:\Users\ELE5b87f97761928\Documents\REAPER Media\ABM_Music_Test\ABM_Music_Test.RPP"</Comment>
+									<Language>SFX</Language>
+									<AudioFile>BOOM-Go-Credits-Go-2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BOOM-Go-Credits-Go-2" ID="{67221EB4-61B4-4364-946D-A233D38A4844}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BOOM-Going-Thinner" ID="{31E6C107-287E-4AC1-BD01-8D284C28AEE6}" ShortID="182021528">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BOOM-Going-Thinner" ID="{F5F1102F-9665-4998-99F9-DEC6F57D224A}" ShortID="776473678">
+									<Comment>REAPROJ:"C:\Users\ELE5b87f97761928\Documents\REAPER Media\ABM_Music_Test\ABM_Music_Test.RPP"</Comment>
+									<Language>SFX</Language>
+									<AudioFile>BOOM-Going-Thinner.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BOOM-Going-Thinner" ID="{F5F1102F-9665-4998-99F9-DEC6F57D224A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

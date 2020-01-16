@@ -67,9 +67,25 @@
 				<Event Id="3703828323" Name="Stop_radio_stations" ObjectPath="\Events\Music\Radio\Stop_radio_stations"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="9366097" Language="SFX">
+					<ShortName>caster_louis-002.wav</ShortName>
+					<Path>SFX\caster_louis-002_9B96ECC7.wem</Path>
+				</File>
+				<File Id="23682200" Language="SFX">
+					<ShortName>caster_louis-006.wav</ShortName>
+					<Path>SFX\caster_louis-006_9B96ECC7.wem</Path>
+				</File>
+				<File Id="29118490" Language="SFX">
+					<ShortName>static_D-004.wav</ShortName>
+					<Path>SFX\static_D-004_6296B0F9.wem</Path>
+				</File>
 				<File Id="58216700" Language="SFX">
 					<ShortName>static_FX-001.wav</ShortName>
 					<Path>SFX\static_FX-001_6296B0F9.wem</Path>
+				</File>
+				<File Id="73873310" Language="SFX">
+					<ShortName>caster_louis-004.wav</ShortName>
+					<Path>SFX\caster_louis-004_9B96ECC7.wem</Path>
 				</File>
 				<File Id="83533862" Language="SFX">
 					<ShortName>fanfare.wav</ShortName>
@@ -79,41 +95,185 @@
 					<ShortName>rayman-origins-ost-desert-of-dijiridoos-shooting-me-softly.wav</ShortName>
 					<Path>SFX\rayman-origins-ost-desert-of-dijiridoos-shooting-me-softly_9B96ECC7.wem</Path>
 				</File>
-				<File Id="147106354" Language="SFX">
-					<ShortName>caster10.wav</ShortName>
-					<Path>SFX\caster10_9B96ECC7.wem</Path>
+				<File Id="137702736" Language="SFX">
+					<ShortName>static_C-003.wav</ShortName>
+					<Path>SFX\static_C-003_6296B0F9.wem</Path>
+				</File>
+				<File Id="138380469" Language="SFX">
+					<ShortName>caster_simon-003.wav</ShortName>
+					<Path>SFX\caster_simon-003_9B96ECC7.wem</Path>
 				</File>
 				<File Id="186735368" Language="SFX">
 					<ShortName>static_FX-002.wav</ShortName>
 					<Path>SFX\static_FX-002_6296B0F9.wem</Path>
 				</File>
-				<File Id="270568837" Language="SFX">
-					<ShortName>caster02.wav</ShortName>
-					<Path>SFX\caster02_9B96ECC7.wem</Path>
+				<File Id="198085294" Language="SFX">
+					<ShortName>caster_louis-007.wav</ShortName>
+					<Path>SFX\caster_louis-007_9B96ECC7.wem</Path>
 				</File>
-				<File Id="441436472" Language="SFX">
-					<ShortName>caster05.wav</ShortName>
-					<Path>SFX\caster05_9B96ECC7.wem</Path>
+				<File Id="206064198" Language="SFX">
+					<ShortName>caster_simon-004.wav</ShortName>
+					<Path>SFX\caster_simon-004_9B96ECC7.wem</Path>
 				</File>
-				<File Id="455104934" Language="SFX">
-					<ShortName>caster01.wav</ShortName>
-					<Path>SFX\caster01_9B96ECC7.wem</Path>
+				<File Id="211254484" Language="SFX">
+					<ShortName>static_E-006.wav</ShortName>
+					<Path>SFX\static_E-006_6296B0F9.wem</Path>
+				</File>
+				<File Id="212196890" Language="SFX">
+					<ShortName>static_D-003.wav</ShortName>
+					<Path>SFX\static_D-003_6296B0F9.wem</Path>
+				</File>
+				<File Id="222950181" Language="SFX">
+					<ShortName>static_A-001.wav</ShortName>
+					<Path>SFX\static_A-001_6296B0F9.wem</Path>
+				</File>
+				<File Id="226560596" Language="SFX">
+					<ShortName>static_D-005.wav</ShortName>
+					<Path>SFX\static_D-005_6296B0F9.wem</Path>
+				</File>
+				<File Id="248521691" Language="SFX">
+					<ShortName>caster_simon-007.wav</ShortName>
+					<Path>SFX\caster_simon-007_9B96ECC7.wem</Path>
+				</File>
+				<File Id="251941631" Language="SFX">
+					<ShortName>static_D-006.wav</ShortName>
+					<Path>SFX\static_D-006_6296B0F9.wem</Path>
+				</File>
+				<File Id="253694918" Language="SFX">
+					<ShortName>static_A-007.wav</ShortName>
+					<Path>SFX\static_A-007_6296B0F9.wem</Path>
+				</File>
+				<File Id="254522013" Language="SFX">
+					<ShortName>static_B-001.wav</ShortName>
+					<Path>SFX\static_B-001_6296B0F9.wem</Path>
+				</File>
+				<File Id="283535939" Language="SFX">
+					<ShortName>caster_simon-001.wav</ShortName>
+					<Path>SFX\caster_simon-001_9B96ECC7.wem</Path>
+				</File>
+				<File Id="283657099" Language="SFX">
+					<ShortName>radio_off_SFX.wav</ShortName>
+					<Path>SFX\radio_off_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="303240979" Language="SFX">
+					<ShortName>static_B-003.wav</ShortName>
+					<Path>SFX\static_B-003_6296B0F9.wem</Path>
+				</File>
+				<File Id="314080650" Language="SFX">
+					<ShortName>static_C-001.wav</ShortName>
+					<Path>SFX\static_C-001_6296B0F9.wem</Path>
+				</File>
+				<File Id="327303454" Language="SFX">
+					<ShortName>caster_thomas-008.wav</ShortName>
+					<Path>SFX\caster_thomas-008_9B96ECC7.wem</Path>
+				</File>
+				<File Id="352555108" Language="SFX">
+					<ShortName>static_C-008.wav</ShortName>
+					<Path>SFX\static_C-008_6296B0F9.wem</Path>
+				</File>
+				<File Id="401368860" Language="SFX">
+					<ShortName>static_B-004.wav</ShortName>
+					<Path>SFX\static_B-004_6296B0F9.wem</Path>
+				</File>
+				<File Id="409554297" Language="SFX">
+					<ShortName>static_A-002.wav</ShortName>
+					<Path>SFX\static_A-002_6296B0F9.wem</Path>
+				</File>
+				<File Id="437687424" Language="SFX">
+					<ShortName>static_D-008.wav</ShortName>
+					<Path>SFX\static_D-008_6296B0F9.wem</Path>
+				</File>
+				<File Id="438806584" Language="SFX">
+					<ShortName>static_C-009.wav</ShortName>
+					<Path>SFX\static_C-009_6296B0F9.wem</Path>
+				</File>
+				<File Id="439201233" Language="SFX">
+					<ShortName>static_C-006.wav</ShortName>
+					<Path>SFX\static_C-006_6296B0F9.wem</Path>
+				</File>
+				<File Id="442914385" Language="SFX">
+					<ShortName>caster_thomas-007.wav</ShortName>
+					<Path>SFX\caster_thomas-007_9B96ECC7.wem</Path>
 				</File>
 				<File Id="464763951" Language="SFX">
 					<ShortName>static_FX-003.wav</ShortName>
 					<Path>SFX\static_FX-003_6296B0F9.wem</Path>
 				</File>
+				<File Id="466782826" Language="SFX">
+					<ShortName>static_E-009.wav</ShortName>
+					<Path>SFX\static_E-009_6296B0F9.wem</Path>
+				</File>
 				<File Id="491892643" Language="SFX">
 					<ShortName>stage-clear-part-time-ufo-soundtrack.wav</ShortName>
 					<Path>SFX\stage-clear-part-time-ufo-soundtrack_9B96ECC7.wem</Path>
 				</File>
-				<File Id="597972490" Language="SFX">
-					<ShortName>caster04.wav</ShortName>
-					<Path>SFX\caster04_9B96ECC7.wem</Path>
+				<File Id="496624674" Language="SFX">
+					<ShortName>caster_thomas-009.wav</ShortName>
+					<Path>SFX\caster_thomas-009_9B96ECC7.wem</Path>
 				</File>
-				<File Id="662439261" Language="SFX">
-					<ShortName>caster07.wav</ShortName>
-					<Path>SFX\caster07_9B96ECC7.wem</Path>
+				<File Id="561490902" Language="SFX">
+					<ShortName>static_E-003.wav</ShortName>
+					<Path>SFX\static_E-003_6296B0F9.wem</Path>
+				</File>
+				<File Id="566885147" Language="SFX">
+					<ShortName>caster_louis-001.wav</ShortName>
+					<Path>SFX\caster_louis-001_9B96ECC7.wem</Path>
+				</File>
+				<File Id="573295939" Language="SFX">
+					<ShortName>static_A-003.wav</ShortName>
+					<Path>SFX\static_A-003_6296B0F9.wem</Path>
+				</File>
+				<File Id="583913353" Language="SFX">
+					<ShortName>caster_thomas-005.wav</ShortName>
+					<Path>SFX\caster_thomas-005_9B96ECC7.wem</Path>
+				</File>
+				<File Id="596759797" Language="SFX">
+					<ShortName>static_D-007.wav</ShortName>
+					<Path>SFX\static_D-007_6296B0F9.wem</Path>
+				</File>
+				<File Id="613868227" Language="SFX">
+					<ShortName>static_C-004.wav</ShortName>
+					<Path>SFX\static_C-004_6296B0F9.wem</Path>
+				</File>
+				<File Id="618205705" Language="SFX">
+					<ShortName>static_D-001.wav</ShortName>
+					<Path>SFX\static_D-001_6296B0F9.wem</Path>
+				</File>
+				<File Id="619620895" Language="SFX">
+					<ShortName>caster_simon-008.wav</ShortName>
+					<Path>SFX\caster_simon-008_9B96ECC7.wem</Path>
+				</File>
+				<File Id="632412126" Language="SFX">
+					<ShortName>static_A-006.wav</ShortName>
+					<Path>SFX\static_A-006_6296B0F9.wem</Path>
+				</File>
+				<File Id="639070996" Language="SFX">
+					<ShortName>static_E-007.wav</ShortName>
+					<Path>SFX\static_E-007_6296B0F9.wem</Path>
+				</File>
+				<File Id="645368893" Language="SFX">
+					<ShortName>static_A-004.wav</ShortName>
+					<Path>SFX\static_A-004_6296B0F9.wem</Path>
+				</File>
+				<File Id="655184548" Language="SFX">
+					<ShortName>static_C-005.wav</ShortName>
+					<Path>SFX\static_C-005_6296B0F9.wem</Path>
+				</File>
+				<File Id="660824431" Language="SFX">
+					<ShortName>static_B-009.wav</ShortName>
+					<Path>SFX\static_B-009_6296B0F9.wem</Path>
+				</File>
+				<File Id="661056302" Language="SFX">
+					<ShortName>static_E-002.wav</ShortName>
+					<Path>SFX\static_E-002_6296B0F9.wem</Path>
+				</File>
+				<File Id="678872715" Language="SFX">
+					<ShortName>static_C-002.wav</ShortName>
+					<Path>SFX\static_C-002_6296B0F9.wem</Path>
+				</File>
+				<File Id="681601421" Language="SFX">
+					<ShortName>static_C-007.wav</ShortName>
+					<Path>SFX\static_C-007_6296B0F9.wem</Path>
 				</File>
 				<File Id="689098952" Language="SFX">
 					<ShortName>rayman-origins-ost-world-map-sea-of-serendipity.wav</ShortName>
@@ -123,13 +283,45 @@
 					<ShortName>static_FX-004.wav</ShortName>
 					<Path>SFX\static_FX-004_6296B0F9.wem</Path>
 				</File>
-				<File Id="718618698" Language="SFX">
-					<ShortName>caster08.wav</ShortName>
-					<Path>SFX\caster08_9B96ECC7.wem</Path>
+				<File Id="735079034" Language="SFX">
+					<ShortName>caster_thomas-006.wav</ShortName>
+					<Path>SFX\caster_thomas-006_9B96ECC7.wem</Path>
 				</File>
-				<File Id="790031349" Language="SFX">
-					<ShortName>caster09.wav</ShortName>
-					<Path>SFX\caster09_9B96ECC7.wem</Path>
+				<File Id="739080969" Language="SFX">
+					<ShortName>caster_thomas-004.wav</ShortName>
+					<Path>SFX\caster_thomas-004_9B96ECC7.wem</Path>
+				</File>
+				<File Id="739970031" Language="SFX">
+					<ShortName>radio_on_SFX.wav</ShortName>
+					<Path>SFX\radio_on_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="747157216" Language="SFX">
+					<ShortName>static_D-002.wav</ShortName>
+					<Path>SFX\static_D-002_6296B0F9.wem</Path>
+				</File>
+				<File Id="749870324" Language="SFX">
+					<ShortName>caster_simon-005.wav</ShortName>
+					<Path>SFX\caster_simon-005_9B96ECC7.wem</Path>
+				</File>
+				<File Id="756685148" Language="SFX">
+					<ShortName>static_E-005.wav</ShortName>
+					<Path>SFX\static_E-005_6296B0F9.wem</Path>
+				</File>
+				<File Id="809891506" Language="SFX">
+					<ShortName>static_A-008.wav</ShortName>
+					<Path>SFX\static_A-008_6296B0F9.wem</Path>
+				</File>
+				<File Id="811231497" Language="SFX">
+					<ShortName>static_loop.wav</ShortName>
+					<Path>SFX\static_loop_9B96ECC7.wem</Path>
+				</File>
+				<File Id="826166415" Language="SFX">
+					<ShortName>caster_thomas-002.wav</ShortName>
+					<Path>SFX\caster_thomas-002_9B96ECC7.wem</Path>
+				</File>
+				<File Id="858147685" Language="SFX">
+					<ShortName>static_A-009.wav</ShortName>
+					<Path>SFX\static_A-009_6296B0F9.wem</Path>
 				</File>
 				<File Id="878141750" Language="SFX">
 					<ShortName>static_FX-007.wav</ShortName>
@@ -139,13 +331,53 @@
 					<ShortName>head-games.wav</ShortName>
 					<Path>SFX\head-games_9B96ECC7.wem</Path>
 				</File>
-				<File Id="906475637" Language="SFX">
-					<ShortName>caster03.wav</ShortName>
-					<Path>SFX\caster03_9B96ECC7.wem</Path>
+				<File Id="896417277" Language="SFX">
+					<ShortName>caster_simon-009.wav</ShortName>
+					<Path>SFX\caster_simon-009_9B96ECC7.wem</Path>
 				</File>
-				<File Id="929187640" Language="SFX">
-					<ShortName>caster06.wav</ShortName>
-					<Path>SFX\caster06_9B96ECC7.wem</Path>
+				<File Id="901753670" Language="SFX">
+					<ShortName>static_E-001.wav</ShortName>
+					<Path>SFX\static_E-001_6296B0F9.wem</Path>
+				</File>
+				<File Id="911410451" Language="SFX">
+					<ShortName>static_B-008.wav</ShortName>
+					<Path>SFX\static_B-008_6296B0F9.wem</Path>
+				</File>
+				<File Id="915273234" Language="SFX">
+					<ShortName>caster_louis-003.wav</ShortName>
+					<Path>SFX\caster_louis-003_9B96ECC7.wem</Path>
+				</File>
+				<File Id="917338709" Language="SFX">
+					<ShortName>caster_thomas-001.wav</ShortName>
+					<Path>SFX\caster_thomas-001_9B96ECC7.wem</Path>
+				</File>
+				<File Id="919251776" Language="SFX">
+					<ShortName>static_B-005.wav</ShortName>
+					<Path>SFX\static_B-005_6296B0F9.wem</Path>
+				</File>
+				<File Id="922912415" Language="SFX">
+					<ShortName>caster_louis-005.wav</ShortName>
+					<Path>SFX\caster_louis-005_9B96ECC7.wem</Path>
+				</File>
+				<File Id="930064935" Language="SFX">
+					<ShortName>static_A-005.wav</ShortName>
+					<Path>SFX\static_A-005_6296B0F9.wem</Path>
+				</File>
+				<File Id="948807393" Language="SFX">
+					<ShortName>caster_thomas-003.wav</ShortName>
+					<Path>SFX\caster_thomas-003_9B96ECC7.wem</Path>
+				</File>
+				<File Id="951693898" Language="SFX">
+					<ShortName>caster_simon-002.wav</ShortName>
+					<Path>SFX\caster_simon-002_9B96ECC7.wem</Path>
+				</File>
+				<File Id="962603947" Language="SFX">
+					<ShortName>caster_simon-006.wav</ShortName>
+					<Path>SFX\caster_simon-006_9B96ECC7.wem</Path>
+				</File>
+				<File Id="968511723" Language="SFX">
+					<ShortName>static_E-004.wav</ShortName>
+					<Path>SFX\static_E-004_6296B0F9.wem</Path>
 				</File>
 				<File Id="975757049" Language="SFX">
 					<ShortName>crash-twinsanity-ost-nsanity-island.wav</ShortName>
@@ -159,9 +391,33 @@
 					<ShortName>static_FX-006.wav</ShortName>
 					<Path>SFX\static_FX-006_6296B0F9.wem</Path>
 				</File>
+				<File Id="1032026152" Language="SFX">
+					<ShortName>static_E-008.wav</ShortName>
+					<Path>SFX\static_E-008_6296B0F9.wem</Path>
+				</File>
+				<File Id="1035971210" Language="SFX">
+					<ShortName>static_D-009.wav</ShortName>
+					<Path>SFX\static_D-009_6296B0F9.wem</Path>
+				</File>
+				<File Id="1053033439" Language="SFX">
+					<ShortName>static_B-007.wav</ShortName>
+					<Path>SFX\static_B-007_6296B0F9.wem</Path>
+				</File>
+				<File Id="1053344360" Language="SFX">
+					<ShortName>caster_thomas-010.wav</ShortName>
+					<Path>SFX\caster_thomas-010_9B96ECC7.wem</Path>
+				</File>
 				<File Id="1057994481" Language="SFX">
 					<ShortName>locoroco-yellows-theme.wav</ShortName>
 					<Path>SFX\locoroco-yellows-theme_9B96ECC7.wem</Path>
+				</File>
+				<File Id="1070462140" Language="SFX">
+					<ShortName>static_B-002.wav</ShortName>
+					<Path>SFX\static_B-002_6296B0F9.wem</Path>
+				</File>
+				<File Id="1073651919" Language="SFX">
+					<ShortName>static_B-006.wav</ShortName>
+					<Path>SFX\static_B-006_6296B0F9.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

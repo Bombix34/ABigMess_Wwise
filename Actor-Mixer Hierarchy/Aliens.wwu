@@ -7,7 +7,7 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<RandomSequenceContainer Name="alien_voice" ID="{4964C517-B66B-472A-83D2-376546B2E4AA}" ShortID="1058288268">
+				<RandomSequenceContainer Name="Alien_voices" ID="{4964C517-B66B-472A-83D2-376546B2E4AA}" ShortID="1058288268">
 					<PropertyList>
 						<Property Name="Pitch" Type="int32">
 							<ModifierList>

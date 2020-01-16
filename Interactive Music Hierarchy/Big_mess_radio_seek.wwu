@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1AA1F150-7E22-41FA-85F8-8B592C81F9A7}" SchemaVersion="94">
+	<InteractiveMusic>
+		<WorkUnit Name="Big_mess_radio_seek" ID="{1AA1F150-7E22-41FA-85F8-8B592C81F9A7}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="1"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

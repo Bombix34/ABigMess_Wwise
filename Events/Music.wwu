@@ -32,7 +32,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="static_FX" ID="{37B03DD7-998B-4DC0-93B6-9A9CA3C403E8}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+											<ObjectRef Name="Radio_static_SFX" ID="{07A5BCF5-AF9E-4F1B-A7A4-B58658B5F20E}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -56,7 +56,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="static_FX" ID="{37B03DD7-998B-4DC0-93B6-9A9CA3C403E8}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+											<ObjectRef Name="Radio_static_SFX" ID="{07A5BCF5-AF9E-4F1B-A7A4-B58658B5F20E}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -98,7 +98,7 @@
 								<Action Name="" ID="{C2CE2BC4-7B33-4317-BAF2-5B1706C3F087}" ShortID="657492138">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="static_loop" ID="{2C6764D8-9861-4FEF-B471-23D912C3A55A}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+											<ObjectRef Name="Radio_static_loop" ID="{2C6764D8-9861-4FEF-B471-23D912C3A55A}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -109,11 +109,19 @@
 								<Action Name="" ID="{57038264-CDAE-42E6-99B2-EE719532691E}" ShortID="98104700">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="7"/>
-										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Game_music_loop" ID="{22C8CFB4-89CE-43A0-BA3B-AACA8F79F926}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6D0C558B-E502-4578-B195-5152806547AD}" ShortID="627696387">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="radio_on_SFX" ID="{45C5F531-5018-4285-A70D-A126ABA4AEA6}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -138,6 +146,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{BB6F524F-B73F-4F61-B384-FA428996F30D}" ShortID="359223502">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Radio_static_loop" ID="{2C6764D8-9861-4FEF-B471-23D912C3A55A}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_radio_station03" ID="{F9473941-F401-458A-BFD3-11FB4DA57DA9}">
@@ -148,7 +163,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="static_FX" ID="{37B03DD7-998B-4DC0-93B6-9A9CA3C403E8}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+											<ObjectRef Name="Radio_static_SFX" ID="{07A5BCF5-AF9E-4F1B-A7A4-B58658B5F20E}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -169,12 +184,21 @@
 								<Action Name="" ID="{A40C8785-F2E9-455D-99BA-C7BE1F40DD9A}" ShortID="225713225">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="FadeOutCurve" Type="int16" Value="5"/>
-										<Property Name="FadeTime" Type="Real64" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="radio_stations" ID="{3971394F-2284-4E8A-9793-7B0CE29724B8}" WorkUnitID="{3E3F6E08-64EB-4580-BE11-18D5A6AC837F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{00BF68FA-5EC3-422C-8F86-D762195C4BD2}" ShortID="219640165">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="radio_off_SFX" ID="{D72FEDA0-8D7A-4610-AF97-A788D32EAF3E}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -186,6 +210,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Game_music_loop" ID="{22C8CFB4-89CE-43A0-BA3B-AACA8F79F926}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EF5E0693-B825-443E-8337-E3C54EFD191C}" ShortID="1054203331">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Radio_static_loop" ID="{2C6764D8-9861-4FEF-B471-23D912C3A55A}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

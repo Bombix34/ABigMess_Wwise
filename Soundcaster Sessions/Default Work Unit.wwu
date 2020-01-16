@@ -81,11 +81,11 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="station_number" ID="{18B56F93-B354-4F21-B4B0-9E20A7521F92}"/>
-							<Value>51</Value>
+							<Value>65.972972972973</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Game" ID="{A62F08FC-DE7B-4529-BB98-E2311170D23A}"/>
+						<CurrentStateRef Name="Pause" ID="{C00D3474-6136-4218-821A-D00444EAE25A}"/>
 						<CurrentStateRef Name="station01" ID="{224CAD59-8E51-4253-9E07-D5751313F204}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
