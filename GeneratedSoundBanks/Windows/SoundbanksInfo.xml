@@ -87,14 +87,6 @@
 					<ShortName>caster_louis-004.wav</ShortName>
 					<Path>SFX\caster_louis-004_9B96ECC7.wem</Path>
 				</File>
-				<File Id="83533862" Language="SFX">
-					<ShortName>fanfare.wav</ShortName>
-					<Path>SFX\fanfare_9B96ECC7.wem</Path>
-				</File>
-				<File Id="86833560" Language="SFX">
-					<ShortName>rayman-origins-ost-desert-of-dijiridoos-shooting-me-softly.wav</ShortName>
-					<Path>SFX\rayman-origins-ost-desert-of-dijiridoos-shooting-me-softly_9B96ECC7.wem</Path>
-				</File>
 				<File Id="137702736" Language="SFX">
 					<ShortName>static_C-003.wav</ShortName>
 					<Path>SFX\static_C-003_6296B0F9.wem</Path>
@@ -203,10 +195,6 @@
 					<ShortName>static_E-009.wav</ShortName>
 					<Path>SFX\static_E-009_6296B0F9.wem</Path>
 				</File>
-				<File Id="491892643" Language="SFX">
-					<ShortName>stage-clear-part-time-ufo-soundtrack.wav</ShortName>
-					<Path>SFX\stage-clear-part-time-ufo-soundtrack_9B96ECC7.wem</Path>
-				</File>
 				<File Id="496624674" Language="SFX">
 					<ShortName>caster_thomas-009.wav</ShortName>
 					<Path>SFX\caster_thomas-009_9B96ECC7.wem</Path>
@@ -222,6 +210,10 @@
 				<File Id="573295939" Language="SFX">
 					<ShortName>static_A-003.wav</ShortName>
 					<Path>SFX\static_A-003_6296B0F9.wem</Path>
+				</File>
+				<File Id="582749892" Language="SFX">
+					<ShortName>ABM_musique_loop_test.wav</ShortName>
+					<Path>SFX\ABM_musique_loop_test_9B96ECC7.wem</Path>
 				</File>
 				<File Id="583913353" Language="SFX">
 					<ShortName>caster_thomas-005.wav</ShortName>
@@ -275,10 +267,6 @@
 					<ShortName>static_C-007.wav</ShortName>
 					<Path>SFX\static_C-007_6296B0F9.wem</Path>
 				</File>
-				<File Id="689098952" Language="SFX">
-					<ShortName>rayman-origins-ost-world-map-sea-of-serendipity.wav</ShortName>
-					<Path>SFX\rayman-origins-ost-world-map-sea-of-serendipity_9B96ECC7.wem</Path>
-				</File>
 				<File Id="701277267" Language="SFX">
 					<ShortName>static_FX-004.wav</ShortName>
 					<Path>SFX\static_FX-004_6296B0F9.wem</Path>
@@ -326,10 +314,6 @@
 				<File Id="878141750" Language="SFX">
 					<ShortName>static_FX-007.wav</ShortName>
 					<Path>SFX\static_FX-007_6296B0F9.wem</Path>
-				</File>
-				<File Id="878270383" Language="SFX">
-					<ShortName>head-games.wav</ShortName>
-					<Path>SFX\head-games_9B96ECC7.wem</Path>
 				</File>
 				<File Id="896417277" Language="SFX">
 					<ShortName>caster_simon-009.wav</ShortName>
@@ -379,10 +363,6 @@
 					<ShortName>static_E-004.wav</ShortName>
 					<Path>SFX\static_E-004_6296B0F9.wem</Path>
 				</File>
-				<File Id="975757049" Language="SFX">
-					<ShortName>crash-twinsanity-ost-nsanity-island.wav</ShortName>
-					<Path>SFX\crash-twinsanity-ost-nsanity-island_9B96ECC7.wem</Path>
-				</File>
 				<File Id="1002832952" Language="SFX">
 					<ShortName>static_FX-005.wav</ShortName>
 					<Path>SFX\static_FX-005_6296B0F9.wem</Path>
@@ -406,10 +386,6 @@
 				<File Id="1053344360" Language="SFX">
 					<ShortName>caster_thomas-010.wav</ShortName>
 					<Path>SFX\caster_thomas-010_9B96ECC7.wem</Path>
-				</File>
-				<File Id="1057994481" Language="SFX">
-					<ShortName>locoroco-yellows-theme.wav</ShortName>
-					<Path>SFX\locoroco-yellows-theme_9B96ECC7.wem</Path>
 				</File>
 				<File Id="1070462140" Language="SFX">
 					<ShortName>static_B-002.wav</ShortName>
