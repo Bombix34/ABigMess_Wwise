@@ -9,74 +9,102 @@
 							<ObjectRef Name="System" ID="{CC0D9ECA-F9AA-44BB-A947-92D4A6519FAC}" WorkUnitID="{B749F1AB-BEFC-4A04-81AE-A752DDDA118E}"/>
 						</Reference>
 					</ReferenceList>
-				</Bus>
-				<Bus Name="Radio" ID="{002AAD78-64B8-4CF7-94F2-AD8FC3A25898}">
-					<PropertyList>
-						<Property Name="Highpass" Type="int16">
-							<ValueList>
-								<Value>40</Value>
-							</ValueList>
-						</Property>
-						<Property Name="Lowpass" Type="int16">
-							<ValueList>
-								<Value>35</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="AudioDevice">
-							<ObjectRef Name="System" ID="{CC0D9ECA-F9AA-44BB-A947-92D4A6519FAC}" WorkUnitID="{B749F1AB-BEFC-4A04-81AE-A752DDDA118E}"/>
-						</Reference>
-					</ReferenceList>
-					<StateInfo>
-						<StateGroupList>
-							<StateGroupInfo>
-								<StateGroupRef Name="Pause_effect" ID="{0A8DF4DA-430B-47FE-B79B-AD54B32267E2}"/>
-							</StateGroupInfo>
-						</StateGroupList>
-						<CustomStateList>
-							<CustomState>
-								<StateRef Name="Pause" ID="{C00D3474-6136-4218-821A-D00444EAE25A}"/>
-								<CustomState Name="" ID="{60CB1A7F-09E5-4B7E-96DD-65994AB9D34C}" ShortID="204137773">
-									<PropertyList>
-										<Property Name="Lowpass" Type="int16" Value="20"/>
-									</PropertyList>
-								</CustomState>
-							</CustomState>
-							<CustomState>
-								<StateRef Name="Game" ID="{A62F08FC-DE7B-4529-BB98-E2311170D23A}"/>
-								<CustomState Name="" ID="{31818DD1-0FEE-4171-A424-36B1183FABAF}" ShortID="827249288"/>
-							</CustomState>
-						</CustomStateList>
-					</StateInfo>
-				</Bus>
-				<Bus Name="Musique" ID="{B2A75BED-1A93-4E68-AF11-AFE341C18899}">
-					<ReferenceList>
-						<Reference Name="AudioDevice">
-							<ObjectRef Name="System" ID="{CC0D9ECA-F9AA-44BB-A947-92D4A6519FAC}" WorkUnitID="{B749F1AB-BEFC-4A04-81AE-A752DDDA118E}"/>
-						</Reference>
-					</ReferenceList>
-					<StateInfo>
-						<StateGroupList>
-							<StateGroupInfo>
-								<StateGroupRef Name="Pause_effect" ID="{0A8DF4DA-430B-47FE-B79B-AD54B32267E2}"/>
-							</StateGroupInfo>
-						</StateGroupList>
-						<CustomStateList>
-							<CustomState>
-								<StateRef Name="Pause" ID="{C00D3474-6136-4218-821A-D00444EAE25A}"/>
-								<CustomState Name="" ID="{5890DEDE-A611-424F-89B7-93CAAF0459C8}" ShortID="394893964">
-									<PropertyList>
-										<Property Name="Lowpass" Type="int16" Value="50"/>
-									</PropertyList>
-								</CustomState>
-							</CustomState>
-							<CustomState>
-								<StateRef Name="Game" ID="{A62F08FC-DE7B-4529-BB98-E2311170D23A}"/>
-								<CustomState Name="" ID="{65ED4436-2796-4570-B875-6810A68EF8AD}" ShortID="429736247"/>
-							</CustomState>
-						</CustomStateList>
-					</StateInfo>
+					<ChildrenList>
+						<Bus Name="AMB_outside" ID="{C9D88EDA-B14D-4849-85E0-ACCBFD58F713}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+						<Bus Name="AMB_inside_big room" ID="{62C77627-DCD5-49CE-A632-B26E62E4BE00}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Room_Large" ID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+						<Bus Name="AMB_inside_small_room" ID="{3616652B-C4CC-4307-88FC-DB9B78692A0C}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+						<Bus Name="AMB_inside_bathroom" ID="{920A7BBF-1733-4DCD-8124-085137643AEA}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="My_Closet" ID="{384A82A1-3C92-4AC5-AFC2-474F2080642C}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+						<Bus Name="Music" ID="{0B2B87C3-6E77-44E2-A237-F29AC88D37E9}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>12546</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{94BFBF7A-D298-4615-8FB4-4F788B50B660}" ShortID="783699031">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="DuckingRadio" ID="{5C1324F6-9B70-4751-A8F4-3C19699E878A}" WorkUnitID="{CA8B1150-3176-4D1F-8C36-B826BEB145D9}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{55BB0CFB-3559-4300-9FF4-D33582187095}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-96</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-50</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-6</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="Radio" ID="{359A0AA9-EBF8-49D1-8409-CDD56BACF620}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>12546</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+									<ObjectRef Name="ducking_meter" ID="{363B40A4-EFE0-4773-B2CC-3654A1AEF640}" WorkUnitID="{CBA2F683-3B43-4305-997A-EC23F55DD8D3}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+						<Bus Name="SFX" ID="{ABD1C598-9F5C-40DA-A6A1-1FC0555479DB}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>12546</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

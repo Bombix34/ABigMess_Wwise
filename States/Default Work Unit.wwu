@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<StateGroup Name="radio_station" ID="{FF6C2553-42C9-488F-87C8-6B2273CD6023}">
 					<PropertyList>
-						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="Color" Type="int16" Value="20"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
@@ -38,27 +38,6 @@
 							<StartState Name="off" ID="{9F66F3FA-E79A-403D-B498-6B76A5FC3826}"/>
 							<EndState Name="station01" ID="{224CAD59-8E51-4253-9E07-D5751313F204}"/>
 							<Time>1</Time>
-							<IsShared>false</IsShared>
-						</Transition>
-					</TransitionList>
-				</StateGroup>
-				<StateGroup Name="Pause_effect" ID="{0A8DF4DA-430B-47FE-B79B-AD54B32267E2}">
-					<ChildrenList>
-						<State Name="None" ID="{867E3CBC-61DB-4396-A412-AF29259F9686}"/>
-						<State Name="Game" ID="{A62F08FC-DE7B-4529-BB98-E2311170D23A}"/>
-						<State Name="Pause" ID="{C00D3474-6136-4218-821A-D00444EAE25A}"/>
-					</ChildrenList>
-					<TransitionList>
-						<Transition>
-							<StartState Name="Game" ID="{A62F08FC-DE7B-4529-BB98-E2311170D23A}"/>
-							<EndState Name="Pause" ID="{C00D3474-6136-4218-821A-D00444EAE25A}"/>
-							<Time>0.5</Time>
-							<IsShared>false</IsShared>
-						</Transition>
-						<Transition>
-							<StartState Name="Pause" ID="{C00D3474-6136-4218-821A-D00444EAE25A}"/>
-							<EndState Name="Game" ID="{A62F08FC-DE7B-4529-BB98-E2311170D23A}"/>
-							<Time>0.5</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 					</TransitionList>

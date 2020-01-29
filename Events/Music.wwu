@@ -3,21 +3,6 @@
 	<Events>
 		<WorkUnit Name="Music" ID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_musique_test" ID="{734EC896-256C-4D2C-B841-A79C047DA1BF}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="17"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{5A29231F-BBB4-4D02-817C-2486A835D93B}" ShortID="1009134202">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Game_music_loop" ID="{22C8CFB4-89CE-43A0-BA3B-AACA8F79F926}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="Radio" ID="{05B9AD2F-743F-45E3-A854-392ADFB78F8B}" ShortID="576315104">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="23"/>
@@ -72,52 +57,8 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_radio_RTPC" ID="{62006873-7081-4BCA-8712-87961C3EC7D3}">
-							<ChildrenList>
-								<Action Name="" ID="{DA3A5DDE-BE83-43F1-8CAB-C6FBCAF7368C}" ShortID="1023649129">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="station01" ID="{B5F311CC-A1DA-4DD3-8C06-55874F9840A2}" WorkUnitID="{9870A5E5-D1A3-4B08-B30B-CB292CBB3611}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{F31BEFE0-C223-4777-B6C9-E51EE5882259}" ShortID="475652201">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="station02" ID="{5A3CAFFA-4954-4790-93FD-350F86CE5924}" WorkUnitID="{9870A5E5-D1A3-4B08-B30B-CB292CBB3611}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{F667A72C-30E3-433B-B203-A8D487A2E844}" ShortID="621108606">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="station03" ID="{2E7A75B1-9343-43E1-A30A-20CB7D1F94D0}" WorkUnitID="{9870A5E5-D1A3-4B08-B30B-CB292CBB3611}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{C2CE2BC4-7B33-4317-BAF2-5B1706C3F087}" ShortID="657492138">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Radio_static_loop" ID="{2C6764D8-9861-4FEF-B471-23D912C3A55A}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Play_radio_state" ID="{C69021BC-5329-450E-9445-54DD7922E855}">
 							<ChildrenList>
-								<Action Name="" ID="{57038264-CDAE-42E6-99B2-EE719532691E}" ShortID="98104700">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="7"/>
-										<Property Name="FadeOutCurve" Type="int16" Value="5"/>
-										<Property Name="FadeTime" Type="Real64" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Game_music_loop" ID="{22C8CFB4-89CE-43A0-BA3B-AACA8F79F926}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{6D0C558B-E502-4578-B195-5152806547AD}" ShortID="627696387">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -202,17 +143,6 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{74A239F5-BD8C-45CB-AACF-5D4139CCD92F}" ShortID="226748742">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="9"/>
-										<Property Name="Delay" Type="Real64" Value="0.5"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Game_music_loop" ID="{22C8CFB4-89CE-43A0-BA3B-AACA8F79F926}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{EF5E0693-B825-443E-8337-E3C54EFD191C}" ShortID="1054203331">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
@@ -227,6 +157,87 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_music_noon" ID="{94391AED-285B-4E7B-B919-F56FCE9D964F}">
+					<ChildrenList>
+						<Action Name="" ID="{3FDEFD5F-5753-41D4-8F73-D179DB4A9EAE}" ShortID="817403857">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_noon" ID="{00477B28-5AC5-48B7-82D4-303327E7BEBC}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_switch_noon_music01" ID="{D60BC985-F8BE-43DD-9537-6E7B2ADC16D6}">
+					<ChildrenList>
+						<Action Name="" ID="{2760C819-98FF-4725-923F-D2DEB8AE83E5}" ShortID="957090792">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="step01" ID="{81FBFD2D-DC6D-4DA7-A107-BD1F6835D488}" WorkUnitID="{39D19524-7271-44A6-9A60-DC120BD78572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_switch_noon_music02" ID="{0436B0B5-0334-4897-BF06-B88FE08D7D08}">
+					<ChildrenList>
+						<Action Name="" ID="{0A5830F4-CB25-4632-A413-DA34060CC396}" ShortID="368330125">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="step02" ID="{258203A6-F24A-4697-856C-A5E650A56744}" WorkUnitID="{39D19524-7271-44A6-9A60-DC120BD78572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_switch_noon_music03" ID="{45BB173E-B305-4A0F-AACA-B232F993E800}">
+					<ChildrenList>
+						<Action Name="" ID="{B7A142F9-7B3F-4DDB-A8ED-31B456D21AC5}" ShortID="40389162">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="step03" ID="{F171E910-5C43-4D98-9F89-FAA937811531}" WorkUnitID="{39D19524-7271-44A6-9A60-DC120BD78572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_switch_noon_music04" ID="{12F18D75-8384-4722-9D0D-11FD34EBBFE7}">
+					<ChildrenList>
+						<Action Name="" ID="{FF52FC6D-F3B4-495F-9225-06BB4B16DEAF}" ShortID="563613212">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="step04" ID="{42D84322-F10F-43FB-8A19-E03BAF2A2431}" WorkUnitID="{39D19524-7271-44A6-9A60-DC120BD78572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_switch_noon_music05" ID="{1D48D706-EFA6-44FB-964B-7960C6659E34}">
+					<ChildrenList>
+						<Action Name="" ID="{B748AC44-9E7F-44CA-A9FB-0FA86255EE86}" ShortID="401029320">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="step05" ID="{1893DEAB-E3B2-4448-B908-C6472046F201}" WorkUnitID="{39D19524-7271-44A6-9A60-DC120BD78572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

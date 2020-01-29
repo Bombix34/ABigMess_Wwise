@@ -3,38 +3,34 @@
 	<SoundcasterSessions>
 		<WorkUnit Name="Default Work Unit" ID="{25E05E3B-DE62-484B-98E6-A0F8C25255F8}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundcasterSession Name="TEST" ID="{107AA4EF-C5BC-4FF1-874F-2074DF3A4F05}">
+				<SoundcasterSession Name="Bigmess_Soundcaster" ID="{107AA4EF-C5BC-4FF1-874F-2074DF3A4F05}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_musique_test" ID="{734EC896-256C-4D2C-B841-A79C047DA1BF}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<ObjectRef Name="Play_radio_state" ID="{C69021BC-5329-450E-9445-54DD7922E855}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_alien_voice" ID="{4FCD13C7-7A03-4ED7-A9B6-96953C383FF9}" WorkUnitID="{A4190B2E-A333-4D38-B419-1777C4D33194}"/>
+							<ObjectRef Name="Play_music_noon" ID="{94391AED-285B-4E7B-B919-F56FCE9D964F}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_radio_state" ID="{C69021BC-5329-450E-9445-54DD7922E855}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<ObjectRef Name="Play_radio_station01" ID="{AAF6059A-BBFC-4D8C-95B9-74706C26F164}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_radio_RTPC" ID="{62006873-7081-4BCA-8712-87961C3EC7D3}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<ObjectRef Name="Play_radio_station02" ID="{82037048-984C-4D4B-AF0B-F79AE7716640}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_radio_station01" ID="{AAF6059A-BBFC-4D8C-95B9-74706C26F164}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
-							<Position X="2" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_radio_station02" ID="{82037048-984C-4D4B-AF0B-F79AE7716640}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
-							<Position X="2" Y="1"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Play_radio_station03" ID="{F9473941-F401-458A-BFD3-11FB4DA57DA9}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
-							<Position X="2" Y="2"/>
+							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Stop_radio_stations" ID="{FC4B2B9F-4F5B-44BE-B131-2ED44AAB8135}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_alien_voice" ID="{4FCD13C7-7A03-4ED7-A9B6-96953C383FF9}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 					</ModuleList>
@@ -64,6 +60,10 @@
 							<Value>75</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="DuckingRadio" ID="{5C1324F6-9B70-4751-A8F4-3C19699E878A}"/>
+							<Value>-96</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
 							<Value>75</Value>
 						</RTPCValue>
@@ -79,16 +79,13 @@
 							<GameParameterRef Name="SS_Air_Fear" ID="{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"/>
 							<Value>50</Value>
 						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="station_number" ID="{18B56F93-B354-4F21-B4B0-9E20A7521F92}"/>
-							<Value>65.972972972973</Value>
-						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Pause" ID="{C00D3474-6136-4218-821A-D00444EAE25A}"/>
 						<CurrentStateRef Name="station01" ID="{224CAD59-8E51-4253-9E07-D5751313F204}"/>
 					</CurrentStateList>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="step04" ID="{42D84322-F10F-43FB-8A19-E03BAF2A2431}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>

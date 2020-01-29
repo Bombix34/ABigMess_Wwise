@@ -3,7 +3,13 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{CA8B1150-3176-4D1F-8C36-B826BEB145D9}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="station_number" ID="{18B56F93-B354-4F21-B4B0-9E20A7521F92}"/>
+				<GameParameter Name="DuckingRadio" ID="{5C1324F6-9B70-4751-A8F4-3C19699E878A}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-96"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-96"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

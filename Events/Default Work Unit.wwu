@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A4190B2E-A333-4D38-B419-1777C4D33194}" SchemaVersion="94">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{A4190B2E-A333-4D38-B419-1777C4D33194}" PersistMode="Standalone">
-			<ChildrenList>
-				<Event Name="Play_alien_voice" ID="{4FCD13C7-7A03-4ED7-A9B6-96953C383FF9}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="15"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{B9620B25-0D48-4DF7-B4AC-F3C58F7BEA9F}" ShortID="592324563">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Alien_voices" ID="{4964C517-B66B-472A-83D2-376546B2E4AA}" WorkUnitID="{16BE9146-BEBB-4DAD-8772-0701FD0F59B3}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{A4190B2E-A333-4D38-B419-1777C4D33194}" PersistMode="Standalone"/>
 	</Events>
 </WwiseDocument>

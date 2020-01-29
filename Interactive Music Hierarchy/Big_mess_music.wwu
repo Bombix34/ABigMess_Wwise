@@ -3,33 +3,24 @@
 	<InteractiveMusic>
 		<WorkUnit Name="Big_mess_music" ID="{7902C96D-87D1-4577-A770-D40E5DAE7920}" PersistMode="Standalone">
 			<PropertyList>
-				<Property Name="Color" Type="int16" Value="17"/>
+				<Property Name="Color" Type="int16" Value="10"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<MusicPlaylistContainer Name="Game_music_loop" ID="{22C8CFB4-89CE-43A0-BA3B-AACA8F79F926}" ShortID="676735542">
+				<MusicSwitchContainer Name="Music_noon" ID="{00477B28-5AC5-48B7-82D4-303327E7BEBC}" ShortID="396311780">
 					<PropertyList>
-						<Property Name="Color" Type="int16" Value="17"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="Tempo" Type="Real64" Value="110"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Musique" ID="{B2A75BED-1A93-4E68-AF11-AFE341C18899}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+							<ObjectRef Name="Music" ID="{0B2B87C3-6E77-44E2-A237-F29AC88D37E9}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicSegment Name="Loop01" ID="{FB3427EC-1BE1-45FE-96B6-307C11ACF8EE}" ShortID="652196864">
-							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="24000"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-23</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<MusicPlaylistContainer Name="music_noon_step01" ID="{47180887-2B1A-4696-9FB7-41CEC2E97882}" ShortID="118498032">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
@@ -39,87 +30,1263 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="ABM_musique_loop_test" ID="{BB1EDF29-A4AC-4979-BC94-4C8A2EA74BD6}" ShortID="105915125">
+								<MusicSegment Name="200124_BigMess_NoonGameplay_Intro_master" ID="{6C1D2CD2-262E-4EE7-8738-8F9AE5F2EFE4}" ShortID="979657566">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="17454.5416666667"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ABM_musique_loop_test" ID="{1A96A4F0-DF97-413C-8F31-BB88DA9FFA42}" ShortID="582749892">
-											<Language>SFX</Language>
-											<AudioFile>ABM_musique_loop_test.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{4C3937A7-ED7C-403B-8609-203199642883}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
+										<MusicTrack Name="200124_BigMess_NoonGameplay_Intro_master" ID="{53E451E8-612D-4271-9DE0-2E1FA7F7D755}" ShortID="241598315">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
 											<ChildrenList>
-												<MusicTransition Name="Transition" ID="{11D0302E-3BB4-4AFB-A13A-64F5AE8A8F48}">
+												<AudioFileSource Name="200124_BigMess_NoonGameplay_Intro_master" ID="{8DAA16E8-69E8-4F78-A76B-095DDAAF0967}" ShortID="566569107">
+													<Language>SFX</Language>
+													<AudioFile>200124_BigMess_NoonGameplay_Intro_master.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{65BBC725-A5FE-4EC2-9754-607F588D2592}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
 													<TransitionInfo/>
 												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{C02D191B-2707-41E9-AA32-F46E581334A2}">
+													<ClipList>
+														<MusicClip Name="200124_BigMess_NoonGameplay_Intro_master" ID="{6D5C8C0C-62CE-4387-9AB4-44C97F47645A}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="17454.5416666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="200124_BigMess_NoonGameplay_Intro_master" ID="{8DAA16E8-69E8-4F78-A76B-095DDAAF0967}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{2B633DBB-2CF4-4EFE-A2F8-5A4288B17433}"/>
+										<MusicCue Name="Exit Cue" ID="{3A23CA55-F916-4220-8B5D-17D7EE2670C4}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="17454.5416666667"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="200124_BigMess_NoonGameplay_Step01_master" ID="{11C906F7-0CBC-4C8E-8A7D-37A4B7892C72}" ShortID="216024325">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="17454.5416666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="200124_BigMess_NoonGameplay_Step01_master" ID="{8ED8243B-4571-442D-B6FE-622A0096D414}" ShortID="602724929">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="200124_BigMess_NoonGameplay_Step01_master" ID="{9485070D-7C12-4725-BE2D-87F07FA2917C}" ShortID="910748961">
+													<Language>SFX</Language>
+													<AudioFile>200124_BigMess_NoonGameplay_Step01_master.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E4EE5C4D-059C-4D70-816E-32DB65FFC5E4}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{553C4B45-95C4-4EF4-BC1B-DD2A79512B18}">
+													<ClipList>
+														<MusicClip Name="200124_BigMess_NoonGameplay_Step01_master" ID="{58E4341B-6159-4102-89C8-C474A217E7D9}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="17454.5416666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="200124_BigMess_NoonGameplay_Step01_master" ID="{9485070D-7C12-4725-BE2D-87F07FA2917C}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{B54E7C03-C9AF-4195-BFB0-CF778847AAC6}"/>
+										<MusicCue Name="Exit Cue" ID="{9B919572-9E64-464E-BCD2-759E8CF794C6}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="17454.5416666667"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{01CF1275-FE60-4FA2-A8A4-1532094D1885}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{3AF408F5-3158-430F-8ADB-391F21F01E5E}">
 											<TransitionInfo/>
 										</MusicTransition>
-									</TransitionList>
-									<SequenceList>
-										<MusicTrackSequence Name="" ID="{C9E6BE98-23E9-4A32-80EA-DDE5F41E5117}">
-											<ClipList>
-												<MusicClip Name="ABM_musique_loop_test" ID="{99D15979-6F04-4381-8780-AC338E87B813}">
-													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="17000"/>
-														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
-													</PropertyList>
-													<AudioSourceRef Name="ABM_musique_loop_test" ID="{1A96A4F0-DF97-413C-8F31-BB88DA9FFA42}"/>
-												</MusicClip>
-											</ClipList>
-										</MusicTrackSequence>
-									</SequenceList>
-								</MusicTrack>
-							</ChildrenList>
-							<CueList>
-								<MusicCue Name="Entry Cue" ID="{D93300DC-DF0F-4FD5-B7A2-33A23C4C38C1}"/>
-								<MusicCue Name="Exit Cue" ID="{E3E3EA10-00E1-4F4C-B91B-5D1384AB16CD}">
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{444FB3E8-0C8F-4913-B817-0D8C9E87EF8A}" ShortID="504909903">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{9292A9A7-0B4A-4930-9A2F-91D655D8B364}" ShortID="536783096">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="200124_BigMess_NoonGameplay_Intro_master" ID="{6C1D2CD2-262E-4EE7-8738-8F9AE5F2EFE4}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{EB992905-B89D-4BDD-8F67-70677F9BDB55}" ShortID="1010922733">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="200124_BigMess_NoonGameplay_Step01_master" ID="{11C906F7-0CBC-4C8E-8A7D-37A4B7892C72}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="music_noon_step02" ID="{33E38AD3-3E48-42CE-A20B-BDB61B36DE49}" ShortID="530987988">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="200124_BigMess_NoonGameplay_Step02_master" ID="{98FAAF52-F254-4FB4-8BCA-310F8DBC1F4B}" ShortID="127757675">
 									<PropertyList>
-										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="16965.7947686117"/>
+										<Property Name="EndPosition" Type="Real64" Value="17454.5416666667"/>
 									</PropertyList>
-								</MusicCue>
-							</CueList>
-						</MusicSegment>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="200124_BigMess_NoonGameplay_Step02_master" ID="{7C8C556F-FEA2-4D35-B75F-F71801EA932F}" ShortID="861036809">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="200124_BigMess_NoonGameplay_Step02_master" ID="{B1AC8683-6FD7-4235-B555-7189E4B8B304}" ShortID="773636092">
+													<Language>SFX</Language>
+													<AudioFile>200124_BigMess_NoonGameplay_Step02_master.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{09E86459-E5E8-40F1-A26C-AB98EA6C8F79}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{85E3DF75-272B-4B4C-80E4-D53D774510AF}">
+													<ClipList>
+														<MusicClip Name="200124_BigMess_NoonGameplay_Step02_master" ID="{1A180676-0A89-4A00-992F-6F15A59822B4}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="17454.5416666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="200124_BigMess_NoonGameplay_Step02_master" ID="{B1AC8683-6FD7-4235-B555-7189E4B8B304}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{48648AB7-EC7C-4087-A485-2FEF2A9ABB26}"/>
+										<MusicCue Name="Exit Cue" ID="{F3DE6F92-172A-45EF-BA95-68D0E7AC3C75}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="17454.5416666667"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{2F39E603-2A6B-488A-812A-99CDB8287C9E}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{82159493-38F4-4D1A-9A66-89184419F1AF}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{BB4ACFB5-FC52-435F-80E4-9D2C78F47803}" ShortID="507901065">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{34445F1F-73EE-41E5-AF56-B22BB0E8579C}" ShortID="970175269">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="200124_BigMess_NoonGameplay_Step02_master" ID="{98FAAF52-F254-4FB4-8BCA-310F8DBC1F4B}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="music_noon_step03" ID="{9F05759D-45E3-4065-981F-0AEC4557241D}" ShortID="999565922">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="200124_BigMess_NoonGameplay_Step03_master" ID="{93AB6330-65D6-4A1F-89E0-319F45B3DE60}" ShortID="123775560">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="17454.5416666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="200124_BigMess_NoonGameplay_Step03_master" ID="{C532B3EC-90C5-4E29-B1AC-BE00FAE97B0E}" ShortID="642484885">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="200124_BigMess_NoonGameplay_Step03_master" ID="{76F7B1EC-C2D3-43AB-B8B8-0F5BDD429D3B}" ShortID="712739818">
+													<Language>SFX</Language>
+													<AudioFile>200124_BigMess_NoonGameplay_Step03_master.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{B7A7F037-BAB0-4DEF-A163-FAE20EB90F4B}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{38078CD0-3E50-4462-9A86-85BA2D7CD9D8}">
+													<ClipList>
+														<MusicClip Name="200124_BigMess_NoonGameplay_Step03_master" ID="{DD9054CD-F3E9-4AA4-9D12-565906D38CCA}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="17454.5416666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="200124_BigMess_NoonGameplay_Step03_master" ID="{76F7B1EC-C2D3-43AB-B8B8-0F5BDD429D3B}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{82DEE763-9202-473F-969A-A28A0EE51144}"/>
+										<MusicCue Name="Exit Cue" ID="{2789C77A-1F3C-47B6-B576-F96378685F28}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="17454.5416666667"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{C028E9AE-6FBF-459B-8B19-97716D8C6F7B}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{369181A1-D453-4C6D-B8F1-071C758F21DF}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{05B429CD-1E51-449D-80D0-53A0AA91098E}" ShortID="144177932">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{38AFA4E8-0E98-4E9B-9949-C35CD19BA7B9}" ShortID="244264466">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="200124_BigMess_NoonGameplay_Step03_master" ID="{93AB6330-65D6-4A1F-89E0-319F45B3DE60}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="music_noon_step04" ID="{A1052767-886B-4B36-908D-0504F8D74F0F}" ShortID="821525160">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="200124_BigMess_NoonGameplay_Step04_master" ID="{00119F7F-EEC5-4D11-861D-4CC7929D655F}" ShortID="473786987">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="17454.5416666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="200124_BigMess_NoonGameplay_Step04_master" ID="{53452BA9-6E3F-4A3F-B747-64B9DB656107}" ShortID="643090837">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="200124_BigMess_NoonGameplay_Step04_master" ID="{7C24E1F3-AD01-4DDB-A301-EEFA70082DB3}" ShortID="283464266">
+													<Language>SFX</Language>
+													<AudioFile>200124_BigMess_NoonGameplay_Step04_master.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{697FD479-FA4B-4BDC-963C-41582CEF8934}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{EC179261-EECD-4338-BB90-5146A5E112E3}">
+													<ClipList>
+														<MusicClip Name="200124_BigMess_NoonGameplay_Step04_master" ID="{C26A5263-055E-44DD-92EB-BBB9F3E6FCE8}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="17454.5416666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="200124_BigMess_NoonGameplay_Step04_master" ID="{7C24E1F3-AD01-4DDB-A301-EEFA70082DB3}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{868D34D8-B642-40C0-A07B-84FD1FF74C54}"/>
+										<MusicCue Name="Exit Cue" ID="{2BA51BE5-7D55-42E6-BF07-D15B3F35E67D}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="17454.5416666667"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{61EFD847-A1B2-40ED-B28A-04BB50244B08}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{857B9645-51E2-47D9-9A26-A2C7DC3A1FB8}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{7D6BC4CC-7B0C-4D16-B0BC-480890B2854C}" ShortID="487398391">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{995517B0-2EC9-4CAB-876F-2EE2511219CF}" ShortID="89441571">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="200124_BigMess_NoonGameplay_Step04_master" ID="{00119F7F-EEC5-4D11-861D-4CC7929D655F}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="music_noon_step05" ID="{1A08AFAD-E809-4776-9E4E-19EC5C6C9CC6}" ShortID="716901492">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="200124_BigMess_NoonGameplay_Step05_master" ID="{A681E8A8-9127-4965-80DA-ADBA928F760D}" ShortID="494571451">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="17454.5416666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="200124_BigMess_NoonGameplay_Step05_master" ID="{E147F9D9-97E4-4525-84F2-E7BF41F762F5}" ShortID="397639310">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="200124_BigMess_NoonGameplay_Step05_master" ID="{BA31CD09-D08F-4F3D-B0FB-D5FD612DFF46}" ShortID="35304213">
+													<Language>SFX</Language>
+													<AudioFile>200124_BigMess_NoonGameplay_Step05_master.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C0A8574B-0F59-45A0-AEAE-DA8104B54FBD}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{05157C16-9403-4013-93C4-C02A14D181B6}">
+													<ClipList>
+														<MusicClip Name="200124_BigMess_NoonGameplay_Step05_master" ID="{FB44F7ED-2997-4525-9DD9-B868AB134D12}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="17454.5416666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="200124_BigMess_NoonGameplay_Step05_master" ID="{BA31CD09-D08F-4F3D-B0FB-D5FD612DFF46}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{F5271C8F-A042-4F70-8FEB-09FDCA415476}"/>
+										<MusicCue Name="Exit Cue" ID="{A6977E88-F38C-49F0-9EE6-DB0B16AC4428}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="17454.5416666667"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{A917A4D2-6C04-4123-9858-C26D89519ACE}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{E780D42A-F9D2-4A5A-BBFA-85D159A0B034}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{920D1753-D540-4B5B-ACB8-EF61DB578B09}" ShortID="791680534">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{1B4A66E9-CF8C-4445-8A1F-8BDB6DD49D54}" ShortID="426252424">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="200124_BigMess_NoonGameplay_Step05_master" ID="{A681E8A8-9127-4965-80DA-ADBA928F760D}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="music_noon_step06" ID="{292FBEEA-B73F-4821-833D-2A34F411AAD9}" ShortID="745237382">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="200124_BigMess_NoonGameplay_Step06_master" ID="{4D988AF8-71B8-47A9-9593-5056018A213A}" ShortID="106730697">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="17454.5416666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="200124_BigMess_NoonGameplay_Step06_master" ID="{A831899F-1144-4ED1-82A5-7EEE77D925CD}" ShortID="455605397">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="200124_BigMess_NoonGameplay_Step06_master" ID="{0C3291E2-3716-44FE-915F-6403C936B73C}" ShortID="26303966">
+													<Language>SFX</Language>
+													<AudioFile>200124_BigMess_NoonGameplay_Step06_master.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{7D2D21D0-6C44-4A99-837B-F93F9EDD1293}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{F325FA16-DC21-4DF5-A9CA-BE4367AFDB02}">
+													<ClipList>
+														<MusicClip Name="200124_BigMess_NoonGameplay_Step06_master" ID="{AC6B5BBB-DEB9-41D6-AA30-B09CEEDF44C0}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="17454.5416666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="200124_BigMess_NoonGameplay_Step06_master" ID="{0C3291E2-3716-44FE-915F-6403C936B73C}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{6D68B513-DA87-4C67-B013-69A3B5FB5C90}"/>
+										<MusicCue Name="Exit Cue" ID="{574C09C4-4E3F-4AE1-B8E2-F1E841216795}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="17454.5416666667"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{57DF5334-C298-4033-BA98-D1F51EBA2646}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{65543FD4-E569-4684-BEB2-D680163B6ED4}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{A1ED8220-7C7B-45A9-8364-19B7007A381C}" ShortID="657483818">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{D8B24F4A-CA25-48AF-8302-B87862A4D628}" ShortID="480953977">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="200124_BigMess_NoonGameplay_Step06_master" ID="{4D988AF8-71B8-47A9-9593-5056018A213A}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="music_noon_step07" ID="{5F5C3669-4F8A-4A13-BA4F-1F9101A40283}" ShortID="520417250">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="200124_BigMess_NoonGameplay_Step07_master" ID="{5DE8476B-5BA2-4AEF-8F65-9BA29E10D8F7}" ShortID="1040960200">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="17454.5416666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="200124_BigMess_NoonGameplay_Step07_master" ID="{5D22AC05-4EA7-475A-BF19-A3D6F3204809}" ShortID="535062594">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="200124_BigMess_NoonGameplay_Step07_master" ID="{D1FEE2E3-7E66-44F9-8B02-9C405436B0D8}" ShortID="720261991">
+													<Language>SFX</Language>
+													<AudioFile>200124_BigMess_NoonGameplay_Step07_master.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{637DC22C-97CE-46F6-BC1E-AFB81B8D7D74}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{DAE4A667-1F4E-42D1-ACC5-B803A5CFBC70}">
+													<ClipList>
+														<MusicClip Name="200124_BigMess_NoonGameplay_Step07_master" ID="{90DB950C-DFED-4086-8F9E-1D9FE1FD967B}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="17454.5416666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="200124_BigMess_NoonGameplay_Step07_master" ID="{D1FEE2E3-7E66-44F9-8B02-9C405436B0D8}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{5F89FF6E-AB18-4287-B396-AB301F390372}"/>
+										<MusicCue Name="Exit Cue" ID="{09EEF1F2-D189-4A67-BD99-333CAC65558E}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="17454.5416666667"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{D30BF82C-E97D-4577-A308-17956FD32BFF}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{D321A54A-743D-4ADA-85FF-C41C4F543AC2}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{37C466E1-FB8C-4435-86F2-EAB878870253}" ShortID="484022413">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{07D859E7-40D3-47EA-B4D9-214F1936299A}" ShortID="713258103">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="200124_BigMess_NoonGameplay_Step07_master" ID="{5DE8476B-5BA2-4AEF-8F65-9BA29E10D8F7}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="music_noon_step08" ID="{A3F89723-ADFF-485B-BF9E-F67A15630769}" ShortID="1037011579">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="200124_BigMess_NoonGameplay_Step08_master" ID="{F69FF028-D957-405E-8BC9-FDA6B4C7F2AE}" ShortID="294734903">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="17454.5416666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="200124_BigMess_NoonGameplay_Step08_master" ID="{9B17C752-1734-4C86-8DB4-0DABBDC58674}" ShortID="766738223">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="200124_BigMess_NoonGameplay_Step08_master" ID="{B525B397-2439-4CB1-87EF-4DD701124A2C}" ShortID="477356866">
+													<Language>SFX</Language>
+													<AudioFile>200124_BigMess_NoonGameplay_Step08_master.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{12DCD8BC-867C-43C0-A7B9-136EA76D09CB}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{C2EED44A-FFF6-4A48-8071-70403FEFB62C}">
+													<ClipList>
+														<MusicClip Name="200124_BigMess_NoonGameplay_Step08_master" ID="{975CF337-45CF-4EDF-BA7B-FD4E35CA3AB0}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="17454.5416666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="200124_BigMess_NoonGameplay_Step08_master" ID="{B525B397-2439-4CB1-87EF-4DD701124A2C}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{08411DF0-961F-4DEB-A440-B70589DB7E19}"/>
+										<MusicCue Name="Exit Cue" ID="{9BB38DFE-212A-4495-809A-45E568307D4E}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="17454.5416666667"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{6BEFA58A-3BF1-4077-8DAB-7C9115DB36F0}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{267B8B06-896E-414A-8492-C3AD02CBFF82}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{D3567A7E-C4DB-4AE9-B205-53297781227A}" ShortID="397411554">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{F7967821-A934-4B53-A1A7-53EF2CE2C5C6}" ShortID="729888888">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="200124_BigMess_NoonGameplay_Step08_master" ID="{F69FF028-D957-405E-8BC9-FDA6B4C7F2AE}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
 					</ChildrenList>
 					<TransitionList>
-						<MusicTransition Name="Root" ID="{BAD2C114-814B-42AB-9BEE-C6E9F14BE657}">
+						<MusicTransition Name="Root" ID="{88EB5EC8-F9BB-4CAD-8460-47E56F6D73DA}">
 							<PropertyList>
 								<Property Name="IsFolder" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
-								<MusicTransition Name="Transition" ID="{7F7852A4-9EC0-48B9-88E9-33891D946A2F}">
+								<MusicTransition Name="Transition" ID="{DFD7CFA5-7617-4C67-B103-416DAD4E4D7A}">
+									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{77A78300-21F4-42E2-98B6-B4B455010233}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="music_noon_step02" ID="{33E38AD3-3E48-42CE-A20B-BDB61B36DE49}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="music_noon_step01" ID="{47180887-2B1A-4696-9FB7-41CEC2E97882}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{07B65C77-991C-47E5-B0B1-4AD7923FF8FB}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{284AC26D-D82D-4472-8EB3-5C185388CAB1}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{15069D3C-0D8C-4197-B88D-18BF5837A2BA}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="music_noon_step03" ID="{9F05759D-45E3-4065-981F-0AEC4557241D}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="music_noon_step02" ID="{33E38AD3-3E48-42CE-A20B-BDB61B36DE49}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{153D5456-02D3-42DC-9188-3C9E2444F15D}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{A04D54D4-EC23-47D0-B30A-6ACD6991AD3C}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{57F7F1A0-FF8A-4E39-B4D1-5489B70C4C0D}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="music_noon_step04" ID="{A1052767-886B-4B36-908D-0504F8D74F0F}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="music_noon_step03" ID="{9F05759D-45E3-4065-981F-0AEC4557241D}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{14FA4217-15A5-4B74-B974-8EE84998369A}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{7B0DAD8C-0D4F-4507-BF57-B4122ADDF219}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{AA7B3C07-52EB-4489-A12F-62A1AD9EB34C}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="music_noon_step05" ID="{1A08AFAD-E809-4776-9E4E-19EC5C6C9CC6}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="music_noon_step04" ID="{A1052767-886B-4B36-908D-0504F8D74F0F}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{D96F408A-8564-4142-BB85-8372F217037E}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{656AFCAF-2256-45B8-80A6-DC825EE60FC8}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{6C71D05B-6098-49EE-A4ED-19BB3F94A6EC}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="music_noon_step06" ID="{292FBEEA-B73F-4821-833D-2A34F411AAD9}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="music_noon_step05" ID="{1A08AFAD-E809-4776-9E4E-19EC5C6C9CC6}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{BD22B954-770E-4CAB-AFC0-12596CED2B41}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{32482B67-9E42-4C30-97C0-B7E69811E005}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{6C52F1D4-3A62-4F2A-BBFA-10D2396B429F}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="music_noon_step07" ID="{5F5C3669-4F8A-4A13-BA4F-1F9101A40283}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="music_noon_step06" ID="{292FBEEA-B73F-4821-833D-2A34F411AAD9}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{3E96E26D-C848-4C1B-BEE5-BE330FAB8557}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{EDD34CA3-F6E7-4DF1-B42B-3DFACB4BE1E8}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{50036709-6C7A-4513-9026-BA1B8F1CA90D}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="music_noon_step08" ID="{A3F89723-ADFF-485B-BF9E-F67A15630769}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="music_noon_step07" ID="{5F5C3669-4F8A-4A13-BA4F-1F9101A40283}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{4F4078A1-36E3-4C34-BEA2-C91BD19C3074}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{BC7A2AA4-B7AB-4008-AE2F-3ED38E031D93}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="music_noon" ID="{1C81D65F-3AD4-4487-87DD-36EBA8500316}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="step01" ID="{81FBFD2D-DC6D-4DA7-A107-BD1F6835D488}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="music_noon_step01" ID="{47180887-2B1A-4696-9FB7-41CEC2E97882}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="step02" ID="{258203A6-F24A-4697-856C-A5E650A56744}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="music_noon_step02" ID="{33E38AD3-3E48-42CE-A20B-BDB61B36DE49}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="step03" ID="{F171E910-5C43-4D98-9F89-FAA937811531}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="music_noon_step03" ID="{9F05759D-45E3-4065-981F-0AEC4557241D}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="step04" ID="{42D84322-F10F-43FB-8A19-E03BAF2A2431}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="music_noon_step04" ID="{A1052767-886B-4B36-908D-0504F8D74F0F}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="step05" ID="{1893DEAB-E3B2-4448-B908-C6472046F201}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="music_noon_step05" ID="{1A08AFAD-E809-4776-9E4E-19EC5C6C9CC6}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="step06" ID="{B97DE933-8393-4F0E-B76D-0E4C5CC2CD98}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="music_noon_step06" ID="{292FBEEA-B73F-4821-833D-2A34F411AAD9}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="step07" ID="{7F435CB8-0DD0-4122-985D-2E23420006B1}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="music_noon_step07" ID="{5F5C3669-4F8A-4A13-BA4F-1F9101A40283}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="step08" ID="{4535D806-228D-41CB-8BDD-C1DB77826B1A}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="music_noon_step08" ID="{A3F89723-ADFF-485B-BF9E-F67A15630769}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+				<MusicSwitchContainer Name="Music_morning" ID="{80880796-FD74-430B-82CF-CEBD09464781}" ShortID="767536272">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{0B2B87C3-6E77-44E2-A237-F29AC88D37E9}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+						</Reference>
+					</ReferenceList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{AE2F3A38-A696-4659-86C2-3797184BE2BE}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{6CA9D1E8-577F-4666-BBE5-B955BA05BD83}">
 									<TransitionInfo/>
 								</MusicTransition>
 							</ChildrenList>
 							<TransitionInfo/>
 						</MusicTransition>
 					</TransitionList>
-					<Playlist>
-						<MusicPlaylistItem Name="" ID="{CEC4DD73-9322-4E2E-916B-62A07CA29DE9}" ShortID="172859075">
+				</MusicSwitchContainer>
+				<MusicSwitchContainer Name="Music_afternoon" ID="{07A81F0F-8F26-400D-9BA6-ECE9FFE0A851}" ShortID="51264037">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{0B2B87C3-6E77-44E2-A237-F29AC88D37E9}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+						</Reference>
+					</ReferenceList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{5C907009-2E34-4689-ACCC-CD13D0A16FE8}">
 							<PropertyList>
-								<Property Name="LoopCount" Type="int16" Value="0"/>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
-								<MusicPlaylistItem Name="" ID="{F76DC2BA-6080-4D2E-A67A-C0AEC6A2AED0}" ShortID="206136902">
-									<PropertyList>
-										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-									</PropertyList>
-									<SegmentRef Name="Loop01" ID="{FB3427EC-1BE1-45FE-96B6-307C11ACF8EE}"/>
-								</MusicPlaylistItem>
+								<MusicTransition Name="Transition" ID="{1B91D0FC-AF72-4A1F-B04D-12EF3F5E6B98}">
+									<TransitionInfo/>
+								</MusicTransition>
 							</ChildrenList>
-						</MusicPlaylistItem>
-					</Playlist>
-				</MusicPlaylistContainer>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+				</MusicSwitchContainer>
+				<MusicSwitchContainer Name="Music_evening" ID="{2223C0AC-A01F-4365-A0B3-3C17305F3916}" ShortID="372049734">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{0B2B87C3-6E77-44E2-A237-F29AC88D37E9}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+						</Reference>
+					</ReferenceList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{E359D9AB-B50B-4635-A446-1B255702E52E}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{A4CEF619-E911-42D3-A330-F83798D82D4E}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+				</MusicSwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

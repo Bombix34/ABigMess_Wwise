@@ -3,7 +3,18 @@
 	<Switches>
 		<WorkUnit Name="Default Work Unit" ID="{39D19524-7271-44A6-9A60-DC120BD78572}" PersistMode="Standalone">
 			<ChildrenList>
-				<SwitchGroup Name="radio_test" ID="{25B7B72C-7AE0-46D8-94AF-06F4D0BA7747}"/>
+				<SwitchGroup Name="music_noon" ID="{1C81D65F-3AD4-4487-87DD-36EBA8500316}">
+					<ChildrenList>
+						<Switch Name="step01" ID="{81FBFD2D-DC6D-4DA7-A107-BD1F6835D488}"/>
+						<Switch Name="step02" ID="{258203A6-F24A-4697-856C-A5E650A56744}"/>
+						<Switch Name="step03" ID="{F171E910-5C43-4D98-9F89-FAA937811531}"/>
+						<Switch Name="step04" ID="{42D84322-F10F-43FB-8A19-E03BAF2A2431}"/>
+						<Switch Name="step05" ID="{1893DEAB-E3B2-4448-B908-C6472046F201}"/>
+						<Switch Name="step06" ID="{B97DE933-8393-4F0E-B76D-0E4C5CC2CD98}"/>
+						<Switch Name="step07" ID="{7F435CB8-0DD0-4122-985D-2E23420006B1}"/>
+						<Switch Name="step08" ID="{4535D806-228D-41CB-8BDD-C1DB77826B1A}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
