@@ -9,6 +9,7 @@
 			<ChildrenList>
 				<MusicSwitchContainer Name="Music_noon" ID="{00477B28-5AC5-48B7-82D4-303327E7BEBC}" ShortID="396311780">
 					<PropertyList>
+						<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
 						<Property Name="Tempo" Type="Real64" Value="110"/>
 					</PropertyList>
 					<ReferenceList>
