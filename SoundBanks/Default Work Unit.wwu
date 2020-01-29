@@ -3,15 +3,19 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{A10C2A0F-00A3-4F64-9D0E-66377C7A9207}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="ABM_test" ID="{63B7E13D-55AF-4B17-A5CC-31EB22D1527D}">
+				<SoundBank Name="Bigmess_music" ID="{63B7E13D-55AF-4B17-A5CC-31EB22D1527D}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_musique_test" ID="{734EC896-256C-4D2C-B841-A79C047DA1BF}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_alien_voice" ID="{4FCD13C7-7A03-4ED7-A9B6-96953C383FF9}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Set_switch_noon_music01" ID="{D60BC985-F8BE-43DD-9537-6E7B2ADC16D6}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Set_switch_noon_music05" ID="{1D48D706-EFA6-44FB-964B-7960C6659E34}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Set_switch_noon_music04" ID="{12F18D75-8384-4722-9D0D-11FD34EBBFE7}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Set_switch_noon_music02" ID="{0436B0B5-0334-4897-BF06-B88FE08D7D08}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Set_switch_noon_music03" ID="{45BB173E-B305-4A0F-AACA-B232F993E800}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_music_noon" ID="{94391AED-285B-4E7B-B919-F56FCE9D964F}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="ABM_radio" ID="{A4C1BD81-9D52-46ED-ACBA-6C71C01E41AC}">
+				<SoundBank Name="Bigmess_radio" ID="{A4C1BD81-9D52-46ED-ACBA-6C71C01E41AC}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Stop_radio_stations" ID="{FC4B2B9F-4F5B-44BE-B131-2ED44AAB8135}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_radio_state" ID="{C69021BC-5329-450E-9445-54DD7922E855}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>

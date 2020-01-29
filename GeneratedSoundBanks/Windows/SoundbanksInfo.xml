@@ -16,49 +16,61 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3265541676" Language="SFX">
-			<ObjectPath>\SoundBanks\Default Work Unit\ABM_test</ObjectPath>
-			<ShortName>ABM_test</ShortName>
-			<Path>ABM_test.bnk</Path>
+		<SoundBank Id="3356657249" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Bigmess_music</ObjectPath>
+			<ShortName>Bigmess_music</ShortName>
+			<Path>Bigmess_music.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3570971296" Name="Play_alien_voice" ObjectPath="\Events\Default Work Unit\Play_alien_voice"/>
-				<Event Id="1760975142" Name="Play_musique_test" ObjectPath="\Events\Music\Play_musique_test"/>
+				<Event Id="508480304" Name="Play_music_noon" ObjectPath="\Events\Music\Play_music_noon"/>
+				<Event Id="1236176242" Name="Set_switch_noon_music01" ObjectPath="\Events\Music\Set_switch_noon_music01"/>
+				<Event Id="1236176241" Name="Set_switch_noon_music02" ObjectPath="\Events\Music\Set_switch_noon_music02"/>
+				<Event Id="1236176240" Name="Set_switch_noon_music03" ObjectPath="\Events\Music\Set_switch_noon_music03"/>
+				<Event Id="1236176247" Name="Set_switch_noon_music04" ObjectPath="\Events\Music\Set_switch_noon_music04"/>
+				<Event Id="1236176246" Name="Set_switch_noon_music05" ObjectPath="\Events\Music\Set_switch_noon_music05"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="284145969" Language="SFX">
-					<ShortName>alien_voice-006.wav</ShortName>
-					<Path>SFX\alien_voice-006_6296B0F9.wem</Path>
+				<File Id="26303966" Language="SFX">
+					<ShortName>200124_BigMess_NoonGameplay_Step06_master.wav</ShortName>
+					<Path>SFX\200124_BigMess_NoonGameplay_Step06_master_9B96ECC7.wem</Path>
 				</File>
-				<File Id="468066134" Language="SFX">
-					<ShortName>alien_voice-005.wav</ShortName>
-					<Path>SFX\alien_voice-005_6296B0F9.wem</Path>
+				<File Id="35304213" Language="SFX">
+					<ShortName>200124_BigMess_NoonGameplay_Step05_master.wav</ShortName>
+					<Path>SFX\200124_BigMess_NoonGameplay_Step05_master_9B96ECC7.wem</Path>
 				</File>
-				<File Id="489684753" Language="SFX">
-					<ShortName>alien_voice-001.wav</ShortName>
-					<Path>SFX\alien_voice-001_6296B0F9.wem</Path>
+				<File Id="283464266" Language="SFX">
+					<ShortName>200124_BigMess_NoonGameplay_Step04_master.wav</ShortName>
+					<Path>SFX\200124_BigMess_NoonGameplay_Step04_master_9B96ECC7.wem</Path>
 				</File>
-				<File Id="582749892" Language="SFX">
-					<ShortName>ABM_musique_loop_test.wav</ShortName>
-					<Path>SFX\ABM_musique_loop_test_9B96ECC7.wem</Path>
+				<File Id="477356866" Language="SFX">
+					<ShortName>200124_BigMess_NoonGameplay_Step08_master.wav</ShortName>
+					<Path>SFX\200124_BigMess_NoonGameplay_Step08_master_9B96ECC7.wem</Path>
 				</File>
-				<File Id="591429942" Language="SFX">
-					<ShortName>alien_voice-003.wav</ShortName>
-					<Path>SFX\alien_voice-003_6296B0F9.wem</Path>
+				<File Id="566569107" Language="SFX">
+					<ShortName>200124_BigMess_NoonGameplay_Intro_master.wav</ShortName>
+					<Path>SFX\200124_BigMess_NoonGameplay_Intro_master_9B96ECC7.wem</Path>
 				</File>
-				<File Id="1008417507" Language="SFX">
-					<ShortName>alien_voice-002.wav</ShortName>
-					<Path>SFX\alien_voice-002_6296B0F9.wem</Path>
+				<File Id="712739818" Language="SFX">
+					<ShortName>200124_BigMess_NoonGameplay_Step03_master.wav</ShortName>
+					<Path>SFX\200124_BigMess_NoonGameplay_Step03_master_9B96ECC7.wem</Path>
 				</File>
-				<File Id="1057308780" Language="SFX">
-					<ShortName>alien_voice-004.wav</ShortName>
-					<Path>SFX\alien_voice-004_6296B0F9.wem</Path>
+				<File Id="720261991" Language="SFX">
+					<ShortName>200124_BigMess_NoonGameplay_Step07_master.wav</ShortName>
+					<Path>SFX\200124_BigMess_NoonGameplay_Step07_master_9B96ECC7.wem</Path>
+				</File>
+				<File Id="773636092" Language="SFX">
+					<ShortName>200124_BigMess_NoonGameplay_Step02_master.wav</ShortName>
+					<Path>SFX\200124_BigMess_NoonGameplay_Step02_master_9B96ECC7.wem</Path>
+				</File>
+				<File Id="910748961" Language="SFX">
+					<ShortName>200124_BigMess_NoonGameplay_Step01_master.wav</ShortName>
+					<Path>SFX\200124_BigMess_NoonGameplay_Step01_master_9B96ECC7.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="4116217585" Language="SFX">
-			<ObjectPath>\SoundBanks\Default Work Unit\ABM_radio</ObjectPath>
-			<ShortName>ABM_radio</ShortName>
-			<Path>ABM_radio.bnk</Path>
+		<SoundBank Id="3720504097" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Bigmess_radio</ObjectPath>
+			<ShortName>Bigmess_radio</ShortName>
+			<Path>Bigmess_radio.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1510088249" Name="Play_radio_state" ObjectPath="\Events\Music\Radio\Play_radio_state"/>
 				<Event Id="1069010655" Name="Play_radio_station01" ObjectPath="\Events\Music\Radio\Play_radio_station01"/>
@@ -210,10 +222,6 @@
 				<File Id="573295939" Language="SFX">
 					<ShortName>static_A-003.wav</ShortName>
 					<Path>SFX\static_A-003_6296B0F9.wem</Path>
-				</File>
-				<File Id="582749892" Language="SFX">
-					<ShortName>ABM_musique_loop_test.wav</ShortName>
-					<Path>SFX\ABM_musique_loop_test_9B96ECC7.wem</Path>
 				</File>
 				<File Id="583913353" Language="SFX">
 					<ShortName>caster_thomas-005.wav</ShortName>
