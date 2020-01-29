@@ -1216,6 +1216,14 @@
 								<AudioNodeRef Name="music_noon_step08" ID="{A3F89723-ADFF-485B-BF9E-F67A15630769}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="music_noon" ID="{1C81D65F-3AD4-4487-87DD-36EBA8500316}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="music_noon_step01" ID="{47180887-2B1A-4696-9FB7-41CEC2E97882}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
 					</EntryList>
 				</MusicSwitchContainer>
 				<MusicSwitchContainer Name="Music_morning" ID="{80880796-FD74-430B-82CF-CEBD09464781}" ShortID="767536272">

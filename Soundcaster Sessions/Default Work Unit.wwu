@@ -84,7 +84,7 @@
 						<CurrentStateRef Name="station01" ID="{224CAD59-8E51-4253-9E07-D5751313F204}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="step04" ID="{42D84322-F10F-43FB-8A19-E03BAF2A2431}"/>
+						<CurrentSwitchRef Name="step06" ID="{B97DE933-8393-4F0E-B76D-0E4C5CC2CD98}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
