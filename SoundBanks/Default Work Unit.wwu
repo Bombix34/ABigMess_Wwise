@@ -5,12 +5,9 @@
 			<ChildrenList>
 				<SoundBank Name="Bigmess_music" ID="{63B7E13D-55AF-4B17-A5CC-31EB22D1527D}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Set_switch_noon_music01" ID="{D60BC985-F8BE-43DD-9537-6E7B2ADC16D6}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Set_switch_noon_music05" ID="{1D48D706-EFA6-44FB-964B-7960C6659E34}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Set_switch_noon_music04" ID="{12F18D75-8384-4722-9D0D-11FD34EBBFE7}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Set_switch_noon_music02" ID="{0436B0B5-0334-4897-BF06-B88FE08D7D08}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Set_switch_noon_music03" ID="{45BB173E-B305-4A0F-AACA-B232F993E800}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Transition_level_in" ID="{EA49C031-676B-44E6-9060-522A7782EE5D}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_music_noon" ID="{94391AED-285B-4E7B-B919-F56FCE9D964F}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Transition_level_out" ID="{01E3C00D-FA70-4F92-9A95-D9E1E70BFFD8}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -22,11 +22,8 @@
 			<Path>Bigmess_music.bnk</Path>
 			<IncludedEvents>
 				<Event Id="508480304" Name="Play_music_noon" ObjectPath="\Events\Music\Play_music_noon"/>
-				<Event Id="1236176242" Name="Set_switch_noon_music01" ObjectPath="\Events\Music\Set_switch_noon_music01"/>
-				<Event Id="1236176241" Name="Set_switch_noon_music02" ObjectPath="\Events\Music\Set_switch_noon_music02"/>
-				<Event Id="1236176240" Name="Set_switch_noon_music03" ObjectPath="\Events\Music\Set_switch_noon_music03"/>
-				<Event Id="1236176247" Name="Set_switch_noon_music04" ObjectPath="\Events\Music\Set_switch_noon_music04"/>
-				<Event Id="1236176246" Name="Set_switch_noon_music05" ObjectPath="\Events\Music\Set_switch_noon_music05"/>
+				<Event Id="1379993931" Name="Transition_level_in" ObjectPath="\Events\Music\Transition_level_in"/>
+				<Event Id="3495077062" Name="Transition_level_out" ObjectPath="\Events\Music\Transition_level_out"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="26303966" Language="SFX">

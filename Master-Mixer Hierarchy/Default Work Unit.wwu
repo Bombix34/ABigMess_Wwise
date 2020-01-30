@@ -45,6 +45,11 @@
 										<Value>12546</Value>
 									</ValueList>
 								</Property>
+								<Property Name="BypassEffect" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<RTPCList>
 										<RTPC Name="" ID="{94BFBF7A-D298-4615-8FB4-4F788B50B660}" ShortID="783699031">
@@ -80,6 +85,11 @@
 									</RTPCList>
 								</Property>
 							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="music_transition_EQ" ID="{83A74F55-98CB-44D5-861B-1E530E1B86BF}" WorkUnitID="{CBA2F683-3B43-4305-997A-EC23F55DD8D3}"/>
+								</Reference>
+							</ReferenceList>
 						</Bus>
 						<Bus Name="Radio" ID="{359A0AA9-EBF8-49D1-8409-CDD56BACF620}">
 							<PropertyList>

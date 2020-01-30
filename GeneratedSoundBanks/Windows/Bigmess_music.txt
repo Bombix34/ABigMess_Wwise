@@ -1,15 +1,13 @@
 Event	ID	Name			Wwise Object Path	Notes
 	508480304	Play_music_noon			\Music\Play_music_noon	
-	1236176240	Set_switch_noon_music03			\Music\Set_switch_noon_music03	
-	1236176241	Set_switch_noon_music02			\Music\Set_switch_noon_music02	
-	1236176242	Set_switch_noon_music01			\Music\Set_switch_noon_music01	
-	1236176246	Set_switch_noon_music05			\Music\Set_switch_noon_music05	
-	1236176247	Set_switch_noon_music04			\Music\Set_switch_noon_music04	
+	1379993931	Transition_level_in			\Music\Transition_level_in	
+	3495077062	Transition_level_out			\Music\Transition_level_out	
 
-Switch Group	ID	Name			Wwise Object Path	Notes
+State Group	ID	Name			Wwise Object Path	Notes
 	4048822807	music_noon			\Default Work Unit\music_noon	
 
-Switch	ID	Name	Switch Group			Notes
+State	ID	Name	State Group			Notes
+	0	None	music_noon			
 	1062722160	step07	music_noon			
 	1062722161	step06	music_noon			
 	1062722162	step05	music_noon			

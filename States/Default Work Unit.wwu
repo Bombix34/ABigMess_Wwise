@@ -19,28 +19,41 @@
 						<Transition>
 							<StartState Name="station01" ID="{224CAD59-8E51-4253-9E07-D5751313F204}"/>
 							<EndState Name="station02" ID="{77AC06EF-34E0-4B8A-A545-679F2C31CEB2}"/>
-							<Time>1</Time>
+							<Time>0.5</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 						<Transition>
 							<StartState Name="station02" ID="{77AC06EF-34E0-4B8A-A545-679F2C31CEB2}"/>
 							<EndState Name="station03" ID="{B8B2A1FF-A9BC-468C-B9FF-A313C12F4C6C}"/>
-							<Time>1</Time>
+							<Time>0.5</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 						<Transition>
 							<StartState Name="station03" ID="{B8B2A1FF-A9BC-468C-B9FF-A313C12F4C6C}"/>
 							<EndState Name="station01" ID="{224CAD59-8E51-4253-9E07-D5751313F204}"/>
-							<Time>1</Time>
+							<Time>0.5</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 						<Transition>
 							<StartState Name="off" ID="{9F66F3FA-E79A-403D-B498-6B76A5FC3826}"/>
 							<EndState Name="station01" ID="{224CAD59-8E51-4253-9E07-D5751313F204}"/>
-							<Time>1</Time>
+							<Time>0.5</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="music_noon" ID="{E93D1993-1FB9-4A61-AFB9-BCA6D58EC849}">
+					<ChildrenList>
+						<State Name="None" ID="{1CDDA7FE-1816-429C-BAAE-AC5CBD9EC231}"/>
+						<State Name="step01" ID="{979D8BB7-9A0C-403A-A2EF-01258D4E2C1D}"/>
+						<State Name="step02" ID="{E1C8026F-D42F-4672-93D1-33EE56E451D2}"/>
+						<State Name="step03" ID="{8C0E0BD4-E2B5-4704-A318-E7BB2F917695}"/>
+						<State Name="step04" ID="{A0F7A5B2-099D-410D-A1C6-3E9B1C1E8DA9}"/>
+						<State Name="step05" ID="{728E703D-6A2F-4180-9DDB-517B4B704308}"/>
+						<State Name="step06" ID="{079245AB-3F43-419F-990A-C137F0D62F5B}"/>
+						<State Name="step07" ID="{310EB606-92B2-436B-B50F-5B6FC915D15F}"/>
+						<State Name="step08" ID="{810BC29D-69F2-4239-A392-497B2DDC4E31}"/>
+					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>

@@ -1,5 +1,6 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	166680927	radio_station			\Default Work Unit\radio_station	
+	4048822807	music_noon			\Default Work Unit\music_noon	
 
 State	ID	Name	State Group			Notes
 	0	None	radio_station			
@@ -7,6 +8,15 @@ State	ID	Name	State Group			Notes
 	312882085	station02	radio_station			
 	312882086	station01	radio_station			
 	930712164	off	radio_station			
+	0	None	music_noon			
+	1062722160	step07	music_noon			
+	1062722161	step06	music_noon			
+	1062722162	step05	music_noon			
+	1062722163	step04	music_noon			
+	1062722164	step03	music_noon			
+	1062722165	step02	music_noon			
+	1062722166	step01	music_noon			
+	1062722175	step08	music_noon			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Reflect Acoustic Textures\Textures\Brick	
@@ -39,6 +49,7 @@ Effect plug-ins	ID	Name	Type				Notes
 	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
 	493155608	ducking_meter	Wwise Meter			
 	602546716	Room_Large	Wwise RoomVerb			
+	1179763457	music_transition_EQ	Wwise Parametric EQ			
 	2945072214	My_Closet	Wwise RoomVerb			
 	2995775460	Room_Small	Wwise RoomVerb			
 

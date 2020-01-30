@@ -12,6 +12,14 @@
 </PluginData>
 				</Effect>
 				<Effect Name="New_Wwise_Meter" ID="{FC395252-6B6A-429A-8ACA-4214E3E92825}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3"/>
+				<Effect Name="music_transition_EQ" ID="{83A74F55-98CB-44D5-861B-1E530E1B86BF}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="300"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="1000"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>
