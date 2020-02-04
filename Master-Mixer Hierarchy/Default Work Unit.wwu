@@ -45,11 +45,6 @@
 										<Value>12546</Value>
 									</ValueList>
 								</Property>
-								<Property Name="BypassEffect" Type="bool">
-									<ValueList>
-										<Value>True</Value>
-									</ValueList>
-								</Property>
 								<Property Name="Volume" Type="Real64">
 									<RTPCList>
 										<RTPC Name="" ID="{94BFBF7A-D298-4615-8FB4-4F788B50B660}" ShortID="783699031">

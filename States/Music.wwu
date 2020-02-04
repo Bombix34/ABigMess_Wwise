@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EA0000BA-DBEC-403D-8D53-26B749A79B1D}" SchemaVersion="94">
+	<States>
+		<WorkUnit Name="Music" ID="{EA0000BA-DBEC-403D-8D53-26B749A79B1D}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<StateGroup Name="music_morning" ID="{B1DECFFD-37CD-4383-A026-30DCF9FFED91}">
+					<ChildrenList>
+						<State Name="None" ID="{8BD3CA14-F8AF-4DC7-97A4-81D3AF282B74}"/>
+						<State Name="step01" ID="{6C30B6B4-AFB1-44E7-A428-06CC5319F151}"/>
+						<State Name="step02" ID="{FE20614E-6C02-4317-81A1-35CF891C3937}"/>
+						<State Name="step03" ID="{F07BB843-4D44-4B32-A727-F780988E9A66}"/>
+						<State Name="step04" ID="{E070B03E-444D-4D8A-A757-FF2C177DAB6B}"/>
+						<State Name="step05" ID="{2D132DD8-3A8B-4CF9-AAFF-07371C58CC12}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="music_noon" ID="{E93D1993-1FB9-4A61-AFB9-BCA6D58EC849}">
+					<ChildrenList>
+						<State Name="None" ID="{1CDDA7FE-1816-429C-BAAE-AC5CBD9EC231}"/>
+						<State Name="step01" ID="{979D8BB7-9A0C-403A-A2EF-01258D4E2C1D}"/>
+						<State Name="step02" ID="{E1C8026F-D42F-4672-93D1-33EE56E451D2}"/>
+						<State Name="step03" ID="{8C0E0BD4-E2B5-4704-A318-E7BB2F917695}"/>
+						<State Name="step04" ID="{A0F7A5B2-099D-410D-A1C6-3E9B1C1E8DA9}"/>
+						<State Name="step05" ID="{728E703D-6A2F-4180-9DDB-517B4B704308}"/>
+						<State Name="step06" ID="{079245AB-3F43-419F-990A-C137F0D62F5B}"/>
+						<State Name="step07" ID="{310EB606-92B2-436B-B50F-5B6FC915D15F}"/>
+						<State Name="step08" ID="{810BC29D-69F2-4239-A392-497B2DDC4E31}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

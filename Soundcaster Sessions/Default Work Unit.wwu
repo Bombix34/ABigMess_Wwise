@@ -10,16 +10,12 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_music_noon" ID="{94391AED-285B-4E7B-B919-F56FCE9D964F}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<ObjectRef Name="Stop_radio_stations" ID="{FC4B2B9F-4F5B-44BE-B131-2ED44AAB8135}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Transition_level_in" ID="{EA49C031-676B-44E6-9060-522A7782EE5D}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<ObjectRef Name="Stop_radio_level" ID="{825AF222-A5DE-4CFF-8110-5A1ACCD5EF97}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
 							<Position X="0" Y="2"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Transition_level_out" ID="{01E3C00D-FA70-4F92-9A95-D9E1E70BFFD8}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
-							<Position X="0" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_radio_station01" ID="{AAF6059A-BBFC-4D8C-95B9-74706C26F164}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
@@ -34,12 +30,72 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Stop_radio_stations" ID="{FC4B2B9F-4F5B-44BE-B131-2ED44AAB8135}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<ObjectRef Name="Play_Music_morning" ID="{7FBADD35-B6EF-4AA6-BAA9-8BDEB8E54D04}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_alien_voice" ID="{4FCD13C7-7A03-4ED7-A9B6-96953C383FF9}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
+							<ObjectRef Name="Set_state_music_morning_02" ID="{1ACEE105-976C-4116-B9E4-95AB22051BBC}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Set_state_music_morning_03" ID="{7B3FBA4A-C7D6-49AD-84A1-944610BB3957}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Set_state_music_morning_04" ID="{86BD087A-A0A2-4726-9252-C592EA82220F}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Set_state_music_morning_05" ID="{8ABB7133-4FF6-40CC-BDF4-0E3D7F171515}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_music_morning" ID="{F4D9D6AF-8860-444D-945D-DA9717A3229F}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<Position X="2" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_music_noon" ID="{94391AED-285B-4E7B-B919-F56FCE9D964F}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
 							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Set_state_noon_02" ID="{0FE0FF1F-EA12-4702-B1A6-CDD19881FEC8}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Set_state_noon_03" ID="{3836DB2B-8BCC-4BDD-A160-F9BB39B163B6}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Set_state_noon_04" ID="{2582D526-9B65-41CE-9DB0-0124DA93520D}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Set_state_noon_05" ID="{7AC50EAA-3D04-4226-9C2C-D1A6BF402E8F}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<Position X="3" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Set_state_noon_06" ID="{C3DDD991-73A3-4B26-840C-AFF4C688CB23}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<Position X="3" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Set_state_noon_07" ID="{A12CC415-92BC-422E-81EE-A5751D661669}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<Position X="3" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Set_state_noon_08" ID="{D33BBB0B-119A-4358-B366-4E0B81E9558E}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<Position X="3" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_music_noon" ID="{2ED5F698-1822-45E1-87D0-AEC3554589D8}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<Position X="3" Y="8"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Transition_level_in" ID="{EA49C031-676B-44E6-9060-522A7782EE5D}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Transition_level_out" ID="{01E3C00D-FA70-4F92-9A95-D9E1E70BFFD8}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<Position X="4" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -76,6 +132,10 @@
 							<Value>75</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="transition_music" ID="{13C93F74-20A2-4A9B-AB54-0FA6833866B9}"/>
+							<Value>0.809370872679246</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
 							<Value>6</Value>
 						</RTPCValue>
@@ -89,8 +149,9 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="step02" ID="{FE20614E-6C02-4317-81A1-35CF891C3937}"/>
 						<CurrentStateRef Name="station01" ID="{224CAD59-8E51-4253-9E07-D5751313F204}"/>
-						<CurrentStateRef Name="step05" ID="{728E703D-6A2F-4180-9DDB-517B4B704308}"/>
+						<CurrentStateRef Name="step02" ID="{E1C8026F-D42F-4672-93D1-33EE56E451D2}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

@@ -16,8 +16,123 @@
 					<PropertyList>
 						<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
 						<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
-						<Property Name="FrequencyBand1" Type="Real32" Value="300"/>
-						<Property Name="FrequencyBand3" Type="Real32" Value="1000"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="300">
+							<RTPCList>
+								<RTPC Name="" ID="{C138148C-AF04-46B8-914E-62F18F07C31A}" ShortID="527913587">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="transition_music" ID="{13C93F74-20A2-4A9B-AB54-0FA6833866B9}" WorkUnitID="{CA8B1150-3176-4D1F-8C36-B826BEB145D9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{757EE062-4798-4E38-959F-86F138327359}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>60</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0.3</XPos>
+												<YPos>60</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>SCurve</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>0.7</XPos>
+												<YPos>800</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>800</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="FrequencyBand3" Type="Real32" Value="1000">
+							<RTPCList>
+								<RTPC Name="" ID="{BEA455E5-251E-43C7-8B4E-0BEAE0AA3137}" ShortID="1037144721">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="transition_music" ID="{13C93F74-20A2-4A9B-AB54-0FA6833866B9}" WorkUnitID="{CA8B1150-3176-4D1F-8C36-B826BEB145D9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{A711601A-3FBF-419D-9B1F-97085033D380}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>12000</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0.3</XPos>
+												<YPos>12000</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>SCurve</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>0.7</XPos>
+												<YPos>2000</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>2000</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="OutputLevel" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{88F6B4F8-D56A-4767-B163-2663C1B75E57}" ShortID="482510601">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="transition_music" ID="{13C93F74-20A2-4A9B-AB54-0FA6833866B9}" WorkUnitID="{CA8B1150-3176-4D1F-8C36-B826BEB145D9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{24D78A9E-5092-4EEA-B717-875F6D8F2DA1}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0.3</XPos>
+												<YPos>-0</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>SCurve</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>0.7</XPos>
+												<YPos>-3</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>-3</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 					</PropertyList>
 				</Effect>
 			</ChildrenList>

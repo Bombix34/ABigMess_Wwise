@@ -49,6 +49,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<BlendContainer Name="garden_amb" ID="{5A1F278A-DD1B-4503-B649-EFB4A715594A}" ShortID="490272175">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>

@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1069010653	Play_radio_station03			\Music\Radio\Play_radio_station03	
 	1069010655	Play_radio_station01			\Music\Radio\Play_radio_station01	
 	1510088249	Play_radio_state			\Music\Radio\Play_radio_state	
+	1749933030	Stop_radio_level			\Music\Radio\Stop_radio_level	
 	3703828323	Stop_radio_stations			\Music\Radio\Stop_radio_stations	
 
 State Group	ID	Name			Wwise Object Path	Notes
