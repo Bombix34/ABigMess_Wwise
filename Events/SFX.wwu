@@ -2,39 +2,99 @@
 <WwiseDocument Type="WorkUnit" ID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" SchemaVersion="94">
 	<Events>
 		<WorkUnit Name="SFX" ID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="25"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
-				<Event Name="Play_alien_voice" ID="{4FCD13C7-7A03-4ED7-A9B6-96953C383FF9}">
+				<Event Name="Play_burn_SFX_01" ID="{E3849B60-2F5F-4344-8DEA-A0BA4C98D78F}">
 					<PropertyList>
-						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="Color" Type="int16" Value="25"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Action Name="" ID="{B9620B25-0D48-4DF7-B4AC-F3C58F7BEA9F}" ShortID="592324563">
+						<Action Name="" ID="{CE86DFE6-236C-4E38-B136-EEFCD11D8890}" ShortID="560040694">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="burn_SFX" ID="{CB31C589-521D-4233-B44D-A0264E3E41CF}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_wash_SFX_01" ID="{4EF416CF-B2BC-4119-A79E-65B32F64B7C6}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="25"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{A5141DFA-5244-4454-80B7-B58E97265686}" ShortID="170764431">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wash_SFX" ID="{A970EEA9-C44F-437D-BD17-E8FDCB0F3B59}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_grab_SFX" ID="{8BF690F0-7812-4C35-9A1A-0A7433B40100}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="25"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{3859DDDC-41AB-419B-AC35-16BCEE008F4F}" ShortID="771011501">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="grab_SFX" ID="{70716EAD-0E12-4A53-97E3-EBB362227C3D}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_release_SFX" ID="{323F7E11-BF53-4DD1-95E9-7B08CD6766BB}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="25"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{61A01238-E271-46B5-A4F5-992800C26BC4}" ShortID="1032136090">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="release_SFX" ID="{E162A776-C40B-4F66-BF6F-6E90C2371022}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Voice_player02" ID="{1846AC6F-E6C2-43BC-9EA0-5B9C5E612323}">
+					<ChildrenList>
+						<Action Name="" ID="{4AD98571-00F2-4841-925D-F0670BD90A5A}" ShortID="81196687">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Voice_player02" ID="{06F83CE3-2A9F-4975-8AE1-2CBD0824C95A}" WorkUnitID="{16BE9146-BEBB-4DAD-8772-0701FD0F59B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Alien_heavy_object" ID="{60413302-DDE7-4D19-8C34-9CA953ACF0E9}">
+					<ChildrenList>
+						<Action Name="" ID="{AED87C4B-3210-4A62-A96C-DE0A617AD181}" ShortID="983361359">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Alien_heavy_object" ID="{88498CDB-81D4-40BC-89C5-A278344EB3C2}" WorkUnitID="{16BE9146-BEBB-4DAD-8772-0701FD0F59B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Voice_player01" ID="{E3CE0BEC-FC62-4D38-8000-9BCF0CE28D00}">
+					<ChildrenList>
+						<Action Name="" ID="{1F3F163E-EFC8-42B3-B894-F4AD561AFDFB}" ShortID="52705812">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Voice_player01" ID="{4964C517-B66B-472A-83D2-376546B2E4AA}" WorkUnitID="{16BE9146-BEBB-4DAD-8772-0701FD0F59B3}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_burn_SFX" ID="{C41559CB-65B4-45B8-B38C-91D4EA705707}">
-					<ChildrenList>
-						<Action Name="" ID="{E6E00BF5-28A2-4819-87A0-EB2B64C3F25A}" ShortID="932885346">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="burn_SFX" ID="{C7825981-40D0-404C-9505-9AC5AF0C7C76}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_wash_SFX" ID="{852FBAA3-8C06-4383-A2D2-0FA77CCCEB21}">
-					<ChildrenList>
-						<Action Name="" ID="{99DAAACC-B529-4555-A106-B355DE060FFE}" ShortID="360764097">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="wash_SFX" ID="{2EFFF291-5C9A-469A-8823-6BE376B0A6FC}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

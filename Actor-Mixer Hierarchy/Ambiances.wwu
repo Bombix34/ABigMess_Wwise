@@ -18,6 +18,9 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="bathroom_tone" ID="{15F86AF7-25E1-4C8B-9844-814D72C2B94B}" ShortID="625301701">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
@@ -748,6 +751,9 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="small_room_tone" ID="{6F4896FE-A942-403F-81D9-E92419943B88}" ShortID="323902509">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
@@ -780,6 +786,7 @@
 					<ChildrenList>
 						<Sound Name="big_room_tone" ID="{2D283C39-09AB-4B62-B133-90F550AF5994}" ShortID="85161164">
 							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-9</Value>

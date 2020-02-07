@@ -78,6 +78,10 @@
 					<ShortName>200124_BigMess_NoonGameplay_Step08_master.wav</ShortName>
 					<Path>SFX\200124_BigMess_NoonGameplay_Step08_master_9B96ECC7.wem</Path>
 				</File>
+				<File Id="521780071" Language="SFX">
+					<ShortName>transition_level_out.wav</ShortName>
+					<Path>SFX\transition_level_out_6296B0F9.wem</Path>
+				</File>
 				<File Id="566569107" Language="SFX">
 					<ShortName>200124_BigMess_NoonGameplay_Intro_master.wav</ShortName>
 					<Path>SFX\200124_BigMess_NoonGameplay_Intro_master_9B96ECC7.wem</Path>
@@ -97,6 +101,10 @@
 				<File Id="734737051" Language="SFX">
 					<ShortName>200130_BigMess_MorningGameplay_step05 A.wav</ShortName>
 					<Path>SFX\200130_BigMess_MorningGameplay_step05 A_9B96ECC7.wem</Path>
+				</File>
+				<File Id="754366933" Language="SFX">
+					<ShortName>transition_level_in.wav</ShortName>
+					<Path>SFX\transition_level_in_6296B0F9.wem</Path>
 				</File>
 				<File Id="773636092" Language="SFX">
 					<ShortName>200124_BigMess_NoonGameplay_Step02_master.wav</ShortName>
@@ -121,6 +129,466 @@
 				<File Id="986106899" Language="SFX">
 					<ShortName>200130_BigMess_MorningGameplay_Step03 A.wav</ShortName>
 					<Path>SFX\200130_BigMess_MorningGameplay_Step03 A_9B96ECC7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="3687680021" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Bigmess_SFX</ObjectPath>
+			<ShortName>Bigmess_SFX</ShortName>
+			<Path>Bigmess_SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1684718463" Name="Play_Alien_heavy_object" ObjectPath="\Events\Default Work Unit\Play_Alien_heavy_object"/>
+				<Event Id="3592785647" Name="Play_bathroom_tone" ObjectPath="\Events\Default Work Unit\Play_bathroom_tone"/>
+				<Event Id="2999503001" Name="Play_big_room_tone" ObjectPath="\Events\Default Work Unit\Play_big_room_tone"/>
+				<Event Id="4265872625" Name="Play_burn_SFX_01" ObjectPath="\Events\Default Work Unit\Play_burn_SFX_01"/>
+				<Event Id="1623367340" Name="Play_garden_amb" ObjectPath="\Events\Default Work Unit\Play_garden_amb"/>
+				<Event Id="1876721888" Name="Play_grab_SFX" ObjectPath="\Events\Default Work Unit\Play_grab_SFX"/>
+				<Event Id="2301344613" Name="Play_release_SFX" ObjectPath="\Events\Default Work Unit\Play_release_SFX"/>
+				<Event Id="2485252018" Name="Play_small_room_tone" ObjectPath="\Events\Default Work Unit\Play_small_room_tone"/>
+				<Event Id="1980653889" Name="Play_Voice_player01" ObjectPath="\Events\Default Work Unit\Play_Voice_player01"/>
+				<Event Id="1980653890" Name="Play_Voice_player02" ObjectPath="\Events\Default Work Unit\Play_Voice_player02"/>
+				<Event Id="3128134959" Name="Play_wash_SFX_01" ObjectPath="\Events\Default Work Unit\Play_wash_SFX_01"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="7473334" Language="SFX">
+					<ShortName>mésange-001.wav</ShortName>
+					<Path>SFX\mésange-001_6296B0F9.wem</Path>
+				</File>
+				<File Id="11472676" Language="SFX">
+					<ShortName>big_room_tone.wav</ShortName>
+					<Path>SFX\big_room_tone_9B96ECC7.wem</Path>
+				</File>
+				<File Id="13619735" Language="SFX">
+					<ShortName>mésange-002.wav</ShortName>
+					<Path>SFX\mésange-002_6296B0F9.wem</Path>
+				</File>
+				<File Id="21825570" Language="SFX">
+					<ShortName>alien_voice_player2-005.wav</ShortName>
+					<Path>SFX\alien_voice_player2-005_6296B0F9.wem</Path>
+				</File>
+				<File Id="31705472" Language="SFX">
+					<ShortName>alien_heavy_object-004.wav</ShortName>
+					<Path>SFX\alien_heavy_object-004_6296B0F9.wem</Path>
+				</File>
+				<File Id="51241490" Language="SFX">
+					<ShortName>alien_voice_player2-019.wav</ShortName>
+					<Path>SFX\alien_voice_player2-019_6296B0F9.wem</Path>
+				</File>
+				<File Id="54284713" Language="SFX">
+					<ShortName>alien_voice_player2-015.wav</ShortName>
+					<Path>SFX\alien_voice_player2-015_6296B0F9.wem</Path>
+				</File>
+				<File Id="62221577" Language="SFX">
+					<ShortName>alien_voice_player1-022.wav</ShortName>
+					<Path>SFX\alien_voice_player1-022_6296B0F9.wem</Path>
+				</File>
+				<File Id="67384987" Language="SFX">
+					<ShortName>mésange-006.wav</ShortName>
+					<Path>SFX\mésange-006_6296B0F9.wem</Path>
+				</File>
+				<File Id="108069469" Language="SFX">
+					<ShortName>fauvette-003.wav</ShortName>
+					<Path>SFX\fauvette-003_6296B0F9.wem</Path>
+				</File>
+				<File Id="121000532" Language="SFX">
+					<ShortName>alien_voice_player2-032.wav</ShortName>
+					<Path>SFX\alien_voice_player2-032_6296B0F9.wem</Path>
+				</File>
+				<File Id="134049945" Language="SFX">
+					<ShortName>mésange-005.wav</ShortName>
+					<Path>SFX\mésange-005_6296B0F9.wem</Path>
+				</File>
+				<File Id="135498314" Language="SFX">
+					<ShortName>alien_heavy_object-011.wav</ShortName>
+					<Path>SFX\alien_heavy_object-011_6296B0F9.wem</Path>
+				</File>
+				<File Id="149088335" Language="SFX">
+					<ShortName>alien_voice_player1-013.wav</ShortName>
+					<Path>SFX\alien_voice_player1-013_6296B0F9.wem</Path>
+				</File>
+				<File Id="169254750" Language="SFX">
+					<ShortName>alien_voice_player2-008.wav</ShortName>
+					<Path>SFX\alien_voice_player2-008_6296B0F9.wem</Path>
+				</File>
+				<File Id="176785939" Language="SFX">
+					<ShortName>alien_voice_player2-003.wav</ShortName>
+					<Path>SFX\alien_voice_player2-003_6296B0F9.wem</Path>
+				</File>
+				<File Id="190737831" Language="SFX">
+					<ShortName>alien_voice_player2-025.wav</ShortName>
+					<Path>SFX\alien_voice_player2-025_6296B0F9.wem</Path>
+				</File>
+				<File Id="196956413" Language="SFX">
+					<ShortName>alien_voice_player1-030.wav</ShortName>
+					<Path>SFX\alien_voice_player1-030_6296B0F9.wem</Path>
+				</File>
+				<File Id="209378528" Language="SFX">
+					<ShortName>alien_voice_player2-004.wav</ShortName>
+					<Path>SFX\alien_voice_player2-004_6296B0F9.wem</Path>
+				</File>
+				<File Id="227497073" Language="SFX">
+					<ShortName>alien_voice_player1-007.wav</ShortName>
+					<Path>SFX\alien_voice_player1-007_6296B0F9.wem</Path>
+				</File>
+				<File Id="229916294" Language="SFX">
+					<ShortName>mésange-004.wav</ShortName>
+					<Path>SFX\mésange-004_6296B0F9.wem</Path>
+				</File>
+				<File Id="236086208" Language="SFX">
+					<ShortName>alien_voice_player1-008.wav</ShortName>
+					<Path>SFX\alien_voice_player1-008_6296B0F9.wem</Path>
+				</File>
+				<File Id="245514026" Language="SFX">
+					<ShortName>alien_voice_player1-018.wav</ShortName>
+					<Path>SFX\alien_voice_player1-018_6296B0F9.wem</Path>
+				</File>
+				<File Id="258156531" Language="SFX">
+					<ShortName>alien_voice_player2-010.wav</ShortName>
+					<Path>SFX\alien_voice_player2-010_6296B0F9.wem</Path>
+				</File>
+				<File Id="266390783" Language="SFX">
+					<ShortName>fauvette-004.wav</ShortName>
+					<Path>SFX\fauvette-004_6296B0F9.wem</Path>
+				</File>
+				<File Id="278506551" Language="SFX">
+					<ShortName>grab_SFX.wav</ShortName>
+					<Path>SFX\grab_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="282545813" Language="SFX">
+					<ShortName>alien_voice_player2-023.wav</ShortName>
+					<Path>SFX\alien_voice_player2-023_6296B0F9.wem</Path>
+				</File>
+				<File Id="305171081" Language="SFX">
+					<ShortName>rougegorge-003.wav</ShortName>
+					<Path>SFX\rougegorge-003_6296B0F9.wem</Path>
+				</File>
+				<File Id="311138592" Language="SFX">
+					<ShortName>early_morning_amb.wav</ShortName>
+					<Path>SFX\early_morning_amb_9B96ECC7.wem</Path>
+				</File>
+				<File Id="311251613" Language="SFX">
+					<ShortName>rougegorge-002.wav</ShortName>
+					<Path>SFX\rougegorge-002_6296B0F9.wem</Path>
+				</File>
+				<File Id="319970004" Language="SFX">
+					<ShortName>alien_voice_player2-018.wav</ShortName>
+					<Path>SFX\alien_voice_player2-018_6296B0F9.wem</Path>
+				</File>
+				<File Id="321167721" Language="SFX">
+					<ShortName>alien_voice_player2-009.wav</ShortName>
+					<Path>SFX\alien_voice_player2-009_6296B0F9.wem</Path>
+				</File>
+				<File Id="337156631" Language="SFX">
+					<ShortName>alien_voice_player2-031.wav</ShortName>
+					<Path>SFX\alien_voice_player2-031_6296B0F9.wem</Path>
+				</File>
+				<File Id="358685275" Language="SFX">
+					<ShortName>alien_voice_player1-019.wav</ShortName>
+					<Path>SFX\alien_voice_player1-019_6296B0F9.wem</Path>
+				</File>
+				<File Id="361027641" Language="SFX">
+					<ShortName>alien_voice_player1-029.wav</ShortName>
+					<Path>SFX\alien_voice_player1-029_6296B0F9.wem</Path>
+				</File>
+				<File Id="362202670" Language="SFX">
+					<ShortName>alien_heavy_object-003.wav</ShortName>
+					<Path>SFX\alien_heavy_object-003_6296B0F9.wem</Path>
+				</File>
+				<File Id="370623821" Language="SFX">
+					<ShortName>rougegorge-006.wav</ShortName>
+					<Path>SFX\rougegorge-006_6296B0F9.wem</Path>
+				</File>
+				<File Id="388193399" Language="SFX">
+					<ShortName>alien_voice_player2-028.wav</ShortName>
+					<Path>SFX\alien_voice_player2-028_6296B0F9.wem</Path>
+				</File>
+				<File Id="394299690" Language="SFX">
+					<ShortName>alien_voice_player2-027.wav</ShortName>
+					<Path>SFX\alien_voice_player2-027_6296B0F9.wem</Path>
+				</File>
+				<File Id="395743887" Language="SFX">
+					<ShortName>alien_voice_player1-003.wav</ShortName>
+					<Path>SFX\alien_voice_player1-003_6296B0F9.wem</Path>
+				</File>
+				<File Id="396118469" Language="SFX">
+					<ShortName>alien_voice_player2-029.wav</ShortName>
+					<Path>SFX\alien_voice_player2-029_6296B0F9.wem</Path>
+				</File>
+				<File Id="398072972" Language="SFX">
+					<ShortName>street_amb.wav</ShortName>
+					<Path>SFX\street_amb_9B96ECC7.wem</Path>
+				</File>
+				<File Id="408491887" Language="SFX">
+					<ShortName>alien_voice_player1-002.wav</ShortName>
+					<Path>SFX\alien_voice_player1-002_6296B0F9.wem</Path>
+				</File>
+				<File Id="418028022" Language="SFX">
+					<ShortName>alien_voice_player1-031.wav</ShortName>
+					<Path>SFX\alien_voice_player1-031_6296B0F9.wem</Path>
+				</File>
+				<File Id="437781041" Language="SFX">
+					<ShortName>fauvette-001.wav</ShortName>
+					<Path>SFX\fauvette-001_6296B0F9.wem</Path>
+				</File>
+				<File Id="438739325" Language="SFX">
+					<ShortName>alien_voice_player2-013.wav</ShortName>
+					<Path>SFX\alien_voice_player2-013_6296B0F9.wem</Path>
+				</File>
+				<File Id="452332242" Language="SFX">
+					<ShortName>alien_voice_player1-021.wav</ShortName>
+					<Path>SFX\alien_voice_player1-021_6296B0F9.wem</Path>
+				</File>
+				<File Id="469982647" Language="SFX">
+					<ShortName>alien_voice_player2-007.wav</ShortName>
+					<Path>SFX\alien_voice_player2-007_6296B0F9.wem</Path>
+				</File>
+				<File Id="502344004" Language="SFX">
+					<ShortName>alien_heavy_object-001.wav</ShortName>
+					<Path>SFX\alien_heavy_object-001_6296B0F9.wem</Path>
+				</File>
+				<File Id="514594930" Language="SFX">
+					<ShortName>alien_voice_player2-026.wav</ShortName>
+					<Path>SFX\alien_voice_player2-026_6296B0F9.wem</Path>
+				</File>
+				<File Id="528151763" Language="SFX">
+					<ShortName>merle-005.wav</ShortName>
+					<Path>SFX\merle-005_6296B0F9.wem</Path>
+				</File>
+				<File Id="533154574" Language="SFX">
+					<ShortName>merle-004.wav</ShortName>
+					<Path>SFX\merle-004_6296B0F9.wem</Path>
+				</File>
+				<File Id="533714580" Language="SFX">
+					<ShortName>rougegorge-001.wav</ShortName>
+					<Path>SFX\rougegorge-001_6296B0F9.wem</Path>
+				</File>
+				<File Id="541742957" Language="SFX">
+					<ShortName>alien_heavy_object-005.wav</ShortName>
+					<Path>SFX\alien_heavy_object-005_6296B0F9.wem</Path>
+				</File>
+				<File Id="544960509" Language="SFX">
+					<ShortName>bathroom_tone.wav</ShortName>
+					<Path>SFX\bathroom_tone_9B96ECC7.wem</Path>
+				</File>
+				<File Id="566929809" Language="SFX">
+					<ShortName>alien_voice_player1-017.wav</ShortName>
+					<Path>SFX\alien_voice_player1-017_6296B0F9.wem</Path>
+				</File>
+				<File Id="567900801" Language="SFX">
+					<ShortName>alien_voice_player1-012.wav</ShortName>
+					<Path>SFX\alien_voice_player1-012_6296B0F9.wem</Path>
+				</File>
+				<File Id="602774939" Language="SFX">
+					<ShortName>alien_heavy_object-002.wav</ShortName>
+					<Path>SFX\alien_heavy_object-002_6296B0F9.wem</Path>
+				</File>
+				<File Id="626391729" Language="SFX">
+					<ShortName>alien_voice_player1-023.wav</ShortName>
+					<Path>SFX\alien_voice_player1-023_6296B0F9.wem</Path>
+				</File>
+				<File Id="626601096" Language="SFX">
+					<ShortName>alien_voice_player1-006.wav</ShortName>
+					<Path>SFX\alien_voice_player1-006_6296B0F9.wem</Path>
+				</File>
+				<File Id="637547742" Language="SFX">
+					<ShortName>small_room_tone.wav</ShortName>
+					<Path>SFX\small_room_tone_9B96ECC7.wem</Path>
+				</File>
+				<File Id="644151051" Language="SFX">
+					<ShortName>alien_voice_player2-021.wav</ShortName>
+					<Path>SFX\alien_voice_player2-021_6296B0F9.wem</Path>
+				</File>
+				<File Id="656744811" Language="SFX">
+					<ShortName>alien_voice_player2-011.wav</ShortName>
+					<Path>SFX\alien_voice_player2-011_6296B0F9.wem</Path>
+				</File>
+				<File Id="665247087" Language="SFX">
+					<ShortName>alien_voice_player2-014.wav</ShortName>
+					<Path>SFX\alien_voice_player2-014_6296B0F9.wem</Path>
+				</File>
+				<File Id="666408630" Language="SFX">
+					<ShortName>alien_voice_player2-002.wav</ShortName>
+					<Path>SFX\alien_voice_player2-002_6296B0F9.wem</Path>
+				</File>
+				<File Id="674536895" Language="SFX">
+					<ShortName>alien_voice_player2-016.wav</ShortName>
+					<Path>SFX\alien_voice_player2-016_6296B0F9.wem</Path>
+				</File>
+				<File Id="676592988" Language="SFX">
+					<ShortName>alien_voice_player2-001.wav</ShortName>
+					<Path>SFX\alien_voice_player2-001_6296B0F9.wem</Path>
+				</File>
+				<File Id="681037077" Language="SFX">
+					<ShortName>rougegorge-005.wav</ShortName>
+					<Path>SFX\rougegorge-005_6296B0F9.wem</Path>
+				</File>
+				<File Id="702196711" Language="SFX">
+					<ShortName>alien_voice_player2-017.wav</ShortName>
+					<Path>SFX\alien_voice_player2-017_6296B0F9.wem</Path>
+				</File>
+				<File Id="719522801" Language="SFX">
+					<ShortName>alien_voice_player2-020.wav</ShortName>
+					<Path>SFX\alien_voice_player2-020_6296B0F9.wem</Path>
+				</File>
+				<File Id="720912018" Language="SFX">
+					<ShortName>burn_SFX.wav</ShortName>
+					<Path>SFX\burn_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="730576261" Language="SFX">
+					<ShortName>alien_voice_player1-024.wav</ShortName>
+					<Path>SFX\alien_voice_player1-024_6296B0F9.wem</Path>
+				</File>
+				<File Id="739036169" Language="SFX">
+					<ShortName>alien_voice_player1-014.wav</ShortName>
+					<Path>SFX\alien_voice_player1-014_6296B0F9.wem</Path>
+				</File>
+				<File Id="759042033" Language="SFX">
+					<ShortName>alien_voice_player1-026.wav</ShortName>
+					<Path>SFX\alien_voice_player1-026_6296B0F9.wem</Path>
+				</File>
+				<File Id="764937398" Language="SFX">
+					<ShortName>rougegorge-004.wav</ShortName>
+					<Path>SFX\rougegorge-004_6296B0F9.wem</Path>
+				</File>
+				<File Id="794403904" Language="SFX">
+					<ShortName>merle-003.wav</ShortName>
+					<Path>SFX\merle-003_6296B0F9.wem</Path>
+				</File>
+				<File Id="797037489" Language="SFX">
+					<ShortName>alien_voice_player2-024.wav</ShortName>
+					<Path>SFX\alien_voice_player2-024_6296B0F9.wem</Path>
+				</File>
+				<File Id="799502518" Language="SFX">
+					<ShortName>alien_voice_player1-025.wav</ShortName>
+					<Path>SFX\alien_voice_player1-025_6296B0F9.wem</Path>
+				</File>
+				<File Id="812631279" Language="SFX">
+					<ShortName>alien_voice_player1-015.wav</ShortName>
+					<Path>SFX\alien_voice_player1-015_6296B0F9.wem</Path>
+				</File>
+				<File Id="812905901" Language="SFX">
+					<ShortName>alien_voice_player2-030.wav</ShortName>
+					<Path>SFX\alien_voice_player2-030_6296B0F9.wem</Path>
+				</File>
+				<File Id="835819282" Language="SFX">
+					<ShortName>release_SFX .wav</ShortName>
+					<Path>SFX\release_SFX _6296B0F9.wem</Path>
+				</File>
+				<File Id="844603053" Language="SFX">
+					<ShortName>merle-002.wav</ShortName>
+					<Path>SFX\merle-002_6296B0F9.wem</Path>
+				</File>
+				<File Id="846419538" Language="SFX">
+					<ShortName>alien_voice_player2-035.wav</ShortName>
+					<Path>SFX\alien_voice_player2-035_6296B0F9.wem</Path>
+				</File>
+				<File Id="853769549" Language="SFX">
+					<ShortName>fauvette-005.wav</ShortName>
+					<Path>SFX\fauvette-005_6296B0F9.wem</Path>
+				</File>
+				<File Id="865678719" Language="SFX">
+					<ShortName>alien_voice_player1-027.wav</ShortName>
+					<Path>SFX\alien_voice_player1-027_6296B0F9.wem</Path>
+				</File>
+				<File Id="883595920" Language="SFX">
+					<ShortName>alien_voice_player1-028.wav</ShortName>
+					<Path>SFX\alien_voice_player1-028_6296B0F9.wem</Path>
+				</File>
+				<File Id="898003056" Language="SFX">
+					<ShortName>mésange-003.wav</ShortName>
+					<Path>SFX\mésange-003_6296B0F9.wem</Path>
+				</File>
+				<File Id="902625627" Language="SFX">
+					<ShortName>alien_voice_player1-010.wav</ShortName>
+					<Path>SFX\alien_voice_player1-010_6296B0F9.wem</Path>
+				</File>
+				<File Id="907440888" Language="SFX">
+					<ShortName>wash_SFX.wav</ShortName>
+					<Path>SFX\wash_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="915608967" Language="SFX">
+					<ShortName>fauvette-002.wav</ShortName>
+					<Path>SFX\fauvette-002_6296B0F9.wem</Path>
+				</File>
+				<File Id="916058256" Language="SFX">
+					<ShortName>alien_voice_player1-005.wav</ShortName>
+					<Path>SFX\alien_voice_player1-005_6296B0F9.wem</Path>
+				</File>
+				<File Id="920687623" Language="SFX">
+					<ShortName>alien_voice_player2-012.wav</ShortName>
+					<Path>SFX\alien_voice_player2-012_6296B0F9.wem</Path>
+				</File>
+				<File Id="924945538" Language="SFX">
+					<ShortName>alien_heavy_object-009.wav</ShortName>
+					<Path>SFX\alien_heavy_object-009_6296B0F9.wem</Path>
+				</File>
+				<File Id="955964054" Language="SFX">
+					<ShortName>alien_heavy_object-012.wav</ShortName>
+					<Path>SFX\alien_heavy_object-012_6296B0F9.wem</Path>
+				</File>
+				<File Id="956259562" Language="SFX">
+					<ShortName>alien_voice_player2-022.wav</ShortName>
+					<Path>SFX\alien_voice_player2-022_6296B0F9.wem</Path>
+				</File>
+				<File Id="958118366" Language="SFX">
+					<ShortName>alien_voice_player1-011.wav</ShortName>
+					<Path>SFX\alien_voice_player1-011_6296B0F9.wem</Path>
+				</File>
+				<File Id="966934252" Language="SFX">
+					<ShortName>alien_heavy_object-006.wav</ShortName>
+					<Path>SFX\alien_heavy_object-006_6296B0F9.wem</Path>
+				</File>
+				<File Id="975966635" Language="SFX">
+					<ShortName>alien_voice_player2-006.wav</ShortName>
+					<Path>SFX\alien_voice_player2-006_6296B0F9.wem</Path>
+				</File>
+				<File Id="981439438" Language="SFX">
+					<ShortName>alien_heavy_object-007.wav</ShortName>
+					<Path>SFX\alien_heavy_object-007_6296B0F9.wem</Path>
+				</File>
+				<File Id="996358046" Language="SFX">
+					<ShortName>alien_voice_player1-004.wav</ShortName>
+					<Path>SFX\alien_voice_player1-004_6296B0F9.wem</Path>
+				</File>
+				<File Id="997062958" Language="SFX">
+					<ShortName>alien_voice_player1-009.wav</ShortName>
+					<Path>SFX\alien_voice_player1-009_6296B0F9.wem</Path>
+				</File>
+				<File Id="1000440010" Language="SFX">
+					<ShortName>alien_voice_player1-001.wav</ShortName>
+					<Path>SFX\alien_voice_player1-001_6296B0F9.wem</Path>
+				</File>
+				<File Id="1025808805" Language="SFX">
+					<ShortName>alien_voice_player2-033.wav</ShortName>
+					<Path>SFX\alien_voice_player2-033_6296B0F9.wem</Path>
+				</File>
+				<File Id="1029929531" Language="SFX">
+					<ShortName>alien_voice_player2-034.wav</ShortName>
+					<Path>SFX\alien_voice_player2-034_6296B0F9.wem</Path>
+				</File>
+				<File Id="1030883200" Language="SFX">
+					<ShortName>alien_voice_player1-020.wav</ShortName>
+					<Path>SFX\alien_voice_player1-020_6296B0F9.wem</Path>
+				</File>
+				<File Id="1037843067" Language="SFX">
+					<ShortName>alien_heavy_object-013.wav</ShortName>
+					<Path>SFX\alien_heavy_object-013_6296B0F9.wem</Path>
+				</File>
+				<File Id="1050832833" Language="SFX">
+					<ShortName>alien_heavy_object-010.wav</ShortName>
+					<Path>SFX\alien_heavy_object-010_6296B0F9.wem</Path>
+				</File>
+				<File Id="1059776075" Language="SFX">
+					<ShortName>alien_heavy_object-008.wav</ShortName>
+					<Path>SFX\alien_heavy_object-008_6296B0F9.wem</Path>
+				</File>
+				<File Id="1063688985" Language="SFX">
+					<ShortName>merle-001.wav</ShortName>
+					<Path>SFX\merle-001_6296B0F9.wem</Path>
+				</File>
+				<File Id="1064242283" Language="SFX">
+					<ShortName>alien_voice_player1-016.wav</ShortName>
+					<Path>SFX\alien_voice_player1-016_6296B0F9.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

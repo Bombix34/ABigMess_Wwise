@@ -8,6 +8,13 @@
 			</PropertyList>
 			<ChildrenList>
 				<MusicSwitchContainer Name="radio_stations" ID="{3971394F-2284-4E8A-9793-7B0CE29724B8}" ShortID="502045446">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>

@@ -85,7 +85,7 @@
 								</Action>
 								<Action Name="" ID="{3EAE33E4-817B-418C-8957-2D39B566A1AC}" ShortID="889432119">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="0.2"/>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -95,7 +95,7 @@
 								</Action>
 								<Action Name="" ID="{3A34F0C6-A690-46BC-B925-DF2E0F61528D}" ShortID="1005990321">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="0.2"/>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -105,7 +105,7 @@
 								</Action>
 								<Action Name="" ID="{35A96F1B-C83C-43E3-BC67-5E88C666AEB1}" ShortID="356091166">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="0.2"/>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -193,6 +193,13 @@
 				</Folder>
 				<Event Name="Transition_level_in" ID="{EA49C031-676B-44E6-9060-522A7782EE5D}">
 					<ChildrenList>
+						<Action Name="" ID="{84990AB3-1CB7-4CB6-B309-7A6603D947ED}" ShortID="915337574">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="transition_level_in" ID="{735BC02B-D4D8-44C8-8A68-692C4BFF1440}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{A3736A6D-252C-4AFC-A198-F45560761382}" ShortID="697586633">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="38"/>
@@ -210,6 +217,13 @@
 				</Event>
 				<Event Name="Transition_level_out" ID="{01E3C00D-FA70-4F92-9A95-D9E1E70BFFD8}">
 					<ChildrenList>
+						<Action Name="" ID="{B4E9F38E-1320-4DBA-B3EF-42BAC0F25D63}" ShortID="912538698">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="transition_level_out" ID="{06CC7413-D13A-43F4-B97B-3B71D631767F}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{E2FF1136-2ABD-4756-81C7-55B286142E7F}" ShortID="592255183">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="38"/>

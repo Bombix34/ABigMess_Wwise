@@ -40,6 +40,23 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Bigmess_SFX" ID="{16583839-F5D5-4031-A386-32BEE0767650}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_wash_SFX_01" ID="{4EF416CF-B2BC-4119-A79E-65B32F64B7C6}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_bathroom_tone" ID="{8A2EE2B4-146F-42D5-80F2-3A315A13CBC5}" WorkUnitID="{CF461690-1CC8-4583-B4A4-D18F8B1C5CE2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_burn_SFX_01" ID="{E3849B60-2F5F-4344-8DEA-A0BA4C98D78F}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Voice_player02" ID="{1846AC6F-E6C2-43BC-9EA0-5B9C5E612323}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_small_room_tone" ID="{C86DCD34-99C6-4BAD-A5F2-A6007EE0DC2B}" WorkUnitID="{CF461690-1CC8-4583-B4A4-D18F8B1C5CE2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_big_room_tone" ID="{F73878B0-68D3-4C35-A8BA-36821FEE2F12}" WorkUnitID="{CF461690-1CC8-4583-B4A4-D18F8B1C5CE2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_grab_SFX" ID="{8BF690F0-7812-4C35-9A1A-0A7433B40100}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Alien_heavy_object" ID="{60413302-DDE7-4D19-8C34-9CA953ACF0E9}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Voice_player01" ID="{E3CE0BEC-FC62-4D38-8000-9BCF0CE28D00}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_release_SFX" ID="{323F7E11-BF53-4DD1-95E9-7B08CD6766BB}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_garden_amb" ID="{134AFCCD-92A2-4EAB-A1D8-4A3E800CC863}" WorkUnitID="{CF461690-1CC8-4583-B4A4-D18F8B1C5CE2}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
