@@ -132,7 +132,7 @@
 								<Action Name="" ID="{71D0E979-4B6D-478C-B3E9-041942B44E18}" ShortID="318165140">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="voices" ID="{428DD773-20D5-4A3A-9590-13F255D59A39}" WorkUnitID="{16BE9146-BEBB-4DAD-8772-0701FD0F59B3}"/>
+											<ObjectRef Name="voices_sequence" ID="{416E082D-2513-4DEF-A5DF-53B0434C7D1A}" WorkUnitID="{16BE9146-BEBB-4DAD-8772-0701FD0F59B3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -143,7 +143,7 @@
 								<Action Name="" ID="{AED87C4B-3210-4A62-A96C-DE0A617AD181}" ShortID="983361359">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="voices_sequence" ID="{416E082D-2513-4DEF-A5DF-53B0434C7D1A}" WorkUnitID="{16BE9146-BEBB-4DAD-8772-0701FD0F59B3}"/>
+											<ObjectRef Name="voices" ID="{428DD773-20D5-4A3A-9590-13F255D59A39}" WorkUnitID="{16BE9146-BEBB-4DAD-8772-0701FD0F59B3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
