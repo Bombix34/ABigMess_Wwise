@@ -1441,13 +1441,7 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Alien_heavy_object" ID="{88498CDB-81D4-40BC-89C5-A278344EB3C2}" ShortID="752472365">
-							<PropertyList>
-								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-							</PropertyList>
+						<ActorMixer Name="Carry_heavy_object" ID="{59A30017-AE25-418D-9FA6-5E4954F605A5}" ShortID="995000145">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
@@ -1457,29 +1451,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="silence" ID="{5C902140-138F-46BF-AC5C-B03E8DBC1A8B}" ShortID="255306384">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<SourcePlugin Name="Wwise Silence" ID="{C168D41D-96D0-4538-88B8-C9A2B341944B}" ShortID="1065321429" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
-											<PropertyList>
-												<Property Name="Length" Type="Real32" Value="3"/>
-												<Property Name="LengthMax" Type="Real32" Value="2"/>
-												<Property Name="LengthMin" Type="Real32" Value="-1"/>
-											</PropertyList>
-											<Language>SFX</Language>
-										</SourcePlugin>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Wwise Silence" ID="{C168D41D-96D0-4538-88B8-C9A2B341944B}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<RandomSequenceContainer Name="voices" ID="{428DD773-20D5-4A3A-9590-13F255D59A39}" ShortID="1033837716">
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1739,12 +1710,346 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="voices_sequence" ID="{416E082D-2513-4DEF-A5DF-53B0434C7D1A}" ShortID="147488904">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="voices" ID="{A267DD7F-0D24-484B-814C-CB0E557C0004}" ShortID="694386218">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="alien_heavy_object-009" ID="{313BD796-BB6D-4EEB-A14E-737E3DDB7291}" ShortID="596568521">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="alien_heavy_object-009" ID="{B91CF88C-1515-4304-AF59-B588B1712141}" ShortID="879927017">
+															<Language>SFX</Language>
+															<AudioFile>alien_heavy_object-009.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="924945538"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="alien_heavy_object-009" ID="{B91CF88C-1515-4304-AF59-B588B1712141}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="alien_heavy_object-013" ID="{422E5FBD-42B8-4380-9C4E-83DEEB323961}" ShortID="368482969">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="alien_heavy_object-013" ID="{2C6986C8-2C64-4D68-B82B-63946896B46B}" ShortID="1028849264">
+															<Language>SFX</Language>
+															<AudioFile>alien_heavy_object-013.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="1037843067"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="alien_heavy_object-013" ID="{2C6986C8-2C64-4D68-B82B-63946896B46B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="alien_heavy_object-003" ID="{18EBC0ED-3786-40B6-8869-32207FCCB297}" ShortID="1043732391">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="alien_heavy_object-003" ID="{70E6EB73-8E23-4AF6-8893-E150E67AE83E}" ShortID="273757894">
+															<Language>SFX</Language>
+															<AudioFile>alien_heavy_object-003.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="362202670"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="alien_heavy_object-003" ID="{70E6EB73-8E23-4AF6-8893-E150E67AE83E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="alien_heavy_object-006" ID="{4DF8B81F-AFCC-4487-AE66-D297F5BEF399}" ShortID="649870814">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="alien_heavy_object-006" ID="{3F490D28-369E-4D04-A1FC-BC3557C60287}" ShortID="785479631">
+															<Language>SFX</Language>
+															<AudioFile>alien_heavy_object-006.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="966934252"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="alien_heavy_object-006" ID="{3F490D28-369E-4D04-A1FC-BC3557C60287}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="alien_heavy_object-010" ID="{866C68E8-5533-48A9-B1E1-2468FB77C2B3}" ShortID="63094501">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="alien_heavy_object-010" ID="{45ED9C3D-54F6-4A73-9601-782CDA58EC59}" ShortID="832218021">
+															<Language>SFX</Language>
+															<AudioFile>alien_heavy_object-010.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="1050832833"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="alien_heavy_object-010" ID="{45ED9C3D-54F6-4A73-9601-782CDA58EC59}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="alien_heavy_object-008" ID="{F760E7DF-AF33-4966-8646-A8C135CA3DB3}" ShortID="463016552">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="alien_heavy_object-008" ID="{AFAC233E-ECE5-458C-ACB2-98A01737133D}" ShortID="829776885">
+															<Language>SFX</Language>
+															<AudioFile>alien_heavy_object-008.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="1059776075"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="alien_heavy_object-008" ID="{AFAC233E-ECE5-458C-ACB2-98A01737133D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="alien_heavy_object-004" ID="{2A779B12-2FF2-4ADF-AAAF-E991B1818873}" ShortID="133590279">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="alien_heavy_object-004" ID="{F41270A1-5B51-4A8B-87F4-927F33CA48B0}" ShortID="36155026">
+															<Language>SFX</Language>
+															<AudioFile>alien_heavy_object-004.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="31705472"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="alien_heavy_object-004" ID="{F41270A1-5B51-4A8B-87F4-927F33CA48B0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="alien_heavy_object-011" ID="{18B17328-6B88-4966-9C8A-40BA27D24A8E}" ShortID="670995729">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="alien_heavy_object-011" ID="{CFC97130-125B-4A6C-B5DB-23126B22C89D}" ShortID="1016863693">
+															<Language>SFX</Language>
+															<AudioFile>alien_heavy_object-011.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="135498314"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="alien_heavy_object-011" ID="{CFC97130-125B-4A6C-B5DB-23126B22C89D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="alien_heavy_object-012" ID="{3EB4CA00-5DEE-409A-8A25-4C447AA0D086}" ShortID="520845118">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="alien_heavy_object-012" ID="{630DBFF3-186C-46E3-BE5E-17902C651B98}" ShortID="241260314">
+															<Language>SFX</Language>
+															<AudioFile>alien_heavy_object-012.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="955964054"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="alien_heavy_object-012" ID="{630DBFF3-186C-46E3-BE5E-17902C651B98}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="alien_heavy_object-001" ID="{DE68B895-F3A1-46A9-8ECA-03E4088EF88A}" ShortID="574234402">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="alien_heavy_object-001" ID="{114A9B35-9FF0-49E6-BAB4-E0FB052BF3EB}" ShortID="756526526">
+															<Language>SFX</Language>
+															<AudioFile>alien_heavy_object-001.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="502344004"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="alien_heavy_object-001" ID="{114A9B35-9FF0-49E6-BAB4-E0FB052BF3EB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="alien_heavy_object-002" ID="{E8595665-6119-4723-80E3-5FDA53BFB688}" ShortID="819753541">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="alien_heavy_object-002" ID="{372019D7-833B-4FC1-9FE9-F1AC0A551390}" ShortID="130447523">
+															<Language>SFX</Language>
+															<AudioFile>alien_heavy_object-002.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="602774939"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="alien_heavy_object-002" ID="{372019D7-833B-4FC1-9FE9-F1AC0A551390}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="alien_heavy_object-005" ID="{6631922C-43FE-431E-9875-6CFE5D1B0F40}" ShortID="354785297">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="alien_heavy_object-005" ID="{6A1C9565-3053-44A2-B0B2-6C652C08FF95}" ShortID="161818083">
+															<Language>SFX</Language>
+															<AudioFile>alien_heavy_object-005.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="541742957"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="alien_heavy_object-005" ID="{6A1C9565-3053-44A2-B0B2-6C652C08FF95}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="alien_heavy_object-007" ID="{73EEAF10-1DED-4A1A-B8AB-468DCEBB16D1}" ShortID="999700162">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="alien_heavy_object-007" ID="{5856CFED-8BC5-49D4-8E58-F839F34DF05E}" ShortID="117122815">
+															<Language>SFX</Language>
+															<AudioFile>alien_heavy_object-007.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="981439438"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="alien_heavy_object-007" ID="{5856CFED-8BC5-49D4-8E58-F839F34DF05E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="silence" ID="{DCB0CC65-8353-42D1-BF02-4E2E63B7DA95}" ShortID="374970432">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{FCA330B4-69EB-494F-9F11-11E422222A34}" ShortID="195144261" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{FCA330B4-69EB-494F-9F11-11E422222A34}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="voices" ID="{A267DD7F-0D24-484B-814C-CB0E557C0004}"/>
+										<ItemRef Name="silence" ID="{DCB0CC65-8353-42D1-BF02-4E2E63B7DA95}"/>
+									</Playlist>
+								</RandomSequenceContainer>
 							</ChildrenList>
-							<Playlist>
-								<ItemRef Name="voices" ID="{428DD773-20D5-4A3A-9590-13F255D59A39}"/>
-								<ItemRef Name="silence" ID="{5C902140-138F-46BF-AC5C-B03E8DBC1A8B}"/>
-							</Playlist>
-						</RandomSequenceContainer>
+						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

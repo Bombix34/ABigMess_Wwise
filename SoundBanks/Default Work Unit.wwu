@@ -7,6 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Set_state_music_morning_05" ID="{8ABB7133-4FF6-40CC-BDF4-0E3D7F171515}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_state_music_morning_02" ID="{1ACEE105-976C-4116-B9E4-95AB22051BBC}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Music_menu" ID="{0D60880F-F742-414C-87D9-87DD7291E391}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_state_noon_04" ID="{2582D526-9B65-41CE-9DB0-0124DA93520D}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_state_noon_05" ID="{7AC50EAA-3D04-4226-9C2C-D1A6BF402E8F}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_state_noon_07" ID="{A12CC415-92BC-422E-81EE-A5751D661669}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
@@ -17,8 +18,11 @@
 						<ObjectRef Name="Set_state_noon_02" ID="{0FE0FF1F-EA12-4702-B1A6-CDD19881FEC8}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_state_music_morning_04" ID="{86BD087A-A0A2-4726-9252-C592EA82220F}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_state_music_morning_01" ID="{4DD0BD6B-00FC-47CB-92CC-A2F2EE4E50C6}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Music_credits" ID="{683847A9-D726-486F-80D4-030C59272621}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Music_menu" ID="{ED5A192E-9C4B-4878-94D5-27BB2C52AC76}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_state_music_morning_03" ID="{7B3FBA4A-C7D6-49AD-84A1-944610BB3957}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Music_morning" ID="{7FBADD35-B6EF-4AA6-BAA9-8BDEB8E54D04}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Music_credits" ID="{FBEBA030-4F79-4AC0-8E50-48BE859D4CFF}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_state_noon_06" ID="{C3DDD991-73A3-4B26-840C-AFF4C688CB23}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_state_noon_03" ID="{3836DB2B-8BCC-4BDD-A160-F9BB39B163B6}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_music_noon" ID="{94391AED-285B-4E7B-B919-F56FCE9D964F}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
@@ -42,17 +46,21 @@
 				</SoundBank>
 				<SoundBank Name="Bigmess_SFX" ID="{16583839-F5D5-4031-A386-32BEE0767650}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_wash_SFX_01" ID="{4EF416CF-B2BC-4119-A79E-65B32F64B7C6}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_wash_SFX" ID="{4EF416CF-B2BC-4119-A79E-65B32F64B7C6}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_bathroom_tone" ID="{8A2EE2B4-146F-42D5-80F2-3A315A13CBC5}" WorkUnitID="{CF461690-1CC8-4583-B4A4-D18F8B1C5CE2}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_burn_SFX_01" ID="{E3849B60-2F5F-4344-8DEA-A0BA4C98D78F}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_burn_SFX" ID="{E3849B60-2F5F-4344-8DEA-A0BA4C98D78F}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Voice_player02" ID="{1846AC6F-E6C2-43BC-9EA0-5B9C5E612323}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_voice_carry_loop" ID="{EE1DBECA-2B0B-4719-81AF-BE4E9C31363B}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_oven_open_SFX" ID="{F9B1078F-FD65-48EC-BA40-303EAF87F9B1}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_small_room_tone" ID="{C86DCD34-99C6-4BAD-A5F2-A6007EE0DC2B}" WorkUnitID="{CF461690-1CC8-4583-B4A4-D18F8B1C5CE2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_big_room_tone" ID="{F73878B0-68D3-4C35-A8BA-36821FEE2F12}" WorkUnitID="{CF461690-1CC8-4583-B4A4-D18F8B1C5CE2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_grab_SFX" ID="{8BF690F0-7812-4C35-9A1A-0A7433B40100}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_voices_carry_loop" ID="{B7C874D1-03F3-4C7E-8EE4-7669998B6439}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Alien_heavy_object" ID="{60413302-DDE7-4D19-8C34-9CA953ACF0E9}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Voice_player01" ID="{E3CE0BEC-FC62-4D38-8000-9BCF0CE28D00}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_release_SFX" ID="{323F7E11-BF53-4DD1-95E9-7B08CD6766BB}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_garden_amb" ID="{134AFCCD-92A2-4EAB-A1D8-4A3E800CC863}" WorkUnitID="{CF461690-1CC8-4583-B4A4-D18F8B1C5CE2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_oven_close_SFX" ID="{540D7965-5178-4EEB-AB0B-D6BF71A637F2}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

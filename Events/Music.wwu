@@ -508,6 +508,58 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_Music_menu" ID="{ED5A192E-9C4B-4878-94D5-27BB2C52AC76}">
+					<ChildrenList>
+						<Action Name="" ID="{47118232-7D8A-4985-80EB-0F7BE6AB957A}" ShortID="474603673">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="loop_menu" ID="{EF3E5126-308F-42AD-92F3-ED144EB4AC6B}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music_menu" ID="{0D60880F-F742-414C-87D9-87DD7291E391}">
+					<ChildrenList>
+						<Action Name="" ID="{A78FCB1F-86B9-484C-BFA4-F2AF6DB27BDB}" ShortID="182070672">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="loop_menu" ID="{EF3E5126-308F-42AD-92F3-ED144EB4AC6B}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music_credits" ID="{683847A9-D726-486F-80D4-030C59272621}">
+					<ChildrenList>
+						<Action Name="" ID="{4131BD35-1EC4-4F11-9E98-7037258ECC28}" ShortID="314513342">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_credits" ID="{FD875A05-1066-47A0-A113-9FCFC80C677D}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music_credits" ID="{FBEBA030-4F79-4AC0-8E50-48BE859D4CFF}">
+					<ChildrenList>
+						<Action Name="" ID="{934256E0-AC53-41A0-85EB-7378717A670F}" ShortID="1056215507">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="loop_credits" ID="{DB3632B0-5D99-449E-A7A6-2EAE85B26767}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

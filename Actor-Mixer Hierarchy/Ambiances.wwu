@@ -813,25 +813,6 @@
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>
-				<Sound Name="rain_amb" ID="{CE9E8980-1534-4723-9A39-4A112A5EC535}" ShortID="460996164">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="rain_amb" ID="{33754CC3-027D-4214-9500-6193C7EB9547}" ShortID="1020236648">
-							<Language>SFX</Language>
-							<AudioFile>rain_amb.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="rain_amb" ID="{33754CC3-027D-4214-9500-6193C7EB9547}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

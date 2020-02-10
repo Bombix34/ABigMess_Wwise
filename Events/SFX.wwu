@@ -7,7 +7,7 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Event Name="Play_burn_SFX_01" ID="{E3849B60-2F5F-4344-8DEA-A0BA4C98D78F}">
+				<Event Name="Play_burn_SFX" ID="{E3849B60-2F5F-4344-8DEA-A0BA4C98D78F}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="25"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -22,7 +22,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_wash_SFX_01" ID="{4EF416CF-B2BC-4119-A79E-65B32F64B7C6}">
+				<Event Name="Play_wash_SFX" ID="{4EF416CF-B2BC-4119-A79E-65B32F64B7C6}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="25"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -31,7 +31,7 @@
 						<Action Name="" ID="{A5141DFA-5244-4454-80B7-B58E97265686}" ShortID="170764431">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wash_SFX" ID="{A970EEA9-C44F-437D-BD17-E8FDCB0F3B59}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+									<ObjectRef Name="wash_sequence" ID="{68DF9C23-27A9-449D-86B1-B2EE99BE584E}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -67,39 +67,90 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Voice_player02" ID="{1846AC6F-E6C2-43BC-9EA0-5B9C5E612323}">
+				<Event Name="Play_oven_open_SFX" ID="{F9B1078F-FD65-48EC-BA40-303EAF87F9B1}">
 					<ChildrenList>
-						<Action Name="" ID="{4AD98571-00F2-4841-925D-F0670BD90A5A}" ShortID="81196687">
+						<Action Name="" ID="{16ED1549-DD51-42AB-A576-342892D27067}" ShortID="705402488">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Voice_player02" ID="{06F83CE3-2A9F-4975-8AE1-2CBD0824C95A}" WorkUnitID="{16BE9146-BEBB-4DAD-8772-0701FD0F59B3}"/>
+									<ObjectRef Name="oven_open_SFX" ID="{9BB9FBE5-70D2-4A51-A9E8-1156C47322F9}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Alien_heavy_object" ID="{60413302-DDE7-4D19-8C34-9CA953ACF0E9}">
+				<Event Name="Play_oven_close_SFX" ID="{540D7965-5178-4EEB-AB0B-D6BF71A637F2}">
 					<ChildrenList>
-						<Action Name="" ID="{AED87C4B-3210-4A62-A96C-DE0A617AD181}" ShortID="983361359">
+						<Action Name="" ID="{153B3A61-D6A3-45BB-B98D-DFF36525B256}" ShortID="390539959">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Alien_heavy_object" ID="{88498CDB-81D4-40BC-89C5-A278344EB3C2}" WorkUnitID="{16BE9146-BEBB-4DAD-8772-0701FD0F59B3}"/>
+									<ObjectRef Name="oven_close_SFX" ID="{570D1BB9-8B19-48FC-B970-5FA3C09AAF95}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Voice_player01" ID="{E3CE0BEC-FC62-4D38-8000-9BCF0CE28D00}">
+				<Folder Name="Alien_voices" ID="{6CCB44D8-E49B-400B-8265-4FA34A9920B8}" ShortID="364466338">
 					<ChildrenList>
-						<Action Name="" ID="{1F3F163E-EFC8-42B3-B894-F4AD561AFDFB}" ShortID="52705812">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Voice_player01" ID="{4964C517-B66B-472A-83D2-376546B2E4AA}" WorkUnitID="{16BE9146-BEBB-4DAD-8772-0701FD0F59B3}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_Voice_player01" ID="{E3CE0BEC-FC62-4D38-8000-9BCF0CE28D00}">
+							<ChildrenList>
+								<Action Name="" ID="{1F3F163E-EFC8-42B3-B894-F4AD561AFDFB}" ShortID="52705812">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Voice_player01" ID="{4964C517-B66B-472A-83D2-376546B2E4AA}" WorkUnitID="{16BE9146-BEBB-4DAD-8772-0701FD0F59B3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Voice_player02" ID="{1846AC6F-E6C2-43BC-9EA0-5B9C5E612323}">
+							<ChildrenList>
+								<Action Name="" ID="{4AD98571-00F2-4841-925D-F0670BD90A5A}" ShortID="81196687">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Voice_player02" ID="{06F83CE3-2A9F-4975-8AE1-2CBD0824C95A}" WorkUnitID="{16BE9146-BEBB-4DAD-8772-0701FD0F59B3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_voice_carry_loop" ID="{EE1DBECA-2B0B-4719-81AF-BE4E9C31363B}">
+							<ChildrenList>
+								<Action Name="" ID="{5DE5109E-36BE-43C5-9C5C-FB869CDEF6B8}" ShortID="746382535">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="voices_sequence" ID="{416E082D-2513-4DEF-A5DF-53B0434C7D1A}" WorkUnitID="{16BE9146-BEBB-4DAD-8772-0701FD0F59B3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_voices_carry_loop" ID="{B7C874D1-03F3-4C7E-8EE4-7669998B6439}">
+							<ChildrenList>
+								<Action Name="" ID="{71D0E979-4B6D-478C-B3E9-041942B44E18}" ShortID="318165140">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="voices" ID="{428DD773-20D5-4A3A-9590-13F255D59A39}" WorkUnitID="{16BE9146-BEBB-4DAD-8772-0701FD0F59B3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Alien_heavy_object" ID="{60413302-DDE7-4D19-8C34-9CA953ACF0E9}">
+							<ChildrenList>
+								<Action Name="" ID="{AED87C4B-3210-4A62-A96C-DE0A617AD181}" ShortID="983361359">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="voices_sequence" ID="{416E082D-2513-4DEF-A5DF-53B0434C7D1A}" WorkUnitID="{16BE9146-BEBB-4DAD-8772-0701FD0F59B3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
