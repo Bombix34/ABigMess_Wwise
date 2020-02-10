@@ -3,13 +3,13 @@
 	<Events>
 		<WorkUnit Name="SFX" ID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" PersistMode="Standalone">
 			<PropertyList>
-				<Property Name="Color" Type="int16" Value="25"/>
+				<Property Name="Color" Type="int16" Value="26"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
 				<Event Name="Play_burn_SFX" ID="{E3849B60-2F5F-4344-8DEA-A0BA4C98D78F}">
 					<PropertyList>
-						<Property Name="Color" Type="int16" Value="25"/>
+						<Property Name="Color" Type="int16" Value="26"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
@@ -24,7 +24,7 @@
 				</Event>
 				<Event Name="Play_wash_SFX" ID="{4EF416CF-B2BC-4119-A79E-65B32F64B7C6}">
 					<PropertyList>
-						<Property Name="Color" Type="int16" Value="25"/>
+						<Property Name="Color" Type="int16" Value="26"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
@@ -39,7 +39,7 @@
 				</Event>
 				<Event Name="Play_grab_SFX" ID="{8BF690F0-7812-4C35-9A1A-0A7433B40100}">
 					<PropertyList>
-						<Property Name="Color" Type="int16" Value="25"/>
+						<Property Name="Color" Type="int16" Value="26"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
@@ -54,7 +54,7 @@
 				</Event>
 				<Event Name="Play_release_SFX" ID="{323F7E11-BF53-4DD1-95E9-7B08CD6766BB}">
 					<PropertyList>
-						<Property Name="Color" Type="int16" Value="25"/>
+						<Property Name="Color" Type="int16" Value="26"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
@@ -68,6 +68,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_oven_open_SFX" ID="{F9B1078F-FD65-48EC-BA40-303EAF87F9B1}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="26"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{16ED1549-DD51-42AB-A576-342892D27067}" ShortID="705402488">
 							<ReferenceList>
@@ -79,6 +83,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_oven_close_SFX" ID="{540D7965-5178-4EEB-AB0B-D6BF71A637F2}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="26"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{153B3A61-D6A3-45BB-B98D-DFF36525B256}" ShortID="390539959">
 							<ReferenceList>
@@ -90,6 +98,10 @@
 					</ChildrenList>
 				</Event>
 				<Folder Name="Alien_voices" ID="{6CCB44D8-E49B-400B-8265-4FA34A9920B8}" ShortID="364466338">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="24"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Event Name="Play_Voice_player01" ID="{E3CE0BEC-FC62-4D38-8000-9BCF0CE28D00}">
 							<ChildrenList>
