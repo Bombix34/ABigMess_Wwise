@@ -1,6 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A4190B2E-A333-4D38-B419-1777C4D33194}" SchemaVersion="94">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{A4190B2E-A333-4D38-B419-1777C4D33194}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A4190B2E-A333-4D38-B419-1777C4D33194}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_chair_drop_SFX" ID="{900F995B-7664-4E33-B028-6D8B124720B5}">
+					<ChildrenList>
+						<Action Name="" ID="{61713C17-D049-48A1-A3E4-46D304576C1C}" ShortID="628104179">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="chair_drop_SFX" ID="{68DF9C23-27A9-449D-86B1-B2EE99BE584E}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_drop_fork_SFX" ID="{2B3457F5-6E6E-4063-A6C6-CE99965D8BA1}">
+					<ChildrenList>
+						<Action Name="" ID="{E54125A3-BDF6-45C1-AA9B-F918C1C212EC}" ShortID="210703958">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="drop_fork_SFX" ID="{ABA140FF-8D97-45CC-8BD9-54B03EBE438D}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_drop_plate_SFX" ID="{6E1DAF1B-29A9-4F22-A547-7610BC871700}">
+					<ChildrenList>
+						<Action Name="" ID="{199F181C-977A-47F8-95EB-4ADBA7C20CF5}" ShortID="274478361">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="drop_plate_SFX" ID="{B77577E5-5101-4C2F-A1CE-78F3FAAAFFC8}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_heavy_object_SFX" ID="{7B48093C-0D38-44C1-8EB8-4840214CD853}">
+					<ChildrenList>
+						<Action Name="" ID="{80BACB6D-17FF-4152-910C-3DC35CE69CF0}" ShortID="283703598">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="drop_heavy_object_SFX" ID="{DFCAA52D-F6E2-4DA3-9D9E-AABF6A9FDDD4}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_device_plug_SFX" ID="{95949755-D095-4F07-AE73-40C002638532}">
+					<ChildrenList>
+						<Action Name="" ID="{76D21E1F-1F1D-4D09-A3C9-04B5C4A55C81}" ShortID="446006262">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="device_plug_SFX" ID="{E7A38DC1-F926-4EFF-AAEC-0E19094ED596}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_device_unplug_SFX" ID="{ED81E524-6486-4DDF-808C-F75D4FE4561A}">
+					<ChildrenList>
+						<Action Name="" ID="{F9E7E3F8-63BC-45F2-BFA9-DF287595F585}" ShortID="276516528">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="device_unplug_SFX" ID="{B33F3CA8-C9BB-49DB-BE97-049D5DAB485C}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_watering_can_SFX" ID="{4508AA57-8527-4353-8DB4-73CBE3F81A03}">
+					<ChildrenList>
+						<Action Name="" ID="{51D5A8E1-C71D-48DE-ADD7-CA44F176543F}" ShortID="928652024">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="watering_can_SFX" ID="{ECA22B24-C355-4A78-AA20-08FF6650ECD2}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

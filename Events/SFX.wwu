@@ -31,7 +31,7 @@
 						<Action Name="" ID="{A5141DFA-5244-4454-80B7-B58E97265686}" ShortID="170764431">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="wash_sequence" ID="{68DF9C23-27A9-449D-86B1-B2EE99BE584E}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+									<ObjectRef Name="wash_sequence_SFX" ID="{B44B5FBA-4F22-4DA1-9F8C-082B683CC5A6}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

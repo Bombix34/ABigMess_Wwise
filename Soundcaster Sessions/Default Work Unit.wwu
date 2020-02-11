@@ -146,6 +146,22 @@
 							<Position X="4" Y="5"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_chair_drop_SFX" ID="{900F995B-7664-4E33-B028-6D8B124720B5}" WorkUnitID="{A4190B2E-A333-4D38-B419-1777C4D33194}"/>
+							<Position X="4" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_drop_fork_SFX" ID="{2B3457F5-6E6E-4063-A6C6-CE99965D8BA1}" WorkUnitID="{A4190B2E-A333-4D38-B419-1777C4D33194}"/>
+							<Position X="4" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_drop_plate_SFX" ID="{6E1DAF1B-29A9-4F22-A547-7610BC871700}" WorkUnitID="{A4190B2E-A333-4D38-B419-1777C4D33194}"/>
+							<Position X="4" Y="8"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_watering_can_SFX" ID="{4508AA57-8527-4353-8DB4-73CBE3F81A03}" WorkUnitID="{A4190B2E-A333-4D38-B419-1777C4D33194}"/>
+							<Position X="4" Y="9"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_grab_SFX" ID="{8BF690F0-7812-4C35-9A1A-0A7433B40100}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
 							<Position X="5" Y="0"/>
 						</Module>
@@ -168,6 +184,18 @@
 						<Module>
 							<ObjectRef Name="Play_oven_close_SFX" ID="{540D7965-5178-4EEB-AB0B-D6BF71A637F2}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
 							<Position X="5" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_device_plug_SFX" ID="{95949755-D095-4F07-AE73-40C002638532}" WorkUnitID="{A4190B2E-A333-4D38-B419-1777C4D33194}"/>
+							<Position X="5" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_device_unplug_SFX" ID="{ED81E524-6486-4DDF-808C-F75D4FE4561A}" WorkUnitID="{A4190B2E-A333-4D38-B419-1777C4D33194}"/>
+							<Position X="5" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_heavy_object_SFX" ID="{7B48093C-0D38-44C1-8EB8-4840214CD853}" WorkUnitID="{A4190B2E-A333-4D38-B419-1777C4D33194}"/>
+							<Position X="5" Y="8"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -223,7 +251,7 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="step03" ID="{F07BB843-4D44-4B32-A727-F780988E9A66}"/>
 						<CurrentStateRef Name="station01" ID="{224CAD59-8E51-4253-9E07-D5751313F204}"/>
-						<CurrentStateRef Name="step03" ID="{8C0E0BD4-E2B5-4704-A318-E7BB2F917695}"/>
+						<CurrentStateRef Name="step02" ID="{E1C8026F-D42F-4672-93D1-33EE56E451D2}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

@@ -153,8 +153,14 @@
 				<Event Id="3592785647" Name="Play_bathroom_tone" ObjectPath="\Events\Amb\Play_bathroom_tone"/>
 				<Event Id="2999503001" Name="Play_big_room_tone" ObjectPath="\Events\Amb\Play_big_room_tone"/>
 				<Event Id="1188830101" Name="Play_burn_SFX" ObjectPath="\Events\SFX\Play_burn_SFX"/>
+				<Event Id="3542249275" Name="Play_chair_drop_SFX" ObjectPath="\Events\Default Work Unit\Play_chair_drop_SFX"/>
+				<Event Id="4035254439" Name="Play_device_plug_SFX" ObjectPath="\Events\Default Work Unit\Play_device_plug_SFX"/>
+				<Event Id="3963771822" Name="Play_device_unplug_SFX" ObjectPath="\Events\Default Work Unit\Play_device_unplug_SFX"/>
+				<Event Id="326639012" Name="Play_drop_fork_SFX" ObjectPath="\Events\Default Work Unit\Play_drop_fork_SFX"/>
+				<Event Id="2233376516" Name="Play_drop_plate_SFX" ObjectPath="\Events\Default Work Unit\Play_drop_plate_SFX"/>
 				<Event Id="1623367340" Name="Play_garden_amb" ObjectPath="\Events\Amb\Play_garden_amb"/>
 				<Event Id="1876721888" Name="Play_grab_SFX" ObjectPath="\Events\SFX\Play_grab_SFX"/>
+				<Event Id="2016090091" Name="Play_heavy_object_SFX" ObjectPath="\Events\Default Work Unit\Play_heavy_object_SFX"/>
 				<Event Id="4125399505" Name="Play_oven_close_SFX" ObjectPath="\Events\SFX\Play_oven_close_SFX"/>
 				<Event Id="143297623" Name="Play_oven_open_SFX" ObjectPath="\Events\SFX\Play_oven_open_SFX"/>
 				<Event Id="2301344613" Name="Play_release_SFX" ObjectPath="\Events\SFX\Play_release_SFX"/>
@@ -163,6 +169,7 @@
 				<Event Id="1980653890" Name="Play_Voice_player02" ObjectPath="\Events\SFX\Alien_voices\Play_Voice_player02"/>
 				<Event Id="439267736" Name="Play_voices_carry_loop" ObjectPath="\Events\SFX\Alien_voices\Play_voices_carry_loop"/>
 				<Event Id="4080261691" Name="Play_wash_SFX" ObjectPath="\Events\SFX\Play_wash_SFX"/>
+				<Event Id="2849262102" Name="Play_watering_can_SFX" ObjectPath="\Events\Default Work Unit\Play_watering_can_SFX"/>
 				<Event Id="3486948951" Name="Stop_voice_carry_loop" ObjectPath="\Events\SFX\Alien_voices\Stop_voice_carry_loop"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -206,6 +213,10 @@
 					<ShortName>alien_voice_player2-015.wav</ShortName>
 					<Path>SFX\alien_voice_player2-015_6296B0F9.wem</Path>
 				</File>
+				<File Id="61401706" Language="SFX">
+					<ShortName>device_plug_SFX.wav</ShortName>
+					<Path>SFX\device_plug_SFX_6296B0F9.wem</Path>
+				</File>
 				<File Id="62221577" Language="SFX">
 					<ShortName>alien_voice_player1-022.wav</ShortName>
 					<Path>SFX\alien_voice_player1-022_6296B0F9.wem</Path>
@@ -221,6 +232,10 @@
 				<File Id="72448172" Language="SFX">
 					<ShortName>bubble_SFX-007.wav</ShortName>
 					<Path>SFX\bubble_SFX-007_6296B0F9.wem</Path>
+				</File>
+				<File Id="95080656" Language="SFX">
+					<ShortName>drop_fork-006.wav</ShortName>
+					<Path>SFX\drop_fork-006_6296B0F9.wem</Path>
 				</File>
 				<File Id="108069469" Language="SFX">
 					<ShortName>fauvette-003.wav</ShortName>
@@ -254,6 +269,10 @@
 					<ShortName>bubble_SFX-002.wav</ShortName>
 					<Path>SFX\bubble_SFX-002_6296B0F9.wem</Path>
 				</File>
+				<File Id="159206736" Language="SFX">
+					<ShortName>drop_heavy_object-004.wav</ShortName>
+					<Path>SFX\drop_heavy_object-004_6296B0F9.wem</Path>
+				</File>
 				<File Id="169254750" Language="SFX">
 					<ShortName>alien_voice_player2-008.wav</ShortName>
 					<Path>SFX\alien_voice_player2-008_6296B0F9.wem</Path>
@@ -269,6 +288,10 @@
 				<File Id="196956413" Language="SFX">
 					<ShortName>alien_voice_player1-030.wav</ShortName>
 					<Path>SFX\alien_voice_player1-030_6296B0F9.wem</Path>
+				</File>
+				<File Id="201773051" Language="SFX">
+					<ShortName>drop_fork-003.wav</ShortName>
+					<Path>SFX\drop_fork-003_6296B0F9.wem</Path>
 				</File>
 				<File Id="202935544" Language="SFX">
 					<ShortName>sponge_SFX_A-003.wav</ShortName>
@@ -294,6 +317,10 @@
 					<ShortName>alien_voice_player1-007.wav</ShortName>
 					<Path>SFX\alien_voice_player1-007_6296B0F9.wem</Path>
 				</File>
+				<File Id="229231278" Language="SFX">
+					<ShortName>drop_chair-004.wav</ShortName>
+					<Path>SFX\drop_chair-004_6296B0F9.wem</Path>
+				</File>
 				<File Id="229916294" Language="SFX">
 					<ShortName>mésange-004.wav</ShortName>
 					<Path>SFX\mésange-004_6296B0F9.wem</Path>
@@ -314,6 +341,10 @@
 					<ShortName>fauvette-004.wav</ShortName>
 					<Path>SFX\fauvette-004_6296B0F9.wem</Path>
 				</File>
+				<File Id="267586934" Language="SFX">
+					<ShortName>drop_chair-005.wav</ShortName>
+					<Path>SFX\drop_chair-005_6296B0F9.wem</Path>
+				</File>
 				<File Id="268068198" Language="SFX">
 					<ShortName>sponge_SFX_B-011.wav</ShortName>
 					<Path>SFX\sponge_SFX_B-011_6296B0F9.wem</Path>
@@ -326,6 +357,10 @@
 					<ShortName>bubble_SFX-006.wav</ShortName>
 					<Path>SFX\bubble_SFX-006_6296B0F9.wem</Path>
 				</File>
+				<File Id="281003711" Language="SFX">
+					<ShortName>drop_fork-002.wav</ShortName>
+					<Path>SFX\drop_fork-002_6296B0F9.wem</Path>
+				</File>
 				<File Id="282545813" Language="SFX">
 					<ShortName>alien_voice_player2-023.wav</ShortName>
 					<Path>SFX\alien_voice_player2-023_6296B0F9.wem</Path>
@@ -333,6 +368,10 @@
 				<File Id="287217866" Language="SFX">
 					<ShortName>sponge_SFX_B-003.wav</ShortName>
 					<Path>SFX\sponge_SFX_B-003_6296B0F9.wem</Path>
+				</File>
+				<File Id="287270376" Language="SFX">
+					<ShortName>device_unplug_SFX.wav</ShortName>
+					<Path>SFX\device_unplug_SFX_6296B0F9.wem</Path>
 				</File>
 				<File Id="305171081" Language="SFX">
 					<ShortName>rougegorge-003.wav</ShortName>
@@ -378,6 +417,18 @@
 					<ShortName>rougegorge-006.wav</ShortName>
 					<Path>SFX\rougegorge-006_6296B0F9.wem</Path>
 				</File>
+				<File Id="372394431" Language="SFX">
+					<ShortName>drop_fork-005.wav</ShortName>
+					<Path>SFX\drop_fork-005_6296B0F9.wem</Path>
+				</File>
+				<File Id="380590825" Language="SFX">
+					<ShortName>drop_chair-006.wav</ShortName>
+					<Path>SFX\drop_chair-006_6296B0F9.wem</Path>
+				</File>
+				<File Id="386306195" Language="SFX">
+					<ShortName>drop_fork-004.wav</ShortName>
+					<Path>SFX\drop_fork-004_6296B0F9.wem</Path>
+				</File>
 				<File Id="388193399" Language="SFX">
 					<ShortName>alien_voice_player2-028.wav</ShortName>
 					<Path>SFX\alien_voice_player2-028_6296B0F9.wem</Path>
@@ -401,6 +452,10 @@
 				<File Id="403404266" Language="SFX">
 					<ShortName>sponge_SFX_B-004.wav</ShortName>
 					<Path>SFX\sponge_SFX_B-004_6296B0F9.wem</Path>
+				</File>
+				<File Id="405228341" Language="SFX">
+					<ShortName>drop_plate-006.wav</ShortName>
+					<Path>SFX\drop_plate-006_6296B0F9.wem</Path>
 				</File>
 				<File Id="408491887" Language="SFX">
 					<ShortName>alien_voice_player1-002.wav</ShortName>
@@ -445,6 +500,14 @@
 				<File Id="497119085" Language="SFX">
 					<ShortName>splash_water_SFX-008.wav</ShortName>
 					<Path>SFX\splash_water_SFX-008_6296B0F9.wem</Path>
+				</File>
+				<File Id="500820247" Language="SFX">
+					<ShortName>drop_heavy_object-002.wav</ShortName>
+					<Path>SFX\drop_heavy_object-002_6296B0F9.wem</Path>
+				</File>
+				<File Id="501187624" Language="SFX">
+					<ShortName>drop_fork-001.wav</ShortName>
+					<Path>SFX\drop_fork-001_6296B0F9.wem</Path>
 				</File>
 				<File Id="502344004" Language="SFX">
 					<ShortName>alien_heavy_object-001.wav</ShortName>
@@ -502,6 +565,10 @@
 					<ShortName>sponge_SFX_B-001.wav</ShortName>
 					<Path>SFX\sponge_SFX_B-001_6296B0F9.wem</Path>
 				</File>
+				<File Id="616979710" Language="SFX">
+					<ShortName>drop_heavy_object-001.wav</ShortName>
+					<Path>SFX\drop_heavy_object-001_6296B0F9.wem</Path>
+				</File>
 				<File Id="626391729" Language="SFX">
 					<ShortName>alien_voice_player1-023.wav</ShortName>
 					<Path>SFX\alien_voice_player1-023_6296B0F9.wem</Path>
@@ -550,6 +617,10 @@
 					<ShortName>alien_voice_player2-017.wav</ShortName>
 					<Path>SFX\alien_voice_player2-017_6296B0F9.wem</Path>
 				</File>
+				<File Id="714492006" Language="SFX">
+					<ShortName>drop_plate-004.wav</ShortName>
+					<Path>SFX\drop_plate-004_6296B0F9.wem</Path>
+				</File>
 				<File Id="717769555" Language="SFX">
 					<ShortName>sponge_SFX_B-005.wav</ShortName>
 					<Path>SFX\sponge_SFX_B-005_6296B0F9.wem</Path>
@@ -578,9 +649,17 @@
 					<ShortName>splash_water_SFX-002.wav</ShortName>
 					<Path>SFX\splash_water_SFX-002_6296B0F9.wem</Path>
 				</File>
+				<File Id="737799586" Language="SFX">
+					<ShortName>drop_plate-001.wav</ShortName>
+					<Path>SFX\drop_plate-001_6296B0F9.wem</Path>
+				</File>
 				<File Id="739036169" Language="SFX">
 					<ShortName>alien_voice_player1-014.wav</ShortName>
 					<Path>SFX\alien_voice_player1-014_6296B0F9.wem</Path>
+				</File>
+				<File Id="742142374" Language="SFX">
+					<ShortName>drop_chair-009.wav</ShortName>
+					<Path>SFX\drop_chair-009_6296B0F9.wem</Path>
 				</File>
 				<File Id="743952102" Language="SFX">
 					<ShortName>bubble_SFX-001.wav</ShortName>
@@ -589,6 +668,10 @@
 				<File Id="759042033" Language="SFX">
 					<ShortName>alien_voice_player1-026.wav</ShortName>
 					<Path>SFX\alien_voice_player1-026_6296B0F9.wem</Path>
+				</File>
+				<File Id="762623127" Language="SFX">
+					<ShortName>drop_plate-005.wav</ShortName>
+					<Path>SFX\drop_plate-005_6296B0F9.wem</Path>
 				</File>
 				<File Id="764937398" Language="SFX">
 					<ShortName>rougegorge-004.wav</ShortName>
@@ -626,6 +709,10 @@
 					<ShortName>sponge_SFX_B-006.wav</ShortName>
 					<Path>SFX\sponge_SFX_B-006_6296B0F9.wem</Path>
 				</File>
+				<File Id="831002258" Language="SFX">
+					<ShortName>drop_chair-007.wav</ShortName>
+					<Path>SFX\drop_chair-007_6296B0F9.wem</Path>
+				</File>
 				<File Id="835819282" Language="SFX">
 					<ShortName>release_SFX .wav</ShortName>
 					<Path>SFX\release_SFX _6296B0F9.wem</Path>
@@ -654,6 +741,14 @@
 					<ShortName>fauvette-005.wav</ShortName>
 					<Path>SFX\fauvette-005_6296B0F9.wem</Path>
 				</File>
+				<File Id="860683873" Language="SFX">
+					<ShortName>drop_heavy_object-003.wav</ShortName>
+					<Path>SFX\drop_heavy_object-003_6296B0F9.wem</Path>
+				</File>
+				<File Id="863172771" Language="SFX">
+					<ShortName>drop_plate-003.wav</ShortName>
+					<Path>SFX\drop_plate-003_6296B0F9.wem</Path>
+				</File>
 				<File Id="865632079" Language="SFX">
 					<ShortName>sponge_SFX_A-008.wav</ShortName>
 					<Path>SFX\sponge_SFX_A-008_6296B0F9.wem</Path>
@@ -677,6 +772,10 @@
 				<File Id="902625627" Language="SFX">
 					<ShortName>alien_voice_player1-010.wav</ShortName>
 					<Path>SFX\alien_voice_player1-010_6296B0F9.wem</Path>
+				</File>
+				<File Id="904397986" Language="SFX">
+					<ShortName>drop_plate-007.wav</ShortName>
+					<Path>SFX\drop_plate-007_6296B0F9.wem</Path>
 				</File>
 				<File Id="910177360" Language="SFX">
 					<ShortName>sponge_SFX_A-011.wav</ShortName>
@@ -718,6 +817,14 @@
 					<ShortName>alien_voice_player1-011.wav</ShortName>
 					<Path>SFX\alien_voice_player1-011_6296B0F9.wem</Path>
 				</File>
+				<File Id="959814801" Language="SFX">
+					<ShortName>drop_chair-002.wav</ShortName>
+					<Path>SFX\drop_chair-002_6296B0F9.wem</Path>
+				</File>
+				<File Id="962428088" Language="SFX">
+					<ShortName>drop_chair-003.wav</ShortName>
+					<Path>SFX\drop_chair-003_6296B0F9.wem</Path>
+				</File>
 				<File Id="966934252" Language="SFX">
 					<ShortName>alien_heavy_object-006.wav</ShortName>
 					<Path>SFX\alien_heavy_object-006_6296B0F9.wem</Path>
@@ -742,9 +849,17 @@
 					<ShortName>alien_voice_player1-009.wav</ShortName>
 					<Path>SFX\alien_voice_player1-009_6296B0F9.wem</Path>
 				</File>
+				<File Id="998022038" Language="SFX">
+					<ShortName>drop_plate-002.wav</ShortName>
+					<Path>SFX\drop_plate-002_6296B0F9.wem</Path>
+				</File>
 				<File Id="1000440010" Language="SFX">
 					<ShortName>alien_voice_player1-001.wav</ShortName>
 					<Path>SFX\alien_voice_player1-001_6296B0F9.wem</Path>
+				</File>
+				<File Id="1001170705" Language="SFX">
+					<ShortName>drop_chair-008.wav</ShortName>
+					<Path>SFX\drop_chair-008_6296B0F9.wem</Path>
 				</File>
 				<File Id="1009645900" Language="SFX">
 					<ShortName>bubble_SFX-004.wav</ShortName>
@@ -770,9 +885,17 @@
 					<ShortName>splash_water_SFX-007.wav</ShortName>
 					<Path>SFX\splash_water_SFX-007_6296B0F9.wem</Path>
 				</File>
+				<File Id="1048680385" Language="SFX">
+					<ShortName>drop_fork-007.wav</ShortName>
+					<Path>SFX\drop_fork-007_6296B0F9.wem</Path>
+				</File>
 				<File Id="1050832833" Language="SFX">
 					<ShortName>alien_heavy_object-010.wav</ShortName>
 					<Path>SFX\alien_heavy_object-010_6296B0F9.wem</Path>
+				</File>
+				<File Id="1057703395" Language="SFX">
+					<ShortName>watering_can_SFX.wav</ShortName>
+					<Path>SFX\watering_can_SFX_6296B0F9.wem</Path>
 				</File>
 				<File Id="1059776075" Language="SFX">
 					<ShortName>alien_heavy_object-008.wav</ShortName>
@@ -785,6 +908,10 @@
 				<File Id="1064242283" Language="SFX">
 					<ShortName>alien_voice_player1-016.wav</ShortName>
 					<Path>SFX\alien_voice_player1-016_6296B0F9.wem</Path>
+				</File>
+				<File Id="1066629404" Language="SFX">
+					<ShortName>drop_chair-001.wav</ShortName>
+					<Path>SFX\drop_chair-001_6296B0F9.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
