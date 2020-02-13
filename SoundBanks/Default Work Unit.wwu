@@ -6,6 +6,7 @@
 				<SoundBank Name="Bigmess_music" ID="{63B7E13D-55AF-4B17-A5CC-31EB22D1527D}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Set_state_music_morning_05" ID="{8ABB7133-4FF6-40CC-BDF4-0E3D7F171515}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="final_presentation_set_RTPC" ID="{04B62269-8EB2-40E2-A4CC-056B14BFBE1A}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_state_music_morning_02" ID="{1ACEE105-976C-4116-B9E4-95AB22051BBC}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Music_menu" ID="{0D60880F-F742-414C-87D9-87DD7291E391}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_state_noon_04" ID="{2582D526-9B65-41CE-9DB0-0124DA93520D}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>

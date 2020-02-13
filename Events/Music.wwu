@@ -560,6 +560,21 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Set_Game_Parameter_transition_music" ID="{A10F2BC1-9EFE-4469-95AD-F3E875469085}">
+					<ChildrenList>
+						<Action Name="" ID="{8BBB5BC8-E400-4B75-B817-E2A63010C69A}" ShortID="530781167">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="transition_music" ID="{13C93F74-20A2-4A9B-AB54-0FA6833866B9}" WorkUnitID="{CA8B1150-3176-4D1F-8C36-B826BEB145D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -13,7 +13,6 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID FINAL_PRESENTATION_SET_RTPC = 100105795U;
         static const AkUniqueID PLAY_ALIEN_HEAVY_OBJECT = 1684718463U;
         static const AkUniqueID PLAY_BATHROOM_TONE = 3592785647U;
         static const AkUniqueID PLAY_BIG_ROOM_TONE = 2999503001U;
@@ -45,6 +44,7 @@ namespace AK
         static const AkUniqueID PLAY_VOICES_CARRY_LOOP = 439267736U;
         static const AkUniqueID PLAY_WASH_SFX = 4080261691U;
         static const AkUniqueID PLAY_WATERING_CAN_SFX = 2849262102U;
+        static const AkUniqueID SET_GAME_PARAMETER_TRANSITION_MUSIC = 3180849970U;
         static const AkUniqueID SET_STATE_MUSIC_MORNING_01 = 2966616398U;
         static const AkUniqueID SET_STATE_MUSIC_MORNING_02 = 2966616397U;
         static const AkUniqueID SET_STATE_MUSIC_MORNING_03 = 2966616396U;

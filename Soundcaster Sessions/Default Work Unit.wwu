@@ -513,7 +513,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="transition_music" ID="{13C93F74-20A2-4A9B-AB54-0FA6833866B9}"/>
-							<Value>1</Value>
+							<Value>9.16580844490216E-02</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
@@ -531,6 +531,7 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="step01" ID="{6C30B6B4-AFB1-44E7-A428-06CC5319F151}"/>
 						<CurrentStateRef Name="station01" ID="{224CAD59-8E51-4253-9E07-D5751313F204}"/>
+						<CurrentStateRef Name="step01" ID="{979D8BB7-9A0C-403A-A2EF-01258D4E2C1D}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

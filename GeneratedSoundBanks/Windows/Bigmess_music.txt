@@ -1,5 +1,4 @@
 Event	ID	Name			Wwise Object Path	Notes
-	100105795	final_presentation_set_RTPC			\Music\final_presentation_set_RTPC	
 	106912753	Stop_Music_menu			\Music\Stop_Music_menu	
 	362766060	Stop_music_morning			\Music\Music_morning\Stop_music_morning	
 	508480304	Play_music_noon			\Music\Music_noon\Play_music_noon	
@@ -21,6 +20,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2973358478	Set_state_noon_07			\Music\Music_noon\Set_state_noon_07	
 	2973358479	Set_state_noon_06			\Music\Music_noon\Set_state_noon_06	
 	3093640346	Play_Music_morning			\Music\Music_morning\Play_Music_morning	
+	3180849970	Set_Game_Parameter_transition_music			\Music\Set_Game_Parameter_transition_music	
 	3495077062	Transition_level_out			\Music\Transition_level_out	
 	4121310008	Play_Music_credits			\Music\Play_Music_credits	
 
