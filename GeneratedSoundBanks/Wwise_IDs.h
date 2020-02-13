@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID FINAL_PRESENTATION_SET_RTPC = 100105795U;
         static const AkUniqueID PLAY_ALIEN_HEAVY_OBJECT = 1684718463U;
         static const AkUniqueID PLAY_BATHROOM_TONE = 3592785647U;
         static const AkUniqueID PLAY_BIG_ROOM_TONE = 2999503001U;

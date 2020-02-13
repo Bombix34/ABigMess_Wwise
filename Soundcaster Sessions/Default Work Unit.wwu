@@ -529,7 +529,8 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="step03" ID="{F07BB843-4D44-4B32-A727-F780988E9A66}"/>
+						<CurrentStateRef Name="step01" ID="{6C30B6B4-AFB1-44E7-A428-06CC5319F151}"/>
+						<CurrentStateRef Name="station01" ID="{224CAD59-8E51-4253-9E07-D5751313F204}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

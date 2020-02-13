@@ -114,7 +114,7 @@
 											</Point>
 											<Point>
 												<XPos>0.3</XPos>
-												<YPos>-0</YPos>
+												<YPos>0</YPos>
 												<Flags>0</Flags>
 												<SegmentShape>SCurve</SegmentShape>
 											</Point>
@@ -133,6 +133,11 @@
 								</RTPC>
 							</RTPCList>
 						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="New_Wwise_Meter_01" ID="{38CF65C0-6DA7-413B-92E6-7341498EF704}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="MeterMode" Type="int32" Value="1"/>
 					</PropertyList>
 				</Effect>
 			</ChildrenList>

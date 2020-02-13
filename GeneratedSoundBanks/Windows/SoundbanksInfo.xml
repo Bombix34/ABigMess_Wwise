@@ -21,6 +21,7 @@
 			<ShortName>Bigmess_music</ShortName>
 			<Path>Bigmess_music.bnk</Path>
 			<IncludedEvents>
+				<Event Id="100105795" Name="final_presentation_set_RTPC" ObjectPath="\Events\Music\final_presentation_set_RTPC"/>
 				<Event Id="4121310008" Name="Play_Music_credits" ObjectPath="\Events\Music\Play_Music_credits"/>
 				<Event Id="1699343283" Name="Play_Music_menu" ObjectPath="\Events\Music\Play_Music_menu"/>
 				<Event Id="3093640346" Name="Play_Music_morning" ObjectPath="\Events\Music\Music_morning\Play_Music_morning"/>
