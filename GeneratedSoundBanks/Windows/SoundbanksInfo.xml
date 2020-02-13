@@ -25,7 +25,8 @@
 				<Event Id="1699343283" Name="Play_Music_menu" ObjectPath="\Events\Music\Play_Music_menu"/>
 				<Event Id="3093640346" Name="Play_Music_morning" ObjectPath="\Events\Music\Music_morning\Play_Music_morning"/>
 				<Event Id="508480304" Name="Play_music_noon" ObjectPath="\Events\Music\Music_noon\Play_music_noon"/>
-				<Event Id="3180849970" Name="Set_Game_Parameter_transition_music" ObjectPath="\Events\Music\Set_Game_Parameter_transition_music"/>
+				<Event Id="2363713323" Name="Play_transition_sound_in" ObjectPath="\Events\Default Work Unit\Play_transition_sound_in"/>
+				<Event Id="4260129830" Name="Play_transition_sound_out" ObjectPath="\Events\Default Work Unit\Play_transition_sound_out"/>
 				<Event Id="2966616398" Name="Set_state_music_morning_01" ObjectPath="\Events\Music\Music_morning\Set_state_music_morning_01"/>
 				<Event Id="2966616397" Name="Set_state_music_morning_02" ObjectPath="\Events\Music\Music_morning\Set_state_music_morning_02"/>
 				<Event Id="2966616396" Name="Set_state_music_morning_03" ObjectPath="\Events\Music\Music_morning\Set_state_music_morning_03"/>

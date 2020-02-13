@@ -193,13 +193,6 @@
 				</Folder>
 				<Event Name="Transition_level_in" ID="{EA49C031-676B-44E6-9060-522A7782EE5D}">
 					<ChildrenList>
-						<Action Name="" ID="{84990AB3-1CB7-4CB6-B309-7A6603D947ED}" ShortID="915337574">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="transition_level_in" ID="{735BC02B-D4D8-44C8-8A68-692C4BFF1440}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{A3736A6D-252C-4AFC-A198-F45560761382}" ShortID="697586633">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="38"/>
@@ -217,13 +210,6 @@
 				</Event>
 				<Event Name="Transition_level_out" ID="{01E3C00D-FA70-4F92-9A95-D9E1E70BFFD8}">
 					<ChildrenList>
-						<Action Name="" ID="{B4E9F38E-1320-4DBA-B3EF-42BAC0F25D63}" ShortID="912538698">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="transition_level_out" ID="{06CC7413-D13A-43F4-B97B-3B71D631767F}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{E2FF1136-2ABD-4756-81C7-55B286142E7F}" ShortID="592255183">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="38"/>
@@ -555,21 +541,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="loop_credits" ID="{DB3632B0-5D99-449E-A7A6-2EAE85B26767}" WorkUnitID="{7902C96D-87D1-4577-A770-D40E5DAE7920}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Set_Game_Parameter_transition_music" ID="{A10F2BC1-9EFE-4469-95AD-F3E875469085}">
-					<ChildrenList>
-						<Action Name="" ID="{8BBB5BC8-E400-4B75-B817-E2A63010C69A}" ShortID="530781167">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="38"/>
-								<Property Name="GameParameterValue" Type="Real64" Value="0.2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="transition_music" ID="{13C93F74-20A2-4A9B-AB54-0FA6833866B9}" WorkUnitID="{CA8B1150-3176-4D1F-8C36-B826BEB145D9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

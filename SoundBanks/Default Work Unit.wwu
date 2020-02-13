@@ -6,7 +6,6 @@
 				<SoundBank Name="Bigmess_music" ID="{63B7E13D-55AF-4B17-A5CC-31EB22D1527D}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Set_state_music_morning_05" ID="{8ABB7133-4FF6-40CC-BDF4-0E3D7F171515}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="final_presentation_set_RTPC" ID="{04B62269-8EB2-40E2-A4CC-056B14BFBE1A}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_state_music_morning_02" ID="{1ACEE105-976C-4116-B9E4-95AB22051BBC}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Music_menu" ID="{0D60880F-F742-414C-87D9-87DD7291E391}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_state_noon_04" ID="{2582D526-9B65-41CE-9DB0-0124DA93520D}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
@@ -15,7 +14,9 @@
 						<ObjectRef Name="Set_state_noon_08" ID="{D33BBB0B-119A-4358-B366-4E0B81E9558E}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_music_morning" ID="{F4D9D6AF-8860-444D-945D-DA9717A3229F}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Transition_level_in" ID="{EA49C031-676B-44E6-9060-522A7782EE5D}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_transition_sound_out" ID="{DC760A6B-F51B-451E-A363-1E3E025DBAFE}" WorkUnitID="{A4190B2E-A333-4D38-B419-1777C4D33194}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_music_noon" ID="{2ED5F698-1822-45E1-87D0-AEC3554589D8}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_transition_sound_in" ID="{7A9695F3-A516-4641-B1AE-6FE5D8297AAD}" WorkUnitID="{A4190B2E-A333-4D38-B419-1777C4D33194}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_state_noon_02" ID="{0FE0FF1F-EA12-4702-B1A6-CDD19881FEC8}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_state_music_morning_04" ID="{86BD087A-A0A2-4726-9252-C592EA82220F}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_state_music_morning_01" ID="{4DD0BD6B-00FC-47CB-92CC-A2F2EE4E50C6}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
