@@ -1,24 +1,26 @@
 Event	ID	Name			Wwise Object Path	Notes
 	143297623	Play_oven_open_SFX			\SFX\Play_oven_open_SFX	
-	326639012	Play_drop_fork_SFX			\Default Work Unit\Play_drop_fork_SFX	
+	326639012	Play_drop_fork_SFX			\SFX\Play_drop_fork_SFX	
 	439267736	Play_voices_carry_loop			\SFX\Alien_voices\Play_voices_carry_loop	
 	1188830101	Play_burn_SFX			\SFX\Play_burn_SFX	
 	1623367340	Play_garden_amb			\Amb\Play_garden_amb	
 	1684718463	Play_Alien_heavy_object			\SFX\Alien_voices\Play_Alien_heavy_object	
+	1808223893	Play_toilet_SFX			\SFX\Play_toilet_SFX	
 	1876721888	Play_grab_SFX			\SFX\Play_grab_SFX	
 	1980653889	Play_Voice_player01			\SFX\Alien_voices\Play_Voice_player01	
 	1980653890	Play_Voice_player02			\SFX\Alien_voices\Play_Voice_player02	
-	2016090091	Play_heavy_object_SFX			\Default Work Unit\Play_heavy_object_SFX	
-	2233376516	Play_drop_plate_SFX			\Default Work Unit\Play_drop_plate_SFX	
+	2016090091	Play_heavy_object_SFX			\SFX\Play_heavy_object_SFX	
+	2221777558	Play_cook_SFX			\SFX\Play_cook_SFX	
+	2233376516	Play_drop_plate_SFX			\SFX\Play_drop_plate_SFX	
 	2301344613	Play_release_SFX			\SFX\Play_release_SFX	
 	2485252018	Play_small_room_tone			\Amb\Play_small_room_tone	
-	2849262102	Play_watering_can_SFX			\Default Work Unit\Play_watering_can_SFX	
+	2849262102	Play_watering_can_SFX			\SFX\Play_watering_can_SFX	
 	2999503001	Play_big_room_tone			\Amb\Play_big_room_tone	
 	3486948951	Stop_voice_carry_loop			\SFX\Alien_voices\Stop_voice_carry_loop	
-	3542249275	Play_chair_drop_SFX			\Default Work Unit\Play_chair_drop_SFX	
+	3542249275	Play_chair_drop_SFX			\SFX\Play_chair_drop_SFX	
 	3592785647	Play_bathroom_tone			\Amb\Play_bathroom_tone	
-	3963771822	Play_device_unplug_SFX			\Default Work Unit\Play_device_unplug_SFX	
-	4035254439	Play_device_plug_SFX			\Default Work Unit\Play_device_plug_SFX	
+	3963771822	Play_device_unplug_SFX			\SFX\Play_device_unplug_SFX	
+	4035254439	Play_device_plug_SFX			\SFX\Play_device_plug_SFX	
 	4080261691	Play_wash_SFX			\SFX\Play_wash_SFX	
 	4125399505	Play_oven_close_SFX			\SFX\Play_oven_close_SFX	
 
@@ -105,6 +107,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	405228341	drop_plate-006	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\drop_plate-006_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\drop_plate_SFX\drop_plate-006		12390
 	408491887	alien_voice_player1-002	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\alien_voice_player1-002_6296B0F9.wem		\Actor-Mixer Hierarchy\Aliens\Alien_voices\Voice_player01\alien_voice_player1-002		3441
 	418028022	alien_voice_player1-031	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\alien_voice_player1-031_6296B0F9.wem		\Actor-Mixer Hierarchy\Aliens\Alien_voices\Voice_player01\alien_voice_player1-031		6489
+	424359479	toilet_SFX	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\toilet_SFX_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\toilet_SFX		55279
 	437781041	fauvette-001	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\fauvette-001_6296B0F9.wem		\Actor-Mixer Hierarchy\Ambiances\Outside_garden\garden_amb\birds\fauvette\fauvette-001		58710
 	438739325	alien_voice_player2-013	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\alien_voice_player2-013_6296B0F9.wem		\Actor-Mixer Hierarchy\Aliens\Alien_voices\Voice_player02\alien_voice_player2-013		2929
 	440514619	sponge_SFX_A-009	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\sponge_SFX_A-009_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\wash_sequence_SFX\wash_SFX\spong_SFX_A\sponge_SFX_A-009		31116
@@ -113,6 +116,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	452332242	alien_voice_player1-021	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\alien_voice_player1-021_6296B0F9.wem		\Actor-Mixer Hierarchy\Aliens\Alien_voices\Voice_player01\alien_voice_player1-021		4789
 	469982647	alien_voice_player2-007	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\alien_voice_player2-007_6296B0F9.wem		\Actor-Mixer Hierarchy\Aliens\Alien_voices\Voice_player02\alien_voice_player2-007		2540
 	479868081	sponge_SFX_A-004	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\sponge_SFX_A-004_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\wash_sequence_SFX\wash_SFX\spong_SFX_A\sponge_SFX_A-004		16147
+	495968523	cook_SFX	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\cook_SFX_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\cook_SFX		28390
 	497119085	splash_water_SFX-008	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\splash_water_SFX-008_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\wash_sequence_SFX\wash_SFX\splash_water_SFX\splash_water_SFX-008		37565
 	500820247	drop_heavy_object-002	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\drop_heavy_object-002_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\drop_heavy_object_SFX\drop_heavy_object-002		7978
 	501187624	drop_fork-001	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\drop_fork-001_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\drop_fork_SFX\drop_fork-001		13733

@@ -3017,6 +3017,44 @@
 						<ItemRef Name="silence" ID="{E7B90652-7907-4CAC-9634-F8C97CB7AF5E}"/>
 					</Playlist>
 				</RandomSequenceContainer>
+				<Sound Name="toilet_SFX" ID="{A749A991-37FB-4CD1-A115-D4497E8EDEC1}" ShortID="862541598">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="toilet_SFX" ID="{9266B312-A25B-4F8B-B88F-3FB907DFB76E}" ShortID="424359479">
+							<Language>SFX</Language>
+							<AudioFile>toilet_SFX.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="toilet_SFX" ID="{9266B312-A25B-4F8B-B88F-3FB907DFB76E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="cook_SFX" ID="{6503FB82-0E0E-42AC-ADAB-8C5E55E8BB02}" ShortID="566156931">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="cook_SFX" ID="{02C2C2C6-A7CD-4889-AEE9-22BDF8EB5949}" ShortID="495968523">
+							<Language>SFX</Language>
+							<AudioFile>cook_SFX.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="cook_SFX" ID="{02C2C2C6-A7CD-4889-AEE9-22BDF8EB5949}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
