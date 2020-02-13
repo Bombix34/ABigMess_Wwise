@@ -546,6 +546,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_transition_sound_in" ID="{7A9695F3-A516-4641-B1AE-6FE5D8297AAD}">
+					<ChildrenList>
+						<Action Name="" ID="{EB441DA5-4FB3-4928-98CF-0434DC93A2AD}" ShortID="792480373">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="transition_level_in" ID="{735BC02B-D4D8-44C8-8A68-692C4BFF1440}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_transition_sound_out" ID="{DC760A6B-F51B-451E-A363-1E3E025DBAFE}">
+					<ChildrenList>
+						<Action Name="" ID="{97B0B3C2-5208-42FE-84C1-DC22EEE6A9EB}" ShortID="681310085">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="transition_level_out" ID="{06CC7413-D13A-43F4-B97B-3B71D631767F}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
