@@ -286,6 +286,10 @@
 							<Position X="0" Y="4"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_trailer_bigmess_audio" ID="{48B291F9-ECB7-4340-8AE5-124BBA783ADE}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Set_state_music_morning_01" ID="{4DD0BD6B-00FC-47CB-92CC-A2F2EE4E50C6}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
 							<Position X="1" Y="0"/>
 						</Module>

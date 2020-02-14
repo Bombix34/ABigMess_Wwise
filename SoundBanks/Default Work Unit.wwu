@@ -62,6 +62,7 @@
 						<ObjectRef Name="Stop_voice_carry_loop" ID="{EE1DBECA-2B0B-4719-81AF-BE4E9C31363B}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_confettis_SFX" ID="{20A5565C-A052-4832-AAFD-93D44E110235}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_oven_open_SFX" ID="{F9B1078F-FD65-48EC-BA40-303EAF87F9B1}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_trailer_bigmess_audio" ID="{5492D8F6-B7EA-4B62-A81D-BBA2F1D3F683}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_small_room_tone" ID="{C86DCD34-99C6-4BAD-A5F2-A6007EE0DC2B}" WorkUnitID="{CF461690-1CC8-4583-B4A4-D18F8B1C5CE2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_big_room_tone" ID="{F73878B0-68D3-4C35-A8BA-36821FEE2F12}" WorkUnitID="{CF461690-1CC8-4583-B4A4-D18F8B1C5CE2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_grab_SFX" ID="{8BF690F0-7812-4C35-9A1A-0A7433B40100}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
