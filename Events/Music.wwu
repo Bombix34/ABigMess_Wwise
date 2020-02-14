@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" SchemaVersion="94">
 	<Events>
 		<WorkUnit Name="Music" ID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="8"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<Folder Name="Radio" ID="{05B9AD2F-743F-45E3-A854-392ADFB78F8B}" ShortID="576315104">
 					<PropertyList>

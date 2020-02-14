@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{CF461690-1CC8-4583-B4A4-D18F8B1C5CE2}" SchemaVersion="94">
 	<Events>
 		<WorkUnit Name="Amb" ID="{CF461690-1CC8-4583-B4A4-D18F8B1C5CE2}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<Event Name="Play_garden_amb" ID="{134AFCCD-92A2-4EAB-A1D8-4A3E800CC863}">
 					<PropertyList>

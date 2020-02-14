@@ -262,6 +262,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_confettis_SFX" ID="{20A5565C-A052-4832-AAFD-93D44E110235}">
+					<ChildrenList>
+						<Action Name="" ID="{52DBC731-A2BC-4889-B17A-C2F969BB214E}" ShortID="852474040">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="confettis_SFX" ID="{14B5F724-EBFE-48D2-8232-922FF4D8DA75}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_paint_SFX" ID="{58F85552-8B0B-4026-9BF0-0DAB8288F463}">
+					<ChildrenList>
+						<Action Name="" ID="{4031DCE3-7B0B-4EB6-A7B2-13A33E165B20}" ShortID="701282065">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="paint_SFX" ID="{2FB5F3BF-B119-44A8-9E7C-56196BF523BA}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
