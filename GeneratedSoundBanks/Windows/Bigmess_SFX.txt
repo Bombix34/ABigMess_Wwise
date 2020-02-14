@@ -1,5 +1,4 @@
 Event	ID	Name			Wwise Object Path	Notes
-	113392983	Play_trailer_bigmess_audio			\SFX\Play_trailer_bigmess_audio	
 	143297623	Play_oven_open_SFX			\SFX\Play_oven_open_SFX	
 	264926969	Stop_trailer_sound			\Default Work Unit\Stop_trailer_sound	
 	326639012	Play_drop_fork_SFX			\SFX\Play_drop_fork_SFX	
@@ -63,7 +62,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	121000532	alien_voice_player2-032	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\alien_voice_player2-032_6296B0F9.wem		\Actor-Mixer Hierarchy\Aliens\Alien_voices\Voice_player02\alien_voice_player2-032		5056
 	134049945	mésange-005	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\mésange-005_6296B0F9.wem		\Actor-Mixer Hierarchy\Ambiances\Outside_garden\garden_amb\birds\mésange\mésange-005		47410
 	135498314	alien_heavy_object-011	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\alien_heavy_object-011_6296B0F9.wem		\Actor-Mixer Hierarchy\Aliens\Alien_voices\Carry_heavy_object\voices_sequence\voices\alien_heavy_object-011		19993
-	138659164	trailer_bm_1	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\trailer_bm_1_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\trailer_bm_1		936353
 	144320346	splash_water_SFX-003	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\splash_water_SFX-003_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\wash_sequence_SFX\wash_SFX\splash_water_SFX\splash_water_SFX-003		33563
 	149088335	alien_voice_player1-013	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\alien_voice_player1-013_6296B0F9.wem		\Actor-Mixer Hierarchy\Aliens\Alien_voices\Voice_player01\alien_voice_player1-013		3240
 	155269830	bubble_SFX-002	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\bubble_SFX-002_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\wash_sequence_SFX\wash_SFX\bubble_SFX\bubble_SFX-002		20089

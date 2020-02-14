@@ -1,5 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	106912753	Stop_Music_menu			\Music\Stop_Music_menu	
+	113392983	Play_trailer_bigmess_audio			\SFX\Play_trailer_bigmess_audio	
+	264926969	Stop_trailer_sound			\Default Work Unit\Stop_trailer_sound	
 	362766060	Stop_music_morning			\Music\Music_morning\Stop_music_morning	
 	508480304	Play_music_noon			\Music\Music_noon\Play_music_noon	
 	1379993931	Transition_level_in			\Music\Transition_level_in	
@@ -49,6 +51,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	26303966	200124_BigMess_NoonGameplay_Step06_master	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\200124_BigMess_NoonGameplay_Step06_master_9B96ECC7.wem		\Interactive Music Hierarchy\Big_mess_music\Music_noon\music_noon_step06\200124_BigMess_NoonGameplay_Step06_master\200124_BigMess_NoonGameplay_Step06_master		285983
 	35304213	200124_BigMess_NoonGameplay_Step05_master	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\200124_BigMess_NoonGameplay_Step05_master_9B96ECC7.wem		\Interactive Music Hierarchy\Big_mess_music\Music_noon\music_noon_step05\200124_BigMess_NoonGameplay_Step05_master\200124_BigMess_NoonGameplay_Step05_master		296656
 	113873544	200130_BigMess_MorningGameplay_Step01B	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\200130_BigMess_MorningGameplay_Step01B_9B96ECC7.wem		\Interactive Music Hierarchy\Big_mess_music\Music_morning\music_morning_step01\200130_BigMess_MorningGameplay_Step01B\200130_BigMess_MorningGameplay_Step01B		254889
+	138659164	trailer_bm_1	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\trailer_bm_1_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\trailer_bm_1		936353
 	217763678	200130_BigMess_MorningGameplay_Step02B	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\200130_BigMess_MorningGameplay_Step02B_9B96ECC7.wem		\Interactive Music Hierarchy\Big_mess_music\Music_morning\music_morning_step02\200130_BigMess_MorningGameplay_Step02B\200130_BigMess_MorningGameplay_Step02B		228573
 	283464266	200124_BigMess_NoonGameplay_Step04_master	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\200124_BigMess_NoonGameplay_Step04_master_9B96ECC7.wem		\Interactive Music Hierarchy\Big_mess_music\Music_noon\music_noon_step04\200124_BigMess_NoonGameplay_Step04_master\200124_BigMess_NoonGameplay_Step04_master		283277
 	314702543	200130_BigMess_MorningGameplay_step05 A	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\200130_BigMess_MorningGameplay_step05 A_9B96ECC7.wem		\Interactive Music Hierarchy\Big_mess_music\Music_morning\music_morning_step05\200130_BigMess_MorningGameplay_step05 A\200130_BigMess_MorningGameplay_step05 A		441638
