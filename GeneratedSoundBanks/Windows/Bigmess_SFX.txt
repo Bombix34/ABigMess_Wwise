@@ -17,6 +17,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2301344613	Play_release_SFX			\SFX\Play_release_SFX	
 	2363713323	Play_transition_sound_in			\Music\Play_transition_sound_in	
 	2485252018	Play_small_room_tone			\Amb\Play_small_room_tone	
+	2589196013	Stop_trailer_bigmess_audio			\SFX\Stop_trailer_bigmess_audio	
 	2849262102	Play_watering_can_SFX			\SFX\Play_watering_can_SFX	
 	2999503001	Play_big_room_tone			\Amb\Play_big_room_tone	
 	3486948951	Stop_voice_carry_loop			\SFX\Alien_voices\Stop_voice_carry_loop	

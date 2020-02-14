@@ -295,6 +295,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_trailer_bigmess_audio" ID="{5492D8F6-B7EA-4B62-A81D-BBA2F1D3F683}">
+					<ChildrenList>
+						<Action Name="" ID="{1201A3AD-E7BB-496D-AE2F-D3BDB6CDAAFA}" ShortID="31632650">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="trailer_bm_1" ID="{836E930E-5F55-493B-A1BE-CA111F0990B8}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

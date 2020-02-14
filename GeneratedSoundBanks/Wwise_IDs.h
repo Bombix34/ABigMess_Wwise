@@ -68,6 +68,7 @@ namespace AK
         static const AkUniqueID STOP_MUSIC_NOON = 1940321634U;
         static const AkUniqueID STOP_RADIO_LEVEL = 1749933030U;
         static const AkUniqueID STOP_RADIO_STATIONS = 3703828323U;
+        static const AkUniqueID STOP_TRAILER_BIGMESS_AUDIO = 2589196013U;
         static const AkUniqueID STOP_VOICE_CARRY_LOOP = 3486948951U;
         static const AkUniqueID TRANSITION_LEVEL_IN = 1379993931U;
         static const AkUniqueID TRANSITION_LEVEL_OUT = 3495077062U;
