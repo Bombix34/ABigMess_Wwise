@@ -18,6 +18,7 @@ namespace AK
         static const AkUniqueID PLAY_BIG_ROOM_TONE = 2999503001U;
         static const AkUniqueID PLAY_BURN_SFX = 1188830101U;
         static const AkUniqueID PLAY_CHAIR_DROP_SFX = 3542249275U;
+        static const AkUniqueID PLAY_CONFETTIS_SFX = 3618541997U;
         static const AkUniqueID PLAY_COOK_SFX = 2221777558U;
         static const AkUniqueID PLAY_DEVICE_PLUG_SFX = 4035254439U;
         static const AkUniqueID PLAY_DEVICE_UNPLUG_SFX = 3963771822U;
@@ -32,6 +33,7 @@ namespace AK
         static const AkUniqueID PLAY_MUSIC_NOON = 508480304U;
         static const AkUniqueID PLAY_OVEN_CLOSE_SFX = 4125399505U;
         static const AkUniqueID PLAY_OVEN_OPEN_SFX = 143297623U;
+        static const AkUniqueID PLAY_PAINT_SFX = 604816926U;
         static const AkUniqueID PLAY_RADIO_STATE = 1510088249U;
         static const AkUniqueID PLAY_RADIO_STATION01 = 1069010655U;
         static const AkUniqueID PLAY_RADIO_STATION02 = 1069010652U;
@@ -39,6 +41,7 @@ namespace AK
         static const AkUniqueID PLAY_RELEASE_SFX = 2301344613U;
         static const AkUniqueID PLAY_SMALL_ROOM_TONE = 2485252018U;
         static const AkUniqueID PLAY_TOILET_SFX = 1808223893U;
+        static const AkUniqueID PLAY_TRAILER_BIGMESS_AUDIO = 113392983U;
         static const AkUniqueID PLAY_TRANSITION_SOUND_IN = 2363713323U;
         static const AkUniqueID PLAY_TRANSITION_SOUND_OUT = 4260129830U;
         static const AkUniqueID PLAY_VOICE_PLAYER01 = 1980653889U;

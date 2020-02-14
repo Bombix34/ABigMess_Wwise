@@ -14,9 +14,7 @@
 						<ObjectRef Name="Set_state_noon_08" ID="{D33BBB0B-119A-4358-B366-4E0B81E9558E}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_music_morning" ID="{F4D9D6AF-8860-444D-945D-DA9717A3229F}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Transition_level_in" ID="{EA49C031-676B-44E6-9060-522A7782EE5D}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_transition_sound_out" ID="{DC760A6B-F51B-451E-A363-1E3E025DBAFE}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_music_noon" ID="{2ED5F698-1822-45E1-87D0-AEC3554589D8}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_transition_sound_in" ID="{7A9695F3-A516-4641-B1AE-6FE5D8297AAD}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_state_noon_02" ID="{0FE0FF1F-EA12-4702-B1A6-CDD19881FEC8}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_state_music_morning_04" ID="{86BD087A-A0A2-4726-9252-C592EA82220F}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Set_state_music_morning_01" ID="{4DD0BD6B-00FC-47CB-92CC-A2F2EE4E50C6}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
@@ -48,16 +46,21 @@
 				</SoundBank>
 				<SoundBank Name="Bigmess_SFX" ID="{16583839-F5D5-4031-A386-32BEE0767650}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_paint_SFX" ID="{58F85552-8B0B-4026-9BF0-0DAB8288F463}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_drop_fork_SFX" ID="{2B3457F5-6E6E-4063-A6C6-CE99965D8BA1}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_wash_SFX" ID="{4EF416CF-B2BC-4119-A79E-65B32F64B7C6}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_bathroom_tone" ID="{8A2EE2B4-146F-42D5-80F2-3A315A13CBC5}" WorkUnitID="{CF461690-1CC8-4583-B4A4-D18F8B1C5CE2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_trailer_bigmess_audio" ID="{48B291F9-ECB7-4340-8AE5-124BBA783ADE}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_burn_SFX" ID="{E3849B60-2F5F-4344-8DEA-A0BA4C98D78F}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_watering_can_SFX" ID="{4508AA57-8527-4353-8DB4-73CBE3F81A03}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_cook_SFX" ID="{8A693A86-A88C-43BB-ABBD-CD2D701D503C}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Voice_player02" ID="{1846AC6F-E6C2-43BC-9EA0-5B9C5E612323}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_toilet_SFX" ID="{810A4939-4240-447B-8747-9DF56B70C833}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_heavy_object_SFX" ID="{7B48093C-0D38-44C1-8EB8-4840214CD853}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_transition_sound_out" ID="{DC760A6B-F51B-451E-A363-1E3E025DBAFE}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_transition_sound_in" ID="{7A9695F3-A516-4641-B1AE-6FE5D8297AAD}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_voice_carry_loop" ID="{EE1DBECA-2B0B-4719-81AF-BE4E9C31363B}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_confettis_SFX" ID="{20A5565C-A052-4832-AAFD-93D44E110235}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_oven_open_SFX" ID="{F9B1078F-FD65-48EC-BA40-303EAF87F9B1}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_small_room_tone" ID="{C86DCD34-99C6-4BAD-A5F2-A6007EE0DC2B}" WorkUnitID="{CF461690-1CC8-4583-B4A4-D18F8B1C5CE2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_big_room_tone" ID="{F73878B0-68D3-4C35-A8BA-36821FEE2F12}" WorkUnitID="{CF461690-1CC8-4583-B4A4-D18F8B1C5CE2}" Filter="7" Origin="Manual"/>
