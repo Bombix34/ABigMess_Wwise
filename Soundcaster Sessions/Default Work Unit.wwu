@@ -286,8 +286,28 @@
 							<Position X="0" Y="4"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_trailer_bigmess_audio" ID="{48B291F9-ECB7-4340-8AE5-124BBA783ADE}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
+							<ObjectRef Name="Play_Alien_heavy_object" ID="{60413302-DDE7-4D19-8C34-9CA953ACF0E9}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
 							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_voice_carry_loop" ID="{EE1DBECA-2B0B-4719-81AF-BE4E9C31363B}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
+							<Position X="0" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_cook_SFX" ID="{8A693A86-A88C-43BB-ABBD-CD2D701D503C}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
+							<Position X="0" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_drop_plate_SFX" ID="{6E1DAF1B-29A9-4F22-A547-7610BC871700}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
+							<Position X="0" Y="8"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_oven_open_SFX" ID="{F9B1078F-FD65-48EC-BA40-303EAF87F9B1}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
+							<Position X="0" Y="9"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_trailer_bigmess_audio" ID="{48B291F9-ECB7-4340-8AE5-124BBA783ADE}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
+							<Position X="0" Y="10"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Set_state_music_morning_01" ID="{4DD0BD6B-00FC-47CB-92CC-A2F2EE4E50C6}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
@@ -310,6 +330,30 @@
 							<Position X="1" Y="4"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Voice_player01" ID="{E3CE0BEC-FC62-4D38-8000-9BCF0CE28D00}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
+							<Position X="1" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_burn_SFX" ID="{E3849B60-2F5F-4344-8DEA-A0BA4C98D78F}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
+							<Position X="1" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_device_plug_SFX" ID="{95949755-D095-4F07-AE73-40C002638532}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
+							<Position X="1" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_grab_SFX" ID="{8BF690F0-7812-4C35-9A1A-0A7433B40100}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
+							<Position X="1" Y="8"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_paint_SFX" ID="{58F85552-8B0B-4026-9BF0-0DAB8288F463}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
+							<Position X="1" Y="9"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_wash_SFX" ID="{4EF416CF-B2BC-4119-A79E-65B32F64B7C6}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
+							<Position X="1" Y="10"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Set_state_music_morning_02" ID="{1ACEE105-976C-4116-B9E4-95AB22051BBC}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
 							<Position X="2" Y="0"/>
 						</Module>
@@ -330,6 +374,30 @@
 							<Position X="2" Y="4"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Voice_player02" ID="{1846AC6F-E6C2-43BC-9EA0-5B9C5E612323}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
+							<Position X="2" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_chair_drop_SFX" ID="{900F995B-7664-4E33-B028-6D8B124720B5}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
+							<Position X="2" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_device_unplug_SFX" ID="{ED81E524-6486-4DDF-808C-F75D4FE4561A}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
+							<Position X="2" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_heavy_object_SFX" ID="{7B48093C-0D38-44C1-8EB8-4840214CD853}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
+							<Position X="2" Y="8"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_release_SFX" ID="{323F7E11-BF53-4DD1-95E9-7B08CD6766BB}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
+							<Position X="2" Y="9"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_watering_can_SFX" ID="{4508AA57-8527-4353-8DB4-73CBE3F81A03}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
+							<Position X="2" Y="10"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Set_state_music_morning_03" ID="{7B3FBA4A-C7D6-49AD-84A1-944610BB3957}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
 							<Position X="3" Y="0"/>
 						</Module>
@@ -348,6 +416,30 @@
 						<Module>
 							<ObjectRef Name="Transition_level_out" ID="{01E3C00D-FA70-4F92-9A95-D9E1E70BFFD8}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
 							<Position X="3" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_voices_carry_loop" ID="{B7C874D1-03F3-4C7E-8EE4-7669998B6439}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
+							<Position X="3" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_confettis_SFX" ID="{20A5565C-A052-4832-AAFD-93D44E110235}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
+							<Position X="3" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_drop_fork_SFX" ID="{2B3457F5-6E6E-4063-A6C6-CE99965D8BA1}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
+							<Position X="3" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_oven_close_SFX" ID="{540D7965-5178-4EEB-AB0B-D6BF71A637F2}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
+							<Position X="3" Y="8"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_toilet_SFX" ID="{810A4939-4240-447B-8747-9DF56B70C833}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
+							<Position X="3" Y="9"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_trailer_sound" ID="{854E53CF-F3EA-4650-AAFC-824B76E7FD44}" WorkUnitID="{E0DD32F4-7589-4D13-B82E-AAA1EDDFE4E7}"/>
+							<Position X="3" Y="10"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Set_state_music_morning_04" ID="{86BD087A-A0A2-4726-9252-C592EA82220F}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
@@ -445,9 +537,9 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="step05" ID="{2D132DD8-3A8B-4CF9-AAFF-07371C58CC12}"/>
+						<CurrentStateRef Name="step02" ID="{FE20614E-6C02-4317-81A1-35CF891C3937}"/>
 						<CurrentStateRef Name="station01" ID="{224CAD59-8E51-4253-9E07-D5751313F204}"/>
-						<CurrentStateRef Name="step08" ID="{810BC29D-69F2-4239-A392-497B2DDC4E31}"/>
+						<CurrentStateRef Name="step01" ID="{979D8BB7-9A0C-403A-A2EF-01258D4E2C1D}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

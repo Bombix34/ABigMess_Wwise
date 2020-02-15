@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A4190B2E-A333-4D38-B419-1777C4D33194}" SchemaVersion="94">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{A4190B2E-A333-4D38-B419-1777C4D33194}" PersistMode="Standalone">
-			<ChildrenList>
-				<Event Name="Stop_trailer_sound" ID="{854E53CF-F3EA-4650-AAFC-824B76E7FD44}">
-					<ChildrenList>
-						<Action Name="" ID="{EFAF4526-5243-448E-B092-79C69F7CD886}" ShortID="906623998">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="trailer_bm_1" ID="{836E930E-5F55-493B-A1BE-CA111F0990B8}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{A4190B2E-A333-4D38-B419-1777C4D33194}" PersistMode="Standalone"/>
 	</Events>
 </WwiseDocument>
