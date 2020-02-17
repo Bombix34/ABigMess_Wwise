@@ -454,8 +454,12 @@
 							<Position X="4" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Stop_radio_level" ID="{825AF222-A5DE-4CFF-8110-5A1ACCD5EF97}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<ObjectRef Name="Stop_radio_stations" ID="{FC4B2B9F-4F5B-44BE-B131-2ED44AAB8135}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
 							<Position X="4" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_radio_level" ID="{825AF222-A5DE-4CFF-8110-5A1ACCD5EF97}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
+							<Position X="4" Y="4"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Set_state_music_morning_05" ID="{8ABB7133-4FF6-40CC-BDF4-0E3D7F171515}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
@@ -468,10 +472,6 @@
 						<Module>
 							<ObjectRef Name="Stop_Music_credits" ID="{683847A9-D726-486F-80D4-030C59272621}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
 							<Position X="5" Y="2"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Stop_radio_stations" ID="{FC4B2B9F-4F5B-44BE-B131-2ED44AAB8135}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
-							<Position X="5" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Stop_music_morning" ID="{F4D9D6AF-8860-444D-945D-DA9717A3229F}" WorkUnitID="{7B4F9C98-086A-4C56-950A-AF2152D17C74}"/>
@@ -539,7 +539,7 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="step02" ID="{FE20614E-6C02-4317-81A1-35CF891C3937}"/>
 						<CurrentStateRef Name="station01" ID="{224CAD59-8E51-4253-9E07-D5751313F204}"/>
-						<CurrentStateRef Name="step01" ID="{979D8BB7-9A0C-403A-A2EF-01258D4E2C1D}"/>
+						<CurrentStateRef Name="step02" ID="{E1C8026F-D42F-4672-93D1-33EE56E451D2}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

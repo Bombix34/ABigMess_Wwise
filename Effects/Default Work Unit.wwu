@@ -140,6 +140,12 @@
 						<Property Name="MeterMode" Type="int32" Value="1"/>
 					</PropertyList>
 				</Effect>
+				<Effect Name="New_Wwise_Parametric_EQ" ID="{09223050-EDC8-4276-9C67-280CE0D0C0FA}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="200"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

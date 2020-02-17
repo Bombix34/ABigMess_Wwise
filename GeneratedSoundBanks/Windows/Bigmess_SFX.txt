@@ -1,6 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	143297623	Play_oven_open_SFX			\SFX\Play_oven_open_SFX	
-	264926969	Stop_trailer_sound			\Default Work Unit\Stop_trailer_sound	
+	264926969	Stop_trailer_sound			\SFX\Stop_trailer_sound	
 	326639012	Play_drop_fork_SFX			\SFX\Play_drop_fork_SFX	
 	439267736	Play_voices_carry_loop			\SFX\Alien_voices\Play_voices_carry_loop	
 	604816926	Play_paint_SFX			\SFX\Play_paint_SFX	
@@ -29,6 +29,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	4125399505	Play_oven_close_SFX			\SFX\Play_oven_close_SFX	
 	4260129830	Play_transition_sound_out			\Music\Play_transition_sound_out	
 
+Effect plug-ins	ID	Name	Type				Notes
+	4180247629	New_Wwise_Parametric_EQ	Wwise Parametric EQ			
+
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	195144261	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Aliens\Alien_voices\Carry_heavy_object\voices_sequence\silence\Wwise Silence	
 	246751804	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Ambiances\Outside_garden\garden_amb\birds\fauvette\silence\Wwise Silence	
@@ -47,7 +50,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	23714918	splash_water_SFX-005	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\splash_water_SFX-005_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\wash_sequence_SFX\wash_SFX\splash_water_SFX\splash_water_SFX-005		29238
 	31705472	alien_heavy_object-004	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\alien_heavy_object-004_6296B0F9.wem		\Actor-Mixer Hierarchy\Aliens\Alien_voices\Carry_heavy_object\voices_sequence\voices\alien_heavy_object-004		17892
 	36547119	sponge_SFX_B-009	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\sponge_SFX_B-009_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\wash_sequence_SFX\wash_SFX\sponge_SFX_B\sponge_SFX_B-009		7387
-	42010090	confettis_SFX	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\confettis_SFX_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\confettis_SFX		90474
+	42010090	confettis_SFX	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\confettis_SFX_D55E9079.wem		\Actor-Mixer Hierarchy\SFX\confettis_SFX		44022
 	51241490	alien_voice_player2-019	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\alien_voice_player2-019_6296B0F9.wem		\Actor-Mixer Hierarchy\Aliens\Alien_voices\Voice_player02\alien_voice_player2-019		3638
 	54284713	alien_voice_player2-015	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\alien_voice_player2-015_6296B0F9.wem		\Actor-Mixer Hierarchy\Aliens\Alien_voices\Voice_player02\alien_voice_player2-015		3346
 	61401706	device_plug_SFX	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\device_plug_SFX_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\device_plug_SFX		10643
@@ -225,7 +228,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1041021989	splash_water_SFX-007	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\splash_water_SFX-007_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\wash_sequence_SFX\wash_SFX\splash_water_SFX\splash_water_SFX-007		31038
 	1048680385	drop_fork-007	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\drop_fork-007_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\drop_fork_SFX\drop_fork-007		14877
 	1050832833	alien_heavy_object-010	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\alien_heavy_object-010_6296B0F9.wem		\Actor-Mixer Hierarchy\Aliens\Alien_voices\Carry_heavy_object\voices_sequence\voices\alien_heavy_object-010		14721
-	1057703395	watering_can_SFX	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\watering_can_SFX_6296B0F9.wem		\Actor-Mixer Hierarchy\SFX\watering_can\watering_can_SFX		35720
+	1057703395	watering_can_SFX	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\watering_can_SFX_DC974689.wem		\Actor-Mixer Hierarchy\SFX\watering_can\watering_can_SFX		35543
 	1059776075	alien_heavy_object-008	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\alien_heavy_object-008_6296B0F9.wem		\Actor-Mixer Hierarchy\Aliens\Alien_voices\Carry_heavy_object\voices_sequence\voices\alien_heavy_object-008		15928
 	1063688985	merle-001	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\merle-001_6296B0F9.wem		\Actor-Mixer Hierarchy\Ambiances\Outside_garden\garden_amb\birds\merle\merle-001		29003
 	1064242283	alien_voice_player1-016	C:\Users\ELE5b87f97761928\Documents\Git_Wwise_ABMess\ABigMess_Wwise\.cache\Windows\SFX\alien_voice_player1-016_6296B0F9.wem		\Actor-Mixer Hierarchy\Aliens\Alien_voices\Voice_player01\alien_voice_player1-016		4562

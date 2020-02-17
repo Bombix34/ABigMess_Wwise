@@ -1,7 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	106912753	Stop_Music_menu			\Music\Stop_Music_menu	
 	113392983	Play_trailer_bigmess_audio			\SFX\Play_trailer_bigmess_audio	
-	264926969	Stop_trailer_sound			\Default Work Unit\Stop_trailer_sound	
+	264926969	Stop_trailer_sound			\SFX\Stop_trailer_sound	
 	362766060	Stop_music_morning			\Music\Music_morning\Stop_music_morning	
 	508480304	Play_music_noon			\Music\Music_noon\Play_music_noon	
 	1379993931	Transition_level_in			\Music\Transition_level_in	

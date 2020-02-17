@@ -183,11 +183,22 @@
 								<Action Name="" ID="{0E361EC5-1236-42E1-9BA9-9D7F5433677A}" ShortID="938973326">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="Delay" Type="Real64" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="radio_stations" ID="{3971394F-2284-4E8A-9793-7B0CE29724B8}" WorkUnitID="{3E3F6E08-64EB-4580-BE11-18D5A6AC837F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A3905DBF-7B29-4075-8DC6-384C9334137F}" ShortID="428160744">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Radio_static_loop" ID="{2C6764D8-9861-4FEF-B471-23D912C3A55A}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

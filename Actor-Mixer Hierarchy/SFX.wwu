@@ -1359,20 +1359,29 @@
 				</ActorMixer>
 				<RandomSequenceContainer Name="chair_drop_SFX" ID="{68DF9C23-27A9-449D-86B1-B2EE99BE584E}" ShortID="855876249">
 					<PropertyList>
+						<Property Name="BypassEffect0" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
 								<Value>1</Value>
 							</ValueList>
 						</Property>
-						<Property Name="UseMaxSoundPerInstance" Type="bool">
+						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>True</Value>
+								<Value>3</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+							<ObjectRef Name="New_Wwise_Parametric_EQ" ID="{09223050-EDC8-4276-9C67-280CE0D0C0FA}" WorkUnitID="{CBA2F683-3B43-4305-997A-EC23F55DD8D3}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
@@ -1554,6 +1563,7 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="drop_heavy_object_SFX" ID="{DFCAA52D-F6E2-4DA3-9D9E-AABF6A9FDDD4}" ShortID="36623637">
 					<PropertyList>
+						<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
 								<Value>1</Value>
@@ -1561,7 +1571,7 @@
 						</Property>
 						<Property Name="Pitch" Type="int32">
 							<ValueList>
-								<Value>-480</Value>
+								<Value>-200</Value>
 							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
@@ -1569,9 +1579,9 @@
 								</ModifierInfo>
 							</ModifierList>
 						</Property>
-						<Property Name="UseMaxSoundPerInstance" Type="bool">
+						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>True</Value>
+								<Value>3</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -1663,6 +1673,35 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="drop_plate_SFX" ID="{B77577E5-5101-4C2F-A1CE-78F3FAAAFFC8}" ShortID="256195588">
+					<PropertyList>
+						<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{7AA6A863-274B-4A87-93B3-F7D63311BB85}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-300"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{780EACBA-39A0-4792-A489-0146DFCAFCA6}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="1"/>
+											<Property Name="Min" Type="Real64" Value="-1"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
@@ -1808,6 +1847,35 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="drop_fork_SFX" ID="{ABA140FF-8D97-45CC-8BD9-54B03EBE438D}" ShortID="232212560">
+					<PropertyList>
+						<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{59B04BC0-2D50-43EB-966E-2BA9E59BBCF2}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="600"/>
+											<Property Name="Min" Type="Real64" Value="-600"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{5C63C80F-5C57-4575-BAEE-4849FD60EE04}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="1"/>
+											<Property Name="Min" Type="Real64" Value="-1"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
@@ -2949,14 +3017,25 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="watering_can" ID="{49D7651F-0FDA-4B70-AE77-7572B565860E}" ShortID="375331070">
 					<PropertyList>
-						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
-								<Value>1</Value>
+								<Value>3</Value>
 							</ValueList>
 						</Property>
-						<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{0161B8E4-4B7F-4ADF-808F-1A4D0ABB0926}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="UseMaxSoundPerInstance" Type="bool">
 							<ValueList>
@@ -2964,6 +3043,18 @@
 							</ValueList>
 						</Property>
 						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{86B632BB-9EE0-45F7-AB68-6CD0D39E3BE1}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-6"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -2975,6 +3066,19 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="watering_can_SFX" ID="{ECA22B24-C355-4A78-AA20-08FF6650ECD2}" ShortID="163775453">
+							<PropertyList>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
@@ -2985,6 +3089,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="watering_can_SFX" ID="{5FCCB998-F5CB-4A51-8B18-4103B8A36F3D}" ShortID="1057703395">
+									<PropertyList>
+										<Property Name="LoopEnd" Type="Real64" Value="2.37513782474681"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.44217800528402"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>watering_can_SFX.wav</AudioFile>
 								</AudioFileSource>
@@ -3056,6 +3165,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="confettis_SFX" ID="{14B5F724-EBFE-48D2-8232-922FF4D8DA75}" ShortID="1033438126">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
@@ -3066,6 +3182,12 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="confettis_SFX" ID="{BFBF50E0-8D8A-4EB7-9D8F-6E7AE0BC0268}" ShortID="42010090">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="2.56634560766182"/>
+								<Property Name="FadeOutShape" Type="int16" Value="6"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="3.99634913033905"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>confettis_SFX.wav</AudioFile>
 						</AudioFileSource>
@@ -3075,6 +3197,33 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="paint_SFX" ID="{2FB5F3BF-B119-44A8-9E7C-56196BF523BA}" ShortID="293158308">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{97718917-CAE1-46A7-A7B9-5E05DF2CF576}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+											<Property Name="Min" Type="Real64" Value="-500"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{25108F77-A2F0-4807-BBA4-65AD682AB39F}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-3"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>

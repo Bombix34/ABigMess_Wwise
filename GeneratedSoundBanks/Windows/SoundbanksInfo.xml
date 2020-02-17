@@ -43,7 +43,7 @@
 				<Event Id="106912753" Name="Stop_Music_menu" ObjectPath="\Events\Music\Stop_Music_menu"/>
 				<Event Id="362766060" Name="Stop_music_morning" ObjectPath="\Events\Music\Music_morning\Stop_music_morning"/>
 				<Event Id="1940321634" Name="Stop_music_noon" ObjectPath="\Events\Music\Music_noon\Stop_music_noon"/>
-				<Event Id="264926969" Name="Stop_trailer_sound" ObjectPath="\Events\Default Work Unit\Stop_trailer_sound"/>
+				<Event Id="264926969" Name="Stop_trailer_sound" ObjectPath="\Events\SFX\Stop_trailer_sound"/>
 				<Event Id="1379993931" Name="Transition_level_in" ObjectPath="\Events\Music\Transition_level_in"/>
 				<Event Id="3495077062" Name="Transition_level_out" ObjectPath="\Events\Music\Transition_level_out"/>
 			</IncludedEvents>
@@ -174,7 +174,7 @@
 				<Event Id="439267736" Name="Play_voices_carry_loop" ObjectPath="\Events\SFX\Alien_voices\Play_voices_carry_loop"/>
 				<Event Id="4080261691" Name="Play_wash_SFX" ObjectPath="\Events\SFX\Play_wash_SFX"/>
 				<Event Id="2849262102" Name="Play_watering_can_SFX" ObjectPath="\Events\SFX\Play_watering_can_SFX"/>
-				<Event Id="264926969" Name="Stop_trailer_sound" ObjectPath="\Events\Default Work Unit\Stop_trailer_sound"/>
+				<Event Id="264926969" Name="Stop_trailer_sound" ObjectPath="\Events\SFX\Stop_trailer_sound"/>
 				<Event Id="3486948951" Name="Stop_voice_carry_loop" ObjectPath="\Events\SFX\Alien_voices\Stop_voice_carry_loop"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -212,7 +212,7 @@
 				</File>
 				<File Id="42010090" Language="SFX">
 					<ShortName>confettis_SFX.wav</ShortName>
-					<Path>SFX\confettis_SFX_6296B0F9.wem</Path>
+					<Path>SFX\confettis_SFX_D55E9079.wem</Path>
 				</File>
 				<File Id="51241490" Language="SFX">
 					<ShortName>alien_voice_player2-019.wav</ShortName>
@@ -924,7 +924,7 @@
 				</File>
 				<File Id="1057703395" Language="SFX">
 					<ShortName>watering_can_SFX.wav</ShortName>
-					<Path>SFX\watering_can_SFX_6296B0F9.wem</Path>
+					<Path>SFX\watering_can_SFX_DC974689.wem</Path>
 				</File>
 				<File Id="1059776075" Language="SFX">
 					<ShortName>alien_heavy_object-008.wav</ShortName>
