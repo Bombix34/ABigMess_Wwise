@@ -1370,6 +1370,11 @@
 								<Value>1</Value>
 							</ValueList>
 						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>200</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>3</Value>
@@ -1571,18 +1576,13 @@
 						</Property>
 						<Property Name="Pitch" Type="int32">
 							<ValueList>
-								<Value>-200</Value>
+								<Value>-400</Value>
 							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
 									<Modifier Name="" ID="{BA5E7060-A72A-4E2D-9701-B0994AA25C4D}"/>
 								</ModifierInfo>
 							</ModifierList>
-						</Property>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>3</Value>
-							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -1863,13 +1863,15 @@
 							</ModifierList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
 									<Modifier Name="" ID="{5C63C80F-5C57-4575-BAEE-4849FD60EE04}">
 										<PropertyList>
 											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="1"/>
-											<Property Name="Min" Type="Real64" Value="-1"/>
+											<Property Name="Min" Type="Real64" Value="-2"/>
 										</PropertyList>
 									</Modifier>
 								</ModifierInfo>
