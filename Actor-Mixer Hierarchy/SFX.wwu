@@ -1200,10 +1200,28 @@
 				</ActorMixer>
 				<Sound Name="grab_SFX" ID="{70716EAD-0E12-4A53-97E3-EBB362227C3D}" ShortID="1070986190">
 					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{75DAAB19-FA32-4096-975C-30DA0FF7B497}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="600"/>
+											<Property Name="Min" Type="Real64" Value="-600"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-6</Value>
 							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{5BBA95B2-F3E9-4BCF-8179-62C8468C1D6F}"/>
+								</ModifierInfo>
+							</ModifierList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -1226,10 +1244,18 @@
 				</Sound>
 				<Sound Name="release_SFX" ID="{E162A776-C40B-4F66-BF6F-6E90C2371022}" ShortID="946272474">
 					<PropertyList>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>3</Value>
-							</ValueList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{76DFD69D-BD21-485A-8C2C-B540808BE358}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="600"/>
+											<Property Name="Min" Type="Real64" Value="-600"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -1251,6 +1277,31 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="burn_SFX" ID="{CB31C589-521D-4233-B44D-A0264E3E41CF}" ShortID="607139935">
+					<PropertyList>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{79469E16-722B-4040-BFF9-B061F5EEE54C}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
@@ -1307,721 +1358,6 @@
 						<ActiveSource Name="transition_level_out" ID="{B7ED67AE-A041-4AD8-B98A-89CAF06E9790}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<ActorMixer Name="oven_SFX" ID="{D13F6F9B-1DD4-484A-8D50-3E7CE1CE46E3}" ShortID="743758433">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="oven_close_SFX" ID="{570D1BB9-8B19-48FC-B970-5FA3C09AAF95}" ShortID="1019494885">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="oven_close_SFX" ID="{B8D3E8E7-BE96-4C7F-A6ED-CB1AD70A4389}" ShortID="699370579">
-									<Language>SFX</Language>
-									<AudioFile>oven_close_SFX.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="oven_close_SFX" ID="{B8D3E8E7-BE96-4C7F-A6ED-CB1AD70A4389}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="oven_open_SFX" ID="{9BB9FBE5-70D2-4A51-A9E8-1156C47322F9}" ShortID="55890353">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="oven_open_SFX" ID="{483EBAAF-B98A-4AA4-97BE-ACE1831002CA}" ShortID="719146540">
-									<Language>SFX</Language>
-									<AudioFile>oven_open_SFX.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="oven_open_SFX" ID="{483EBAAF-B98A-4AA4-97BE-ACE1831002CA}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</ActorMixer>
-				<RandomSequenceContainer Name="chair_drop_SFX" ID="{68DF9C23-27A9-449D-86B1-B2EE99BE584E}" ShortID="855876249">
-					<PropertyList>
-						<Property Name="BypassEffect0" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
-						<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
-						<Property Name="MaxSoundPerInstance" Type="int16">
-							<ValueList>
-								<Value>1</Value>
-							</ValueList>
-						</Property>
-						<Property Name="Pitch" Type="int32">
-							<ValueList>
-								<Value>200</Value>
-							</ValueList>
-						</Property>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>3</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-						</Reference>
-						<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
-							<ObjectRef Name="New_Wwise_Parametric_EQ" ID="{09223050-EDC8-4276-9C67-280CE0D0C0FA}" WorkUnitID="{CBA2F683-3B43-4305-997A-EC23F55DD8D3}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="drop_chair-001" ID="{68E60BF1-F985-432F-B91C-677367F9AB08}" ShortID="162895154">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_chair-001" ID="{A9363A21-A72F-4D2A-9729-03930B7DC552}" ShortID="1066629404">
-									<Language>SFX</Language>
-									<AudioFile>drop_chair-001.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_chair-001" ID="{A9363A21-A72F-4D2A-9729-03930B7DC552}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="drop_chair-002" ID="{EBF6AE59-DDC9-436D-95EB-BCF790375C5E}" ShortID="280376152">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_chair-002" ID="{E0DBA211-C164-4A85-8A63-0E11AB989AA9}" ShortID="959814801">
-									<Language>SFX</Language>
-									<AudioFile>drop_chair-002.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_chair-002" ID="{E0DBA211-C164-4A85-8A63-0E11AB989AA9}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="drop_chair-003" ID="{169870FA-1F61-4BFC-8AF5-9081E01F79D8}" ShortID="844057170">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_chair-003" ID="{DC3E1598-64D7-4786-8DA2-12D1B2F2BDB8}" ShortID="962428088">
-									<Language>SFX</Language>
-									<AudioFile>drop_chair-003.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_chair-003" ID="{DC3E1598-64D7-4786-8DA2-12D1B2F2BDB8}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="drop_chair-004" ID="{D4E3669B-2CCD-4214-BEDF-03F8B825C227}" ShortID="1066296798">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_chair-004" ID="{CDBC3E6C-261A-46D2-B224-F0C8A6CBA646}" ShortID="229231278">
-									<Language>SFX</Language>
-									<AudioFile>drop_chair-004.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_chair-004" ID="{CDBC3E6C-261A-46D2-B224-F0C8A6CBA646}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="drop_chair-005" ID="{3262EF20-2A6C-4AC6-9EB7-A0149EEE1A44}" ShortID="222830055">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_chair-005" ID="{D21201E9-991A-4156-91BD-3990C680BB37}" ShortID="267586934">
-									<Language>SFX</Language>
-									<AudioFile>drop_chair-005.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_chair-005" ID="{D21201E9-991A-4156-91BD-3990C680BB37}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="drop_chair-006" ID="{B4482F08-7E56-4AF1-B85C-FFBF7412A3F8}" ShortID="313042574">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_chair-006" ID="{252D9E24-20F9-4DFB-9E9E-5266B53AF28F}" ShortID="380590825">
-									<Language>SFX</Language>
-									<AudioFile>drop_chair-006.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_chair-006" ID="{252D9E24-20F9-4DFB-9E9E-5266B53AF28F}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="drop_chair-007" ID="{0E4F91B0-EB74-44AA-A84A-B6A1E1F00D44}" ShortID="144148307">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_chair-007" ID="{D9534796-F672-4B7A-AC12-EB7F8DEF5AF1}" ShortID="831002258">
-									<Language>SFX</Language>
-									<AudioFile>drop_chair-007.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_chair-007" ID="{D9534796-F672-4B7A-AC12-EB7F8DEF5AF1}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="drop_chair-008" ID="{C75D5AB4-2199-4E02-A5EE-252ADADE6EB4}" ShortID="151380888">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_chair-008" ID="{237B73FD-6286-4874-A553-D567202EBD9E}" ShortID="1001170705">
-									<Language>SFX</Language>
-									<AudioFile>drop_chair-008.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_chair-008" ID="{237B73FD-6286-4874-A553-D567202EBD9E}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="drop_chair-009" ID="{EB309ECB-6F36-4AF9-9AA3-E2C0C8B03D45}" ShortID="793894802">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_chair-009" ID="{5D38398A-E461-499C-B31C-0DEC444BC299}" ShortID="742142374">
-									<Language>SFX</Language>
-									<AudioFile>drop_chair-009.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_chair-009" ID="{5D38398A-E461-499C-B31C-0DEC444BC299}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="drop_heavy_object_SFX" ID="{DFCAA52D-F6E2-4DA3-9D9E-AABF6A9FDDD4}" ShortID="36623637">
-					<PropertyList>
-						<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
-						<Property Name="MaxSoundPerInstance" Type="int16">
-							<ValueList>
-								<Value>1</Value>
-							</ValueList>
-						</Property>
-						<Property Name="Pitch" Type="int32">
-							<ValueList>
-								<Value>-400</Value>
-							</ValueList>
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{BA5E7060-A72A-4E2D-9701-B0994AA25C4D}"/>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="drop_heavy_object-001" ID="{64AA8C21-5561-4BE4-A0B9-4B1C5EC20FCE}" ShortID="909902934">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_heavy_object-001" ID="{8AF2F68D-3298-4E6F-B466-EAE59CE37ED8}" ShortID="616979710">
-									<Language>SFX</Language>
-									<AudioFile>drop_heavy_object-001.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_heavy_object-001" ID="{8AF2F68D-3298-4E6F-B466-EAE59CE37ED8}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="drop_heavy_object-002" ID="{B4DDDF0E-5773-49A0-A96C-11C593BCB495}" ShortID="317687843">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_heavy_object-002" ID="{6E704C46-68A9-4540-A778-1C25902DF8F0}" ShortID="500820247">
-									<Language>SFX</Language>
-									<AudioFile>drop_heavy_object-002.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_heavy_object-002" ID="{6E704C46-68A9-4540-A778-1C25902DF8F0}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="drop_heavy_object-003" ID="{4F8F8F42-88E0-43AB-9EA0-438568A037F2}" ShortID="976128340">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_heavy_object-003" ID="{A7AA4649-1EC4-4CC8-8670-93809321C7D1}" ShortID="860683873">
-									<Language>SFX</Language>
-									<AudioFile>drop_heavy_object-003.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_heavy_object-003" ID="{A7AA4649-1EC4-4CC8-8670-93809321C7D1}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="drop_heavy_object-004" ID="{628D3B12-8C91-4EB6-9F2E-69CEB282B3BF}" ShortID="975275762">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_heavy_object-004" ID="{8F08AD42-6D25-4E35-BBF9-84E00EF053B8}" ShortID="159206736">
-									<Language>SFX</Language>
-									<AudioFile>drop_heavy_object-004.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_heavy_object-004" ID="{8F08AD42-6D25-4E35-BBF9-84E00EF053B8}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="drop_plate_SFX" ID="{B77577E5-5101-4C2F-A1CE-78F3FAAAFFC8}" ShortID="256195588">
-					<PropertyList>
-						<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
-						<Property Name="Pitch" Type="int32">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{7AA6A863-274B-4A87-93B3-F7D63311BB85}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="100"/>
-											<Property Name="Min" Type="Real64" Value="-300"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-						<Property Name="Volume" Type="Real64">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{780EACBA-39A0-4792-A489-0146DFCAFCA6}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="1"/>
-											<Property Name="Min" Type="Real64" Value="-1"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="drop_plate-001" ID="{A182D373-A9E8-4585-B3F3-47CB6B22FFDA}" ShortID="16363648">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_plate-001" ID="{2F1CEAA2-B9C0-40BF-BA21-04C557828F5F}" ShortID="737799586">
-									<Language>SFX</Language>
-									<AudioFile>drop_plate-001.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_plate-001" ID="{2F1CEAA2-B9C0-40BF-BA21-04C557828F5F}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="drop_plate-002" ID="{A47AB98F-B031-4A01-9EC0-8DE8F85328FE}" ShortID="1014432001">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_plate-002" ID="{370975FD-FE36-4D20-966C-6D06E809F978}" ShortID="998022038">
-									<Language>SFX</Language>
-									<AudioFile>drop_plate-002.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_plate-002" ID="{370975FD-FE36-4D20-966C-6D06E809F978}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="drop_plate-003" ID="{23430410-E902-488F-8289-24505E10EB6E}" ShortID="988845613">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_plate-003" ID="{022FC1AA-22DA-48E8-BB9A-F21B0DB1DED9}" ShortID="863172771">
-									<Language>SFX</Language>
-									<AudioFile>drop_plate-003.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_plate-003" ID="{022FC1AA-22DA-48E8-BB9A-F21B0DB1DED9}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="drop_plate-004" ID="{7F89D02F-E55D-4E68-8B76-43FF66EB8CD9}" ShortID="501814324">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_plate-004" ID="{E735E345-7A4D-426F-8335-64BD31B3E4FA}" ShortID="714492006">
-									<Language>SFX</Language>
-									<AudioFile>drop_plate-004.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_plate-004" ID="{E735E345-7A4D-426F-8335-64BD31B3E4FA}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="drop_plate-005" ID="{5459FCC3-EBC6-4E38-907B-1558ADD447DB}" ShortID="511961889">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_plate-005" ID="{46CE6C38-89C6-4E8D-8DEA-89BD361CFA22}" ShortID="762623127">
-									<Language>SFX</Language>
-									<AudioFile>drop_plate-005.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_plate-005" ID="{46CE6C38-89C6-4E8D-8DEA-89BD361CFA22}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="drop_plate-006" ID="{4D9327E8-78B5-4BB2-AB61-2939E13065DB}" ShortID="330790174">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_plate-006" ID="{BB796810-BD1E-4659-9955-A7BACC3A01C9}" ShortID="405228341">
-									<Language>SFX</Language>
-									<AudioFile>drop_plate-006.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_plate-006" ID="{BB796810-BD1E-4659-9955-A7BACC3A01C9}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="drop_plate-007" ID="{B590537B-7664-4493-A7B3-DE33143370AE}" ShortID="628352069">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_plate-007" ID="{08CA2FC5-8A93-4CEE-8469-51BF954E9C04}" ShortID="904397986">
-									<Language>SFX</Language>
-									<AudioFile>drop_plate-007.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_plate-007" ID="{08CA2FC5-8A93-4CEE-8469-51BF954E9C04}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="drop_fork_SFX" ID="{ABA140FF-8D97-45CC-8BD9-54B03EBE438D}" ShortID="232212560">
-					<PropertyList>
-						<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
-						<Property Name="Pitch" Type="int32">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{59B04BC0-2D50-43EB-966E-2BA9E59BBCF2}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="600"/>
-											<Property Name="Min" Type="Real64" Value="-600"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-2</Value>
-							</ValueList>
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{5C63C80F-5C57-4575-BAEE-4849FD60EE04}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Min" Type="Real64" Value="-2"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="drop_fork-001" ID="{6035F3AA-F3E2-4662-ACF5-6C2544933620}" ShortID="197290243">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_fork-001" ID="{70E0BCED-7C27-41C8-BB9A-21CB4C47C757}" ShortID="501187624">
-									<Language>SFX</Language>
-									<AudioFile>drop_fork-001.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_fork-001" ID="{70E0BCED-7C27-41C8-BB9A-21CB4C47C757}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="drop_fork-002" ID="{04F8B2FD-0240-4DE3-9D96-3FB91EFDCB22}" ShortID="49828566">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_fork-002" ID="{DF900382-9BBF-4E85-BDD5-76414FB72A41}" ShortID="281003711">
-									<Language>SFX</Language>
-									<AudioFile>drop_fork-002.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_fork-002" ID="{DF900382-9BBF-4E85-BDD5-76414FB72A41}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="drop_fork-003" ID="{29B47AC7-71BB-40B1-86D7-AA55525DBF99}" ShortID="257741149">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_fork-003" ID="{A2880CD7-3403-4B36-99B2-30426A9824D0}" ShortID="201773051">
-									<Language>SFX</Language>
-									<AudioFile>drop_fork-003.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_fork-003" ID="{A2880CD7-3403-4B36-99B2-30426A9824D0}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="drop_fork-004" ID="{E936DA80-3E65-4BB6-BE6B-A7CFA51811B6}" ShortID="222307749">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_fork-004" ID="{FC73009C-DCA1-460E-9639-470D042F9997}" ShortID="386306195">
-									<Language>SFX</Language>
-									<AudioFile>drop_fork-004.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_fork-004" ID="{FC73009C-DCA1-460E-9639-470D042F9997}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="drop_fork-005" ID="{044758D3-B073-4EBD-9740-8602CE4324B6}" ShortID="715751011">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_fork-005" ID="{AACE9A14-1E6A-4331-9E6A-E328EFB8DF94}" ShortID="372394431">
-									<Language>SFX</Language>
-									<AudioFile>drop_fork-005.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_fork-005" ID="{AACE9A14-1E6A-4331-9E6A-E328EFB8DF94}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="drop_fork-006" ID="{EE3A1F43-84F2-460C-BB3F-FDAAEC5E564C}" ShortID="337272012">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_fork-006" ID="{E5D23E89-B14E-4DD1-AB1C-2B717B6BB163}" ShortID="95080656">
-									<Language>SFX</Language>
-									<AudioFile>drop_fork-006.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_fork-006" ID="{E5D23E89-B14E-4DD1-AB1C-2B717B6BB163}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="drop_fork-007" ID="{63FE4332-896E-471F-876C-208C7CD2A3FF}" ShortID="1021781212">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="drop_fork-007" ID="{C08D9952-DFD5-4D16-8958-E86E54BAB149}" ShortID="1048680385">
-									<Language>SFX</Language>
-									<AudioFile>drop_fork-007.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="drop_fork-007" ID="{C08D9952-DFD5-4D16-8958-E86E54BAB149}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</RandomSequenceContainer>
 				<Sound Name="device_plug_SFX" ID="{E7A38DC1-F926-4EFF-AAEC-0E19094ED596}" ShortID="116881069">
 					<PropertyList>
 						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
@@ -2091,6 +1427,11 @@
 				<RandomSequenceContainer Name="wash_sequence_SFX" ID="{B44B5FBA-4F22-4DA1-9F8C-082B683CC5A6}" ShortID="141719294">
 					<PropertyList>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -3074,6 +2415,9 @@
 						</Property>
 						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
 						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
 									<Modifier Name="" ID="{86B632BB-9EE0-45F7-AB68-6CD0D39E3BE1}">
@@ -3157,6 +2501,19 @@
 					</Playlist>
 				</RandomSequenceContainer>
 				<Sound Name="toilet_SFX" ID="{A749A991-37FB-4CD1-A115-D4497E8EDEC1}" ShortID="862541598">
+					<PropertyList>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
@@ -3176,6 +2533,23 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="cook_SFX" ID="{6503FB82-0E0E-42AC-ADAB-8C5E55E8BB02}" ShortID="566156931">
+					<PropertyList>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
@@ -3242,6 +2616,9 @@
 							</ModifierList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
 									<Modifier Name="" ID="{25108F77-A2F0-4807-BBA4-65AD682AB39F}">
@@ -3291,6 +2668,725 @@
 						<ActiveSource Name="trailer_bm_1" ID="{CF208A3B-E0BE-4A29-91D6-971170F035CE}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Folder Name="unused" ID="{D1565C57-3E54-43B7-BB1D-4DA5F8E70392}" ShortID="698635610">
+					<ChildrenList>
+						<ActorMixer Name="oven_SFX" ID="{D13F6F9B-1DD4-484A-8D50-3E7CE1CE46E3}" ShortID="743758433">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="oven_close_SFX" ID="{570D1BB9-8B19-48FC-B970-5FA3C09AAF95}" ShortID="1019494885">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="oven_close_SFX" ID="{B8D3E8E7-BE96-4C7F-A6ED-CB1AD70A4389}" ShortID="699370579">
+											<Language>SFX</Language>
+											<AudioFile>oven_close_SFX.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="oven_close_SFX" ID="{B8D3E8E7-BE96-4C7F-A6ED-CB1AD70A4389}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="oven_open_SFX" ID="{9BB9FBE5-70D2-4A51-A9E8-1156C47322F9}" ShortID="55890353">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="oven_open_SFX" ID="{483EBAAF-B98A-4AA4-97BE-ACE1831002CA}" ShortID="719146540">
+											<Language>SFX</Language>
+											<AudioFile>oven_open_SFX.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="oven_open_SFX" ID="{483EBAAF-B98A-4AA4-97BE-ACE1831002CA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<RandomSequenceContainer Name="chair_drop_SFX" ID="{68DF9C23-27A9-449D-86B1-B2EE99BE584E}" ShortID="855876249">
+							<PropertyList>
+								<Property Name="BypassEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>200</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="New_Wwise_Parametric_EQ" ID="{09223050-EDC8-4276-9C67-280CE0D0C0FA}" WorkUnitID="{CBA2F683-3B43-4305-997A-EC23F55DD8D3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="drop_chair-001" ID="{68E60BF1-F985-432F-B91C-677367F9AB08}" ShortID="162895154">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_chair-001" ID="{A9363A21-A72F-4D2A-9729-03930B7DC552}" ShortID="1066629404">
+											<Language>SFX</Language>
+											<AudioFile>drop_chair-001.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_chair-001" ID="{A9363A21-A72F-4D2A-9729-03930B7DC552}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="drop_chair-002" ID="{EBF6AE59-DDC9-436D-95EB-BCF790375C5E}" ShortID="280376152">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_chair-002" ID="{E0DBA211-C164-4A85-8A63-0E11AB989AA9}" ShortID="959814801">
+											<Language>SFX</Language>
+											<AudioFile>drop_chair-002.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_chair-002" ID="{E0DBA211-C164-4A85-8A63-0E11AB989AA9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="drop_chair-003" ID="{169870FA-1F61-4BFC-8AF5-9081E01F79D8}" ShortID="844057170">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_chair-003" ID="{DC3E1598-64D7-4786-8DA2-12D1B2F2BDB8}" ShortID="962428088">
+											<Language>SFX</Language>
+											<AudioFile>drop_chair-003.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_chair-003" ID="{DC3E1598-64D7-4786-8DA2-12D1B2F2BDB8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="drop_chair-004" ID="{D4E3669B-2CCD-4214-BEDF-03F8B825C227}" ShortID="1066296798">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_chair-004" ID="{CDBC3E6C-261A-46D2-B224-F0C8A6CBA646}" ShortID="229231278">
+											<Language>SFX</Language>
+											<AudioFile>drop_chair-004.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_chair-004" ID="{CDBC3E6C-261A-46D2-B224-F0C8A6CBA646}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="drop_chair-005" ID="{3262EF20-2A6C-4AC6-9EB7-A0149EEE1A44}" ShortID="222830055">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_chair-005" ID="{D21201E9-991A-4156-91BD-3990C680BB37}" ShortID="267586934">
+											<Language>SFX</Language>
+											<AudioFile>drop_chair-005.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_chair-005" ID="{D21201E9-991A-4156-91BD-3990C680BB37}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="drop_chair-006" ID="{B4482F08-7E56-4AF1-B85C-FFBF7412A3F8}" ShortID="313042574">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_chair-006" ID="{252D9E24-20F9-4DFB-9E9E-5266B53AF28F}" ShortID="380590825">
+											<Language>SFX</Language>
+											<AudioFile>drop_chair-006.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_chair-006" ID="{252D9E24-20F9-4DFB-9E9E-5266B53AF28F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="drop_chair-007" ID="{0E4F91B0-EB74-44AA-A84A-B6A1E1F00D44}" ShortID="144148307">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_chair-007" ID="{D9534796-F672-4B7A-AC12-EB7F8DEF5AF1}" ShortID="831002258">
+											<Language>SFX</Language>
+											<AudioFile>drop_chair-007.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_chair-007" ID="{D9534796-F672-4B7A-AC12-EB7F8DEF5AF1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="drop_chair-008" ID="{C75D5AB4-2199-4E02-A5EE-252ADADE6EB4}" ShortID="151380888">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_chair-008" ID="{237B73FD-6286-4874-A553-D567202EBD9E}" ShortID="1001170705">
+											<Language>SFX</Language>
+											<AudioFile>drop_chair-008.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_chair-008" ID="{237B73FD-6286-4874-A553-D567202EBD9E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="drop_chair-009" ID="{EB309ECB-6F36-4AF9-9AA3-E2C0C8B03D45}" ShortID="793894802">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_chair-009" ID="{5D38398A-E461-499C-B31C-0DEC444BC299}" ShortID="742142374">
+											<Language>SFX</Language>
+											<AudioFile>drop_chair-009.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_chair-009" ID="{5D38398A-E461-499C-B31C-0DEC444BC299}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="drop_heavy_object_SFX" ID="{DFCAA52D-F6E2-4DA3-9D9E-AABF6A9FDDD4}" ShortID="36623637">
+							<PropertyList>
+								<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-400</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{BA5E7060-A72A-4E2D-9701-B0994AA25C4D}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="drop_heavy_object-001" ID="{64AA8C21-5561-4BE4-A0B9-4B1C5EC20FCE}" ShortID="909902934">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_heavy_object-001" ID="{8AF2F68D-3298-4E6F-B466-EAE59CE37ED8}" ShortID="616979710">
+											<Language>SFX</Language>
+											<AudioFile>drop_heavy_object-001.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_heavy_object-001" ID="{8AF2F68D-3298-4E6F-B466-EAE59CE37ED8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="drop_heavy_object-002" ID="{B4DDDF0E-5773-49A0-A96C-11C593BCB495}" ShortID="317687843">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_heavy_object-002" ID="{6E704C46-68A9-4540-A778-1C25902DF8F0}" ShortID="500820247">
+											<Language>SFX</Language>
+											<AudioFile>drop_heavy_object-002.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_heavy_object-002" ID="{6E704C46-68A9-4540-A778-1C25902DF8F0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="drop_heavy_object-003" ID="{4F8F8F42-88E0-43AB-9EA0-438568A037F2}" ShortID="976128340">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_heavy_object-003" ID="{A7AA4649-1EC4-4CC8-8670-93809321C7D1}" ShortID="860683873">
+											<Language>SFX</Language>
+											<AudioFile>drop_heavy_object-003.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_heavy_object-003" ID="{A7AA4649-1EC4-4CC8-8670-93809321C7D1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="drop_heavy_object-004" ID="{628D3B12-8C91-4EB6-9F2E-69CEB282B3BF}" ShortID="975275762">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_heavy_object-004" ID="{8F08AD42-6D25-4E35-BBF9-84E00EF053B8}" ShortID="159206736">
+											<Language>SFX</Language>
+											<AudioFile>drop_heavy_object-004.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_heavy_object-004" ID="{8F08AD42-6D25-4E35-BBF9-84E00EF053B8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="drop_fork_SFX" ID="{ABA140FF-8D97-45CC-8BD9-54B03EBE438D}" ShortID="232212560">
+							<PropertyList>
+								<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{59B04BC0-2D50-43EB-966E-2BA9E59BBCF2}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="600"/>
+													<Property Name="Min" Type="Real64" Value="-600"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{5C63C80F-5C57-4575-BAEE-4849FD60EE04}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="drop_fork-001" ID="{6035F3AA-F3E2-4662-ACF5-6C2544933620}" ShortID="197290243">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_fork-001" ID="{70E0BCED-7C27-41C8-BB9A-21CB4C47C757}" ShortID="501187624">
+											<Language>SFX</Language>
+											<AudioFile>drop_fork-001.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_fork-001" ID="{70E0BCED-7C27-41C8-BB9A-21CB4C47C757}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="drop_fork-002" ID="{04F8B2FD-0240-4DE3-9D96-3FB91EFDCB22}" ShortID="49828566">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_fork-002" ID="{DF900382-9BBF-4E85-BDD5-76414FB72A41}" ShortID="281003711">
+											<Language>SFX</Language>
+											<AudioFile>drop_fork-002.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_fork-002" ID="{DF900382-9BBF-4E85-BDD5-76414FB72A41}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="drop_fork-003" ID="{29B47AC7-71BB-40B1-86D7-AA55525DBF99}" ShortID="257741149">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_fork-003" ID="{A2880CD7-3403-4B36-99B2-30426A9824D0}" ShortID="201773051">
+											<Language>SFX</Language>
+											<AudioFile>drop_fork-003.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_fork-003" ID="{A2880CD7-3403-4B36-99B2-30426A9824D0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="drop_fork-004" ID="{E936DA80-3E65-4BB6-BE6B-A7CFA51811B6}" ShortID="222307749">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_fork-004" ID="{FC73009C-DCA1-460E-9639-470D042F9997}" ShortID="386306195">
+											<Language>SFX</Language>
+											<AudioFile>drop_fork-004.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_fork-004" ID="{FC73009C-DCA1-460E-9639-470D042F9997}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="drop_fork-005" ID="{044758D3-B073-4EBD-9740-8602CE4324B6}" ShortID="715751011">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_fork-005" ID="{AACE9A14-1E6A-4331-9E6A-E328EFB8DF94}" ShortID="372394431">
+											<Language>SFX</Language>
+											<AudioFile>drop_fork-005.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_fork-005" ID="{AACE9A14-1E6A-4331-9E6A-E328EFB8DF94}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="drop_fork-006" ID="{EE3A1F43-84F2-460C-BB3F-FDAAEC5E564C}" ShortID="337272012">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_fork-006" ID="{E5D23E89-B14E-4DD1-AB1C-2B717B6BB163}" ShortID="95080656">
+											<Language>SFX</Language>
+											<AudioFile>drop_fork-006.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_fork-006" ID="{E5D23E89-B14E-4DD1-AB1C-2B717B6BB163}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="drop_fork-007" ID="{63FE4332-896E-471F-876C-208C7CD2A3FF}" ShortID="1021781212">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_fork-007" ID="{C08D9952-DFD5-4D16-8958-E86E54BAB149}" ShortID="1048680385">
+											<Language>SFX</Language>
+											<AudioFile>drop_fork-007.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_fork-007" ID="{C08D9952-DFD5-4D16-8958-E86E54BAB149}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="drop_plate_SFX" ID="{B77577E5-5101-4C2F-A1CE-78F3FAAAFFC8}" ShortID="256195588">
+							<PropertyList>
+								<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{7AA6A863-274B-4A87-93B3-F7D63311BB85}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-300"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{780EACBA-39A0-4792-A489-0146DFCAFCA6}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="drop_plate-001" ID="{A182D373-A9E8-4585-B3F3-47CB6B22FFDA}" ShortID="16363648">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_plate-001" ID="{2F1CEAA2-B9C0-40BF-BA21-04C557828F5F}" ShortID="737799586">
+											<Language>SFX</Language>
+											<AudioFile>drop_plate-001.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_plate-001" ID="{2F1CEAA2-B9C0-40BF-BA21-04C557828F5F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="drop_plate-002" ID="{A47AB98F-B031-4A01-9EC0-8DE8F85328FE}" ShortID="1014432001">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_plate-002" ID="{370975FD-FE36-4D20-966C-6D06E809F978}" ShortID="998022038">
+											<Language>SFX</Language>
+											<AudioFile>drop_plate-002.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_plate-002" ID="{370975FD-FE36-4D20-966C-6D06E809F978}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="drop_plate-003" ID="{23430410-E902-488F-8289-24505E10EB6E}" ShortID="988845613">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_plate-003" ID="{022FC1AA-22DA-48E8-BB9A-F21B0DB1DED9}" ShortID="863172771">
+											<Language>SFX</Language>
+											<AudioFile>drop_plate-003.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_plate-003" ID="{022FC1AA-22DA-48E8-BB9A-F21B0DB1DED9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="drop_plate-004" ID="{7F89D02F-E55D-4E68-8B76-43FF66EB8CD9}" ShortID="501814324">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_plate-004" ID="{E735E345-7A4D-426F-8335-64BD31B3E4FA}" ShortID="714492006">
+											<Language>SFX</Language>
+											<AudioFile>drop_plate-004.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_plate-004" ID="{E735E345-7A4D-426F-8335-64BD31B3E4FA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="drop_plate-005" ID="{5459FCC3-EBC6-4E38-907B-1558ADD447DB}" ShortID="511961889">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_plate-005" ID="{46CE6C38-89C6-4E8D-8DEA-89BD361CFA22}" ShortID="762623127">
+											<Language>SFX</Language>
+											<AudioFile>drop_plate-005.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_plate-005" ID="{46CE6C38-89C6-4E8D-8DEA-89BD361CFA22}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="drop_plate-006" ID="{4D9327E8-78B5-4BB2-AB61-2939E13065DB}" ShortID="330790174">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_plate-006" ID="{BB796810-BD1E-4659-9955-A7BACC3A01C9}" ShortID="405228341">
+											<Language>SFX</Language>
+											<AudioFile>drop_plate-006.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_plate-006" ID="{BB796810-BD1E-4659-9955-A7BACC3A01C9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="drop_plate-007" ID="{B590537B-7664-4493-A7B3-DE33143370AE}" ShortID="628352069">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="drop_plate-007" ID="{08CA2FC5-8A93-4CEE-8469-51BF954E9C04}" ShortID="904397986">
+											<Language>SFX</Language>
+											<AudioFile>drop_plate-007.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="drop_plate-007" ID="{08CA2FC5-8A93-4CEE-8469-51BF954E9C04}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
