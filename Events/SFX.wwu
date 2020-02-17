@@ -289,7 +289,7 @@
 						<Action Name="" ID="{7F99EE5A-CB02-4038-A8A5-0C0C094B8630}" ShortID="67575310">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="trailer_bm_1" ID="{836E930E-5F55-493B-A1BE-CA111F0990B8}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+									<ObjectRef Name="trailer_bm_v2" ID="{FD9CB263-0D46-466E-B38C-D0F2B935B4B5}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -305,7 +305,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="trailer_bm_1" ID="{836E930E-5F55-493B-A1BE-CA111F0990B8}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
+									<ObjectRef Name="trailer_bm_v2" ID="{FD9CB263-0D46-466E-B38C-D0F2B935B4B5}" WorkUnitID="{10D753BD-9607-48D4-B032-4C8FD68CF918}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

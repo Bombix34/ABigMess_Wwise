@@ -2649,25 +2649,6 @@
 						<ActiveSource Name="paint_SFX" ID="{6850A3FC-813A-4A5B-BE51-2CC757D1EA8C}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="trailer_bm_1" ID="{836E930E-5F55-493B-A1BE-CA111F0990B8}" ShortID="963002568">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="trailer_bm_1" ID="{CF208A3B-E0BE-4A29-91D6-971170F035CE}" ShortID="138659164">
-							<Language>SFX</Language>
-							<AudioFile>trailer_bm_1.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="trailer_bm_1" ID="{CF208A3B-E0BE-4A29-91D6-971170F035CE}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Folder Name="unused" ID="{D1565C57-3E54-43B7-BB1D-4DA5F8E70392}" ShortID="698635610">
 					<ChildrenList>
 						<ActorMixer Name="oven_SFX" ID="{D13F6F9B-1DD4-484A-8D50-3E7CE1CE46E3}" ShortID="743758433">
@@ -3387,6 +3368,25 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
+				<Sound Name="trailer_bm_v2" ID="{FD9CB263-0D46-466E-B38C-D0F2B935B4B5}" ShortID="1072864936">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32A2B318-71EC-4F1C-B530-95C5E49F71A5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB24F7D8-1AD0-43CA-968F-AAF35D3B837F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="trailer_bm_v2" ID="{EABE33D2-D460-480B-9DDE-393407642D25}" ShortID="713215209">
+							<Language>SFX</Language>
+							<AudioFile>trailer_bm_v2.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="trailer_bm_v2" ID="{EABE33D2-D460-480B-9DDE-393407642D25}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
