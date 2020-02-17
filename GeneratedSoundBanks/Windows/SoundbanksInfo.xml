@@ -64,10 +64,6 @@
 					<ShortName>200130_BigMess_MorningGameplay_Step01B.wav</ShortName>
 					<Path>SFX\200130_BigMess_MorningGameplay_Step01B_9B96ECC7.wem</Path>
 				</File>
-				<File Id="138659164" Language="SFX">
-					<ShortName>trailer_bm_1.wav</ShortName>
-					<Path>SFX\trailer_bm_1_6296B0F9.wem</Path>
-				</File>
 				<File Id="217763678" Language="SFX">
 					<ShortName>200130_BigMess_MorningGameplay_Step02B.wav</ShortName>
 					<Path>SFX\200130_BigMess_MorningGameplay_Step02B_9B96ECC7.wem</Path>
@@ -103,6 +99,10 @@
 				<File Id="712739818" Language="SFX">
 					<ShortName>200124_BigMess_NoonGameplay_Step03_master.wav</ShortName>
 					<Path>SFX\200124_BigMess_NoonGameplay_Step03_master_9B96ECC7.wem</Path>
+				</File>
+				<File Id="713215209" Language="SFX">
+					<ShortName>trailer_bm_v2.wav</ShortName>
+					<Path>SFX\trailer_bm_v2_6296B0F9.wem</Path>
 				</File>
 				<File Id="720261991" Language="SFX">
 					<ShortName>200124_BigMess_NoonGameplay_Step07_master.wav</ShortName>
